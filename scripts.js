@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="publication-title">
-                <a href="${pub.url}">${pub.title}</a>
+                ${pub.title} <a href="${pub.url}" style="color: #1a0dab;">[Link]</a>
                 <div class="authors">${pub.authors}</div>
             </div>
             <div class="cited-by">Cited by ${pub.citations}</div>
@@ -14,18 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
         publicationsList.appendChild(li);
     });
 
-    // Populate co-authors
-    const coAuthorsList = document.getElementById("co-authors");
-    coAuthors.forEach(author => {
-        const li = document.createElement("li");
-        li.innerHTML = `<strong>${author.name}</strong> - <a href="${author.profileUrl}">${author.affiliation}</a>`;
-        coAuthorsList.appendChild(li);
-    });
-
     // Populate metrics
     document.getElementById("total-citations").innerText = totalCitations;
-    document.getElementById("h-index").innerText = hIndex;
-    document.getElementById("i10-index").innerText = i10Index;
 
     // Create citations chart
     const ctx = document.getElementById('citations-chart').getContext('2d');
