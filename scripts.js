@@ -8,8 +8,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 ${pub.title} <a href="${pub.url}" style="color: #1a0dab;">[Link]</a>
                 <div class="authors">${pub.authors}</div>
             </div>
-            <div class="cited-by">Cited by ${pub.citations}</div>
-            <div class="year">${pub.year}</div>
+            <div class="cited-by-year">
+                <div class="cited-by">Cited by ${pub.citations}</div>
+                <div class="year">${pub.year}</div>
+            </div>
         `;
         publicationsList.appendChild(li);
     });
@@ -40,4 +42,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-
