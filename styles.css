@@ -108,3 +108,26 @@ body {
     font-size: 14px;
     color: gray;
 }
+
+.citations-section {
+    margin-top: 40px;
+}
+
+.citations-section h2 {
+    margin-bottom: 20px;
+}
+
+.citation {
+    margin-bottom: 20px;
+}
+
+.citation .citation-title {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.citation .authors {
+    color: gray;
+    font-size: 12px; /* Reduced by 2 points */
+}
