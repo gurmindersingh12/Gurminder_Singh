@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Populate publications
     const publicationsList = document.getElementById("publications");
-    publications.forEach(pub => {
+    publications.forEach((pub, index) => {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="publication-title">
-                ${pub.authors} ${pub.year}. ${pub.title} ${pub.journal}. (Cited By: ${pub.citations}) <a href="${pub.url}" style="color: #1a0dab;">[Link]</a>
+                ${pub.authors} ${pub.year}. ${pub.title} ${pub.journal}. (Cited By: <a href="citations.html?pub=${index}" style="color: #1a0dab;">${pub.citations}</a>) <a href="${pub.url}" style="color: #1a0dab;">[Link]</a>
             </div>
         `;
         publicationsList.appendChild(li);
@@ -37,4 +37,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-
