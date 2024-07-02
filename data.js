@@ -50,26 +50,9 @@ const publications = [
 ];
 
 // Assuming the totalCitations, hIndex, and i10Index are dynamically calculated or you can update them as needed
-let totalCitations = 0;
-let hIndex = 2;
-let i10Index = 0;
+let totalCitations = 12;
 
 publications.forEach(pub => {
     totalCitations += pub.citations;
 });
 
-function calculateHIndex(citations) {
-    citations.sort((a, b) => b - a);
-    let h = 0;
-    for (let i = 0; i < citations.length; i++) {
-        if (citations[i] >= i + 1) {
-            h = i + 1;
-        } else {
-            break;
-        }
-    }
-    return h;
-}
-
-hIndex = calculateHIndex(publications.map(pub => pub.citations));
-i10Index = publications.filter(pub => pub.citations >= 10).length;
