@@ -55,4 +55,3 @@ let totalCitations = 12;
 publications.forEach(pub => {
     totalCitations += pub.citations;
 });
-
