@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-details p {
+    margin: 5px 0;
+}
+
+.profile-details a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.profile-details a:hover {
+    text-decoration: underline;
+}
+
+.metrics-section {
+    text-align: center;
+    width: 400px;
+}
+
+.metrics-section h2 {
+    margin-bottom: 10px;
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bar-chart {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+}
+
+.publications-section {
+    margin-top: 40px;
+}
+
+.publications-section h2 {
+    margin-bottom: 20px;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.publications .publication-title {
+    flex: 3;
+    color: #1a0dab;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.publications .publication-title:hover {
+    text-decoration: underline;
+}
+
+.publications .authors {
+    color: gray;
+    font-size: 14px;
+}
+
+.publications .cited-by,
+.publications .year {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.co-authors-section {
+    margin-top: 40px;
+}
+
+.co-authors-section h2 {
+    margin-bottom: 20px;
+}
+
+.co-authors ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.co-authors li {
+    margin-bottom: 10px;
+}
+
+.co-authors li a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.co-authors li a:hover {
+    text-decoration: underline;
+}
