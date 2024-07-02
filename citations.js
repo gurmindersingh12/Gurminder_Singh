@@ -20,5 +20,3 @@ document.addEventListener("DOMContentLoaded", function() {
         citationsDetails.innerHTML = "<p>No citations found.</p>";
     }
 });
-
-
