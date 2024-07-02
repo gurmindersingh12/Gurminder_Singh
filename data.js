@@ -1,63 +1,75 @@
 const publications = [
     {
-        title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat collection",
-        authors: "AR Peters Haugrud, G Shi, S Seneviratne, KLD Running, Z Zhang, ...",
-        journal: "Molecular Breeding",
-        year: 2023,
-        url: "http://link_to_publication.com",
-        citations: 3
+        title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum",
+        authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, et al.",
+        journal: "Plant Disease (Under Review)",
+        year: 2024,
+        url: "#",
+        citations: 0 // Replace with actual citation count if available
     },
     {
-        title: "Resistance Screening and QTL Mapping in Wheat and Triticale Against Root-Lesion Nematode",
-        authors: "G Singh",
-        journal: "North Dakota State University",
-        year: 2020,
-        url: "http://link_to_publication.com",
-        citations: 4
+        title: "Evolution, diversity, and function of the disease susceptibility gene Snn1 in wheat",
+        authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, Singh G, et al.",
+        journal: "The Plant Journal (Accepted)",
+        year: 2024,
+        url: "#",
+        citations: 0 // Replace with actual citation count if available
+    },
+    {
+        title: "Evaluation of wheat cultivars and germplasm lines for resistance to Pratylenchus neglectus populations collected in North Dakota",
+        authors: "Singh G, et al.",
+        journal: "Plant Disease",
+        year: 2023,
+        url: "#",
+        citations: 2 // Replace with actual citation count if available
     },
     {
         title: "Association mapping of resistance to tan spot in the Global Durum Panel",
-        authors: "A Szabo-Hever, G Singh, ARP Haugrud, KLD Running, S Seneviratne, ...",
+        authors: "Szabo-Hever A, Singh G, et al.",
         journal: "Phytopathology",
         year: 2023,
-        url: "http://link_to_publication.com",
-        citations: 2
+        url: "#",
+        citations: 2 // Replace with actual citation count if available
     },
     {
-        title: "Methodology to study the resistance of root-lesion nematode (Pratylenchus neglectus) in wheat under greenhouse conditions",
-        authors: "G Singh, G Yan",
-        journal: "North Dakota State University",
-        year: 2018,
-        url: "http://link_to_publication.com",
-        citations: 1
+        title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat collection",
+        authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, Singh G, et al.",
+        journal: "Molecular Breeding",
+        year: 2023,
+        url: "#",
+        citations: 3 // Replace with actual citation count if available
+    },
+    {
+        title: "Resistance screening and QTL mapping in wheat and triticale against root-lesion nematode",
+        authors: "Singh G.",
+        journal: "MS thesis. North Dakota State University, Fargo, ND, USA",
+        year: 2020,
+        url: "#",
+        citations: 5 // Replace with actual citation count if available
     }
 ];
 
-const coAuthors = [
-    {
-        name: "Zhaohui Liu",
-        affiliation: "North Dakota State University",
-        profileUrl: "https://scholar.google.com/citations?user=abc123"
-    },
-    {
-        name: "Justin Faris",
-        affiliation: "North Dakota State University",
-        profileUrl: "https://scholar.google.com/citations?user=xyz789"
-    }
-];
-
-// Calculate total citations and h-index
+// Assuming the totalCitations, hIndex, and i10Index are dynamically calculated or you can update them as needed
 let totalCitations = 0;
+let hIndex = 2;
 let i10Index = 0;
-let citationCounts = publications.map(pub => pub.citations).sort((a, b) => b - a);
-citationCounts.forEach(cite => totalCitations += cite);
-i10Index = citationCounts.filter(count => count >= 10).length;
 
-let hIndex = 0;
-for (let i = 0; i < citationCounts.length; i++) {
-    if (citationCounts[i] >= i + 1) {
-        hIndex = i + 1;
-    } else {
-        break;
+publications.forEach(pub => {
+    totalCitations += pub.citations;
+});
+
+function calculateHIndex(citations) {
+    citations.sort((a, b) => b - a);
+    let h = 0;
+    for (let i = 0; i < citations.length; i++) {
+        if (citations[i] >= i + 1) {
+            h = i + 1;
+        } else {
+            break;
+        }
     }
+    return h;
 }
+
+hIndex = calculateHIndex(publications.map(pub => pub.citations));
+i10Index = publications.filter(pub => pub.citations >= 10).length;
