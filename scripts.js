@@ -5,12 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="publication-title">
-                ${pub.title} <a href="${pub.url}" style="color: #1a0dab;">[Link]</a>
-                <div class="authors">${pub.authors}</div>
-            </div>
-            <div class="cited-by-year">
-                <div class="cited-by">Cited by ${pub.citations}</div>
-                <div class="year">${pub.year}</div>
+                ${pub.authors} ${pub.year}. ${pub.title} ${pub.journal}. (Cited By: ${pub.citations}) <a href="${pub.url}" style="color: #1a0dab;">[Link]</a>
             </div>
         `;
         publicationsList.appendChild(li);
