@@ -50,7 +50,7 @@ const publications = [
 ];
 
 // Assuming the totalCitations, hIndex, and i10Index are dynamically calculated or you can update them as needed
-let totalCitations = 12;
+let totalCitations = 0;
 
 publications.forEach(pub => {
     totalCitations += pub.citations;
