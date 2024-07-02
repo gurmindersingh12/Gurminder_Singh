@@ -88,7 +88,7 @@ body {
 }
 
 .publications li {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Increased space between publications */
 }
 
 .publications .publication-title {
