@@ -90,13 +90,12 @@ body {
 .publications li {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 20px;
 }
 
 .publications .publication-title {
-    flex: 3;
-    color: #1a0dab;
+    flex: 8;
+    color: #333;
     text-decoration: none;
     font-size: 16px;
 }
@@ -107,7 +106,7 @@ body {
 
 .publications .authors {
     color: gray;
-    font-size: 14px;
+    font-size: 12px; /* Reduced by 2 points */
 }
 
 .publications .cited-by,
@@ -117,30 +116,3 @@ body {
     font-size: 14px;
     color: gray;
 }
-
-.co-authors-section {
-    margin-top: 40px;
-}
-
-.co-authors-section h2 {
-    margin-bottom: 20px;
-}
-
-.co-authors ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.co-authors li {
-    margin-bottom: 10px;
-}
-
-.co-authors li a {
-    color: #1a0dab;
-    text-decoration: none;
-}
-
-.co-authors li a:hover {
-    text-decoration: underline;
-}
-
