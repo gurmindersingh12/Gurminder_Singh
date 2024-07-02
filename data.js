@@ -13,7 +13,7 @@ const publications = [
         journal: "North Dakota State University",
         year: 2020,
         url: "http://link_to_publication.com",
-        citations: 3
+        citations: 4
     },
     {
         title: "Association mapping of resistance to tan spot in the Global Durum Panel",
@@ -21,7 +21,7 @@ const publications = [
         journal: "Phytopathology",
         year: 2023,
         url: "http://link_to_publication.com",
-        citations: 1
+        citations: 2
     },
     {
         title: "Methodology to study the resistance of root-lesion nematode (Pratylenchus neglectus) in wheat under greenhouse conditions",
