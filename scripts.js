@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", function() {
     new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+            labels: ['2019', '2020', '2021', '2022', '2023', '2024'],
             datasets: [{
                 label: 'Citations per Year',
-                data: [1, 0, 3, 1, 1, 5, 0], // Example data, replace with actual citation data
+                data: [0, 1, 1, 1, 6, 2], // Example data, replace with actual citation data
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
                 borderColor: 'rgba(75, 192, 192, 1)',
                 borderWidth: 1
