@@ -88,34 +88,18 @@ body {
 }
 
 .publications li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 20px;
 }
 
 .publications .publication-title {
-    flex: 8;
     color: #333;
     text-decoration: none;
     font-size: 16px;
 }
 
-.publications .publication-title:hover {
-    text-decoration: underline;
-}
-
 .publications .authors {
     color: gray;
     font-size: 12px; /* Reduced by 2 points */
-}
-
-.publications .cited-by-year {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    flex: 2;
 }
 
 .publications .cited-by,
