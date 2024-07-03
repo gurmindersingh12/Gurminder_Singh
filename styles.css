@@ -56,6 +56,9 @@ body {
 .metrics-section {
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the bar chart */
 }
 
 .metrics {
@@ -68,13 +71,13 @@ body {
 .chart-container {
     width: 100%;
     max-width: 600px;
-    height: auto;
     position: relative;
 }
 
 .bar-chart {
     width: 100%;
-    height: 400px; /* Fix height to ensure it doesn't overflow */
+    height: auto;
+    max-height: 400px; /* Ensure it doesn't overflow */
 }
 
 .publications-section {
@@ -99,41 +102,6 @@ body {
     text-decoration: none;
     font-size: 16px;
     margin-bottom: 10px; /* Add space within each publication entry */
-}
-
-.publications .authors {
-    color: gray;
-    font-size: 12px; /* Reduced by 2 points */
-}
-
-.publications .cited-by,
-.publications .year {
-    text-align: right;
-    font-size: 14px;
-    color: gray;
-}
-
-.citations-section {
-    margin-top: 40px;
-}
-
-.citations-section h2 {
-    margin-bottom: 20px;
-}
-
-.citation {
-    margin-bottom: 20px;
-}
-
-.citation .citation-title {
-    color: #333;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.citation .authors {
-    color: gray;
-    font-size: 12px; /* Reduced by 2 points */
 }
 
 @media (max-width: 600px) {
