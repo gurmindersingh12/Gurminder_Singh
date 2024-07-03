@@ -88,14 +88,14 @@ body {
 }
 
 .publications li {
-    margin-bottom: 30px; /* Increased space between publications */
+    margin-bottom: 30px; /* Increase space between publication entries */
 }
 
 .publications .publication-title {
     color: #333;
     text-decoration: none;
     font-size: 16px;
-    margin-bottom: 10px; /* Add spacing after each publication name */
+    margin-bottom: 10px; /* Optional: add space within each publication entry */
 }
 
 .publications .authors {
@@ -131,4 +131,10 @@ body {
 .citation .authors {
     color: gray;
     font-size: 12px; /* Reduced by 2 points */
+}
+
+
+.publications li {
+    margin-bottom: 30px; /* Increase space between publication entries */
+    border: 1px solid red; /* Temporary change to verify deployment */
 }
