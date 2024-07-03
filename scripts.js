@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="publication-title">
-                ${pub.authors} ${pub.year}. ${pub.title} ${pub.journal}. (Cited By: <a href="citations.html?pub=${index}" style="color: #1a0dab;">${pub.citations}</a>) <a href="${pub.url}" style="color: #1a0dab;">[Link]</a>
+                ${pub.authors.replace('Singh G', '<strong>Singh G</strong>')} ${pub.year}. <a href="${pub.url}" style="color: #1a0dab;">${pub.title}</a> ${pub.journal}. [Cited By: ${pub.citations}]
             </div>
         `;
         publicationsList.appendChild(li);
