@@ -50,3 +50,4 @@ const publications = [
 ];
 
 let totalCitations = publications.reduce((sum, pub) => sum + pub.citations, 0);
+
