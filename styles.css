@@ -94,7 +94,7 @@ body {
 }
 
 .publications li {
-    margin-bottom: 30px; /* Increase space between publication entries */
+    margin-bottom: 90px; /* Increase space between publication entries */
 }
 
 .publications .publication-title {
