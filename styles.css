@@ -94,14 +94,15 @@ body {
 }
 
 .publications li {
-    margin-bottom: 40px !important; /* Force increase space between publication entries */
+    margin-bottom: 100px; /* Increase space between publication entries */
+    padding-bottom: 20px; /* Add padding to increase space */
 }
 
 .publications .publication-title {
     color: #333;
     text-decoration: none;
     font-size: 16px;
-    margin-bottom: 10px; /* Add space within each publication entry */
+    margin-bottom: 100px; /* Add space within each publication entry */
 }
 
 @media (max-width: 600px) {
