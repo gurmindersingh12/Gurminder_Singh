@@ -13,7 +13,7 @@ const publications = [
         journal: "The Plant Journal (Accepted)",
         year: 2024,
         citations: 0,
-        url: "#"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879"
     },
     {
         title: "Evaluation of wheat cultivars and germplasm lines for resistance to Pratylenchus neglectus populations collected in North Dakota.",
@@ -21,7 +21,7 @@ const publications = [
         journal: "Plant Disease 117:3817-3824",
         year: 2023,
         citations: 2,
-        url: "#"
+        url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-03-23-0590-RE"
     },
     {
         title: "Association mapping of resistance to tan spot in the Global Durum Panel.",
@@ -29,7 +29,7 @@ const publications = [
         journal: "Phytopathology 113:1967-1978",
         year: 2023,
         citations: 2,
-        url: "#"
+        url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-02-23-0043-R"
     },
     {
         title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat collection.",
@@ -37,7 +37,7 @@ const publications = [
         journal: "Molecular Breeding 43:54",
         year: 2023,
         citations: 3,
-        url: "#"
+        url: "https://link.springer.com/article/10.1007/s11032-023-01400-5"
     },
     {
         title: "Resistance screening and QTL mapping in wheat and triticale against root-lesion nematode.",
@@ -45,7 +45,7 @@ const publications = [
         journal: "MS thesis. North Dakota State University, Fargo, ND, USA",
         year: 2020,
         citations: 5,
-        url: "#"
+        url: "https://www.proquest.com/openview/f06d4867c07d7e3ea21b2e2a9b5b6cb6/1?pq-origsite=gscholar&cbl=18750&diss=y"
     }
 ];
 
