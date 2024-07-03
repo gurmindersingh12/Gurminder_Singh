@@ -123,3 +123,19 @@ body {
         height: 200px; /* Ensure it doesn't overflow */
     }
 }
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications li {
+    margin-bottom: 2em; /* Increase space between publication entries */
+}
+
+.publications .publication-title {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px; /* Add space within each publication entry */
+}
