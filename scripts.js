@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="publication-title">
-                ${pub.authors.replace('Singh G', '<strong>Singh G</strong>')} ${pub.year}. <a href="${pub.url}" style="color: #1a0dab;">${pub.title}</a> ${pub.journal}. [Cited By: ${pub.citations}]
+                ${pub.authors.replace('Singh G', '<strong>Singh G</strong>')} ${pub.year}. <a href="${pub.url}" style="color: #1a0dab;">${pub.title}</a> ${pub.journal}. [<a href="citations.html?pub=${index}" style="color: #1a0dab;">Cited By: ${pub.citations}</a>]
             </div>
         `;
         publicationsList.appendChild(li);
@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }]
         },
         options: {
+            responsive: true,
+            maintainAspectRatio: false,
             scales: {
                 y: {
                     beginAtZero: true
