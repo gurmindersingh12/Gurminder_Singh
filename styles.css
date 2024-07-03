@@ -17,19 +17,20 @@ body {
 
 .profile-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 .profile-info {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .profile-photo {
     border-radius: 50%;
-    margin-right: 20px;
+    margin-bottom: 10px;
     width: 150px;
     height: 150px;
 }
@@ -54,8 +55,7 @@ body {
 
 .metrics-section {
     text-align: center;
-    width: 400px;
-    margin: auto; /* Center the bar chart */
+    width: 100%;
 }
 
 .metrics {
@@ -67,8 +67,8 @@ body {
 
 .bar-chart {
     width: 100%;
-    max-width: 400px;
-    height: 300px;
+    max-width: 600px;
+    height: auto;
 }
 
 .publications-section {
@@ -92,7 +92,7 @@ body {
     color: #333;
     text-decoration: none;
     font-size: 16px;
-    margin-bottom: 10px; /* Optional: add space within each publication entry */
+    margin-bottom: 10px; /* Add space within each publication entry */
 }
 
 .publications .authors {
@@ -128,4 +128,15 @@ body {
 .citation .authors {
     color: gray;
     font-size: 12px; /* Reduced by 2 points */
+}
+
+@media (max-width: 600px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bar-chart {
+        width: 100%;
+        max-width: 100%;
+    }
 }
