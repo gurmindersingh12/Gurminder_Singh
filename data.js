@@ -12,7 +12,7 @@ const publications = [
         authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <strong>Singh G</strong>, et al.",
         journal: "The Plant Journal (Accepted)",
         year: 2024,
-        citations: 0,
+        citations: 1,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879"
     },
     {
@@ -28,7 +28,7 @@ const publications = [
         authors: "Szabo-Hever A, <strong>Singh G</strong>, et al.",
         journal: "Phytopathology 113:1967-1978",
         year: 2023,
-        citations: 2,
+        citations: 3,
         url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-02-23-0043-R"
     },
     {
@@ -36,7 +36,7 @@ const publications = [
         authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <strong>Singh G</strong>, et al.",
         journal: "Molecular Breeding 43:54",
         year: 2023,
-        citations: 3,
+        citations: 4,
         url: "https://link.springer.com/article/10.1007/s11032-023-01400-5"
     },
     {
