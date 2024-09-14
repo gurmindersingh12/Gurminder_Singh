@@ -75,73 +75,24 @@ body {
   margin-bottom: 10px;
 }
 
-/* Timeline Styles */
-.timeline {
-  position: relative;
-  margin: 20px 0;
-  padding: 0;
+/* Accordion Button Styles */
+.btn-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #007bff;
 }
 
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  width: 4px;
-  background: #007bff;
-  top: 0;
-  bottom: 0;
+.btn-link:hover {
+  text-decoration: none;
+  color: #0056b3;
 }
 
-.timeline-year {
-  position: relative;
-  margin: 20px 0;
-  text-align: center;
+.card-header {
+  background-color: #f8f9fa;
 }
 
-.timeline-year-content {
-  display: inline-block;
-  background: #007bff;
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-weight: bold;
-  position: relative;
-}
-
-.timeline-item {
-  position: relative;
-  width: 45%;
-  padding: 20px 0;
-}
-
-.timeline-item:nth-child(odd) {
-  left: 0;
-}
-
-.timeline-item:nth-child(even) {
-  left: 55%;
-}
-
-.timeline-content {
-  background: #f5f5f5;
-  padding: 15px;
-  border-radius: 8px;
-  position: relative;
-}
-
-.timeline-content::before {
-  content: '';
-  position: absolute;
-  top: 20px;
-  width: 12px;
-  height: 12px;
-  background: #007bff;
-  border-radius: 50%;
-  left: -6px;
-}
-
-.timeline-item:nth-child(even) .timeline-content::before {
-  left: -6px;
+.card-header h2 {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -152,20 +103,5 @@ body {
   }
   .content {
     margin-left: 0;
-  }
-  .timeline::before {
-    left: 20px;
-  }
-  .timeline-item {
-    width: 100%;
-    left: 0 !important;
-    padding-left: 40px;
-  }
-  .timeline-content::before {
-    left: -30px;
-  }
-  .timeline-year-content {
-    left: 20px;
-    transform: translateX(0);
   }
 }
