@@ -19,6 +19,7 @@ function openTab(evt, tabName) {
 
 // Show default tab on page load
 document.addEventListener("DOMContentLoaded", function () {
+  // Display the home tab by default
   document.getElementById("home").style.display = "block";
   document.querySelector(".nav-link").classList.add("active");
 
@@ -46,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Create citations chart
   var ctx = document.getElementById('citations-chart').getContext('2d');
-  var citationData = [1, 1, 1, 6, 5]; // Replace with actual data
+  var citationData = [1, 1, 1, 6, 5]; // Replace with your actual citation data
   var years = ['2020', '2021', '2022', '2023', '2024']; // Replace with actual years
 
   new Chart(ctx, {
@@ -62,6 +63,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       scales: {
         y: { beginAtZero: true }
       }
