@@ -2,7 +2,7 @@ const publications = [
   {
     title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum.",
     authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, et al.",
-    journal: "Plant Disease (Accepted)",
+    journal: "Plant Disease (Under Review)",
     year: 2024,
     citations: 0,
     url: "#",
@@ -15,9 +15,7 @@ const publications = [
     year: 2024,
     citations: 1,
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879",
-    citingPapers: [
-      // Add citing papers if available
-    ]
+    citingPapers: []
   },
   {
     title: "Evaluation of wheat cultivars and germplasm lines for resistance to Pratylenchus neglectus populations collected in North Dakota.",
@@ -26,9 +24,7 @@ const publications = [
     year: 2023,
     citations: 2,
     url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-03-23-0590-RE",
-    citingPapers: [
-      // Add citing papers if available
-    ]
+    citingPapers: []
   },
   {
     title: "Association mapping of resistance to tan spot in the Global Durum Panel.",
@@ -37,9 +33,7 @@ const publications = [
     year: 2023,
     citations: 3,
     url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-02-23-0043-R",
-    citingPapers: [
-      // Add citing papers if available
-    ]
+    citingPapers: []
   },
   {
     title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat collection.",
@@ -48,9 +42,7 @@ const publications = [
     year: 2023,
     citations: 4,
     url: "https://link.springer.com/article/10.1007/s11032-023-01400-5",
-    citingPapers: [
-      // Add citing papers if available
-    ]
+    citingPapers: []
   },
   {
     title: "Resistance screening and QTL mapping in wheat and triticale against root-lesion nematode.",
@@ -59,8 +51,6 @@ const publications = [
     year: 2020,
     citations: 5,
     url: "https://www.proquest.com/openview/f06d4867c07d7e3ea21b2e2a9b5b6cb6/1?pq-origsite=gscholar&cbl=18750&diss=y",
-    citingPapers: [
-      // Add citing papers if available
-    ]
+    citingPapers: []
   }
 ];
