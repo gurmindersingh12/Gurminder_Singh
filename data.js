@@ -12,7 +12,7 @@ const publications = [
   {
     title: "Evolution, diversity, and function of the disease susceptibility gene <i>Snn1</i> in wheat.",
     authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <strong>Singh G</strong>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, and Faris JD",
-    journal: "<i>The Plant Journal</i> 119: 1720-173",
+    journal: "<i>The Plant Journal</i> 119:1720-1736",
     year: 2024,
     citations: 1,
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879",
