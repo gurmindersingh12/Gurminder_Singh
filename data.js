@@ -2,7 +2,7 @@ const publications = [
   {
     title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum.",
     authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, et al.",
-    journal: "Plant Disease (Under Review)",
+    journal: "Plant Disease (Accepted)",
     year: 2024,
     citations: 0,
     url: "#",
