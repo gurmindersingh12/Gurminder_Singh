@@ -37,39 +37,65 @@ document.addEventListener("DOMContentLoaded", function () {
     return b - a;
   });
 
-  // Populate publications grouped by year in a timeline layout
-  var publicationsContainer = document.getElementById("publications-container");
-  years.forEach(function (year) {
-    // Year Node
-    var yearNode = document.createElement("div");
-    yearNode.className = "timeline-year";
-    yearNode.innerHTML = `<div class="timeline-year-content">${year}</div>`;
-    publicationsContainer.appendChild(yearNode);
+  // Populate publications accordion
+  var publicationsAccordion = document.getElementById("publications-accordion");
+  years.forEach(function (year, index) {
+    // Create the accordion card for each year
+    var card = document.createElement("div");
+    card.className = "card";
 
-    // Publications for the year
+    var cardHeader = document.createElement("div");
+    cardHeader.className = "card-header";
+    cardHeader.id = "heading-" + year;
+
+    var h2 = document.createElement("h2");
+    h2.className = "mb-0";
+
+    var button = document.createElement("button");
+    button.className = "btn btn-link btn-block text-left";
+    button.type = "button";
+    button.setAttribute("data-toggle", "collapse");
+    button.setAttribute("data-target", "#collapse-" + year);
+    button.setAttribute("aria-expanded", index === 0 ? "true" : "false");
+    button.setAttribute("aria-controls", "collapse-" + year);
+    button.innerHTML = `<i class="fas fa-calendar-alt"></i> Publications in ${year}`;
+
+    h2.appendChild(button);
+    cardHeader.appendChild(h2);
+
+    var collapseDiv = document.createElement("div");
+    collapseDiv.id = "collapse-" + year;
+    collapseDiv.className = "collapse" + (index === 0 ? " show" : "");
+    collapseDiv.setAttribute("aria-labelledby", "heading-" + year);
+    collapseDiv.setAttribute("data-parent", "#publications-accordion");
+
+    var cardBody = document.createElement("div");
+    cardBody.className = "card-body";
+
+    // Add publications for the year
     publicationsByYear[year].forEach(function (pub) {
-      var item = document.createElement("div");
-      item.className = "timeline-item";
-      item.innerHTML = `
-        <div class="timeline-content">
-          <div class="card publication-card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">${pub.title}</h5>
-              <p class="card-text">
-                <strong>Authors:</strong> ${pub.authors}<br>
-                <strong>Journal:</strong> ${pub.journal}<br>
-                <strong>Citations:</strong> 
-                <a href="#" class="citation-link" data-pub-title="${pub.title}">
-                  ${pub.citations}
-                </a>
-              </p>
-              <a href="${pub.url}" class="btn btn-primary" target="_blank">Read More</a>
-            </div>
-          </div>
-        </div>
+      var pubDiv = document.createElement("div");
+      pubDiv.className = "mb-3";
+      pubDiv.innerHTML = `
+        <h5>${pub.title}</h5>
+        <p>
+          <strong>Authors:</strong> ${pub.authors}<br>
+          <strong>Journal:</strong> ${pub.journal}<br>
+          <strong>Citations:</strong> 
+          <a href="#" class="citation-link" data-pub-title="${pub.title}">
+            ${pub.citations}
+          </a>
+        </p>
+        <a href="${pub.url}" class="btn btn-primary btn-sm" target="_blank">Read More</a>
+        <hr>
       `;
-      publicationsContainer.appendChild(item);
+      cardBody.appendChild(pubDiv);
     });
+
+    collapseDiv.appendChild(cardBody);
+    card.appendChild(cardHeader);
+    card.appendChild(collapseDiv);
+    publicationsAccordion.appendChild(card);
   });
 
   // Handle citation link clicks
