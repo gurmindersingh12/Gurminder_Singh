@@ -140,36 +140,36 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Create citations chart
-var ctx = document.getElementById('citations-chart').getContext('2d');
-var citationData = [1, 1, 1, 6, 5]; // Replace with your actual citation data
-var years = ['2020', '2021', '2022', '2023', '2024']; // Replace with actual years
+  var ctx = document.getElementById('citations-chart').getContext('2d');
+  var citationData = [1, 1, 1, 6, 5]; // Replace with your actual citation data
+  var citationYears = ['2020', '2021', '2022', '2023', '2024']; // Replace with actual years
 
-// Calculate total citations
-var totalCitations = citationData.reduce(function (accumulator, currentValue) {
-  return accumulator + currentValue;
-}, 0);
+  // Calculate total citations
+  var totalCitations = citationData.reduce(function (accumulator, currentValue) {
+    return accumulator + currentValue;
+  }, 0);
 
-// Display total citations
-document.getElementById('total-citations').textContent = totalCitations;
+  // Display total citations
+  document.getElementById('total-citations').textContent = totalCitations;
 
-// Create the chart
-new Chart(ctx, {
-  type: 'bar',
-  data: {
-    labels: years,
-    datasets: [{
-      label: 'Citations per Year',
-      data: citationData,
-      backgroundColor: 'rgba(75, 192, 192, 0.7)',
-      borderColor: 'rgba(75, 192, 192, 1)',
-      borderWidth: 1
-    }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: true, // Prevents infinite scrolling
-    scales: {
-      y: { beginAtZero: true }
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: citationYears,
+      datasets: [{
+        label: 'Citations per Year',
+        data: citationData,
+        backgroundColor: 'rgba(75, 192, 192, 0.7)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true, // Prevents infinite scrolling
+      scales: {
+        y: { beginAtZero: true }
+      }
     }
-  }
+  });
 });
