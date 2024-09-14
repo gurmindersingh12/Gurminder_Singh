@@ -73,11 +73,11 @@ document.addEventListener("DOMContentLoaded", function () {
     cardBody.className = "card-body";
 
     // Add publications for the year
-    publicationsByYear[year].forEach(function (pub) {
+    publicationsByYear[year].forEach(function (pub, pubIndex) {
       var pubDiv = document.createElement("div");
       pubDiv.className = "mb-3";
       pubDiv.innerHTML = `
-        <h5>${pub.title}</h5>
+        <h5><a href="${pub.url}" target="_blank">${pub.title}</a></h5>
         <p>
           <strong>Authors:</strong> ${pub.authors}<br>
           <strong>Journal:</strong> ${pub.journal}<br>
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ${pub.citations}
           </a>
         </p>
-        <a href="${pub.url}" class="btn btn-primary btn-sm" target="_blank">Read More</a>
+        <button class="btn btn-primary btn-sm read-more-btn" data-pub-index="${pubIndex}" data-year="${year}">Read More</button>
         <hr>
       `;
       cardBody.appendChild(pubDiv);
@@ -114,6 +114,58 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Handle Read More button clicks
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.classList.contains("read-more-btn")) {
+      var pubIndex = e.target.getAttribute("data-pub-index");
+      var year = e.target.getAttribute("data-year");
+      var pub = publicationsByYear[year][pubIndex];
+      showAbstract(pub);
+    }
+  });
+
+  // Function to display the abstract in a modal
+  function showAbstract(pub) {
+    var modalContent = `
+      <h5>${pub.title}</h5>
+      <p>${pub.abstract}</p>
+    `;
+
+    // Create a modal to display the abstract
+    var modal = document.createElement("div");
+    modal.className = "modal fade";
+    modal.id = "abstractModal";
+    modal.tabIndex = -1;
+    modal.role = "dialog";
+    modal.innerHTML = `
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Abstract</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeAbstractModal()">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ${modalContent}
+          </div>
+          <div class="modal-footer">
+            <a href="${pub.url}" class="btn btn-primary" target="_blank">View Publication</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeAbstractModal()">Close</button>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+    $('#abstractModal').modal('show');
+  }
+
+  // Function to close the abstract modal and remove it from DOM
+  function closeAbstractModal() {
+    $('#abstractModal').modal('hide');
+    document.getElementById('abstractModal').remove();
+  }
+
   // Function to display citing papers
   function showCitingPapers(pub) {
     var modalContent = `
@@ -140,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Citing Papers</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeCitingPapersModal()">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -148,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ${modalContent}
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeCitingPapersModal()">Close</button>
           </div>
         </div>
       </div>
@@ -157,8 +209,8 @@ document.addEventListener("DOMContentLoaded", function () {
     $('#citingPapersModal').modal('show');
   }
 
-  // Function to close modal and remove it from DOM
-  function closeModal() {
+  // Function to close citing papers modal and remove it from DOM
+  function closeCitingPapersModal() {
     $('#citingPapersModal').modal('hide');
     document.getElementById('citingPapersModal').remove();
   }
