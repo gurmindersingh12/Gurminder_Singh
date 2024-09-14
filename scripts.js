@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("home").style.display = "block";
   document.querySelector(".nav-link").classList.add("active");
 
-  // Group publications by year
+  // Group publications by year (this remains unchanged)
   var publicationsByYear = {};
   publications.forEach(function (pub) {
     if (!publicationsByYear[pub.year]) {
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return b - a;
   });
 
-  // Populate publications grouped by year
+  // Populate publications grouped by year (this remains unchanged)
   var publicationsContainer = document.getElementById("publications-container");
   years.forEach(function (year) {
     // Year Heading
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     publicationsContainer.appendChild(row);
   });
 
-  // Handle citation link clicks
+  // Handle citation link clicks (this remains unchanged)
   document.addEventListener("click", function (e) {
     if (e.target && e.target.classList.contains("citation-link")) {
       e.preventDefault();
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Function to display citing papers
+  // Function to display citing papers (this remains unchanged)
   function showCitingPapers(pub) {
     var modalContent = `
       <h5>Citing Papers for "${pub.title}"</h5>
@@ -133,28 +133,21 @@ document.addEventListener("DOMContentLoaded", function () {
     $('#citingPapersModal').modal('show');
   }
 
-  // Function to close modal and remove it from DOM
+  // Function to close modal and remove it from DOM (this remains unchanged)
   function closeModal() {
     $('#citingPapersModal').modal('hide');
     document.getElementById('citingPapersModal').remove();
   }
 
-  // Aggregate citations per year from publications data
-  var citationDataMap = {};
-  publications.forEach(function (pub) {
-    var year = pub.year.toString();
-    if (citationDataMap[year]) {
-      citationDataMap[year] += pub.citations;
-    } else {
-      citationDataMap[year] = pub.citations;
-    }
-  });
+  // Manually define your citation data here
+  var citationYears = ['2020', '2021', '2022', '2023', '2024'];
+  var citationData = [5, 3, 7, 9, 2];
 
-  // Convert the citation data map to arrays and sort by year
-  var citationYears = Object.keys(citationDataMap).sort();
-  var citationData = citationYears.map(function (year) {
-    return citationDataMap[year];
-  });
+  /*
+    // Example: If you want to add more years and citations, update the arrays:
+    var citationYears = ['2018', '2019', '2020', '2021', '2022', '2023', '2024'];
+    var citationData = [2, 4, 5, 3, 7, 9, 2];
+  */
 
   // Calculate total citations
   var totalCitations = citationData.reduce(function (accumulator, currentValue) {
