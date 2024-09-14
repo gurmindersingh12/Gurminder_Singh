@@ -60,6 +60,21 @@ body {
   color: #007bff;
 }
 
+/* Ensure the chart doesn't cause infinite scrolling */
+#citations-chart {
+  max-height: 400px;
+}
+
+/* Modal Styling */
+.modal .modal-body ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.modal .modal-body li {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .sidebar {
     position: relative;
