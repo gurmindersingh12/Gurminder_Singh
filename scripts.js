@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("home").style.display = "block";
   document.querySelector(".nav-link").classList.add("active");
 
-  // Group publications by year (this remains unchanged)
+  // Group publications by year
   var publicationsByYear = {};
   publications.forEach(function (pub) {
     if (!publicationsByYear[pub.year]) {
@@ -37,44 +37,42 @@ document.addEventListener("DOMContentLoaded", function () {
     return b - a;
   });
 
-  // Populate publications grouped by year (this remains unchanged)
+  // Populate publications grouped by year in a timeline layout
   var publicationsContainer = document.getElementById("publications-container");
   years.forEach(function (year) {
-    // Year Heading
-    var yearHeading = document.createElement("h3");
-    yearHeading.textContent = year;
-    publicationsContainer.appendChild(yearHeading);
+    // Year Node
+    var yearNode = document.createElement("div");
+    yearNode.className = "timeline-year";
+    yearNode.innerHTML = `<div class="timeline-year-content">${year}</div>`;
+    publicationsContainer.appendChild(yearNode);
 
     // Publications for the year
-    var row = document.createElement("div");
-    row.className = "row";
-
     publicationsByYear[year].forEach(function (pub) {
-      var col = document.createElement("div");
-      col.className = "col-md-6";
-      col.innerHTML = `
-        <div class="card publication-card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">${pub.title}</h5>
-            <p class="card-text">
-              <strong>Authors:</strong> ${pub.authors}<br>
-              <strong>Journal:</strong> ${pub.journal}<br>
-              <strong>Citations:</strong> 
-              <a href="#" class="citation-link" data-pub-title="${pub.title}">
-                ${pub.citations}
-              </a>
-            </p>
-            <a href="${pub.url}" class="btn btn-primary" target="_blank">Read More</a>
+      var item = document.createElement("div");
+      item.className = "timeline-item";
+      item.innerHTML = `
+        <div class="timeline-content">
+          <div class="card publication-card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">${pub.title}</h5>
+              <p class="card-text">
+                <strong>Authors:</strong> ${pub.authors}<br>
+                <strong>Journal:</strong> ${pub.journal}<br>
+                <strong>Citations:</strong> 
+                <a href="#" class="citation-link" data-pub-title="${pub.title}">
+                  ${pub.citations}
+                </a>
+              </p>
+              <a href="${pub.url}" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
           </div>
         </div>
       `;
-      row.appendChild(col);
+      publicationsContainer.appendChild(item);
     });
-
-    publicationsContainer.appendChild(row);
   });
 
-  // Handle citation link clicks (this remains unchanged)
+  // Handle citation link clicks
   document.addEventListener("click", function (e) {
     if (e.target && e.target.classList.contains("citation-link")) {
       e.preventDefault();
@@ -90,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Function to display citing papers (this remains unchanged)
+  // Function to display citing papers
   function showCitingPapers(pub) {
     var modalContent = `
       <h5>Citing Papers for "${pub.title}"</h5>
@@ -133,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
     $('#citingPapersModal').modal('show');
   }
 
-  // Function to close modal and remove it from DOM (this remains unchanged)
+  // Function to close modal and remove it from DOM
   function closeModal() {
     $('#citingPapersModal').modal('hide');
     document.getElementById('citingPapersModal').remove();
@@ -142,12 +140,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Manually define your citation data here
   var citationYears = ['2020', '2021', '2022', '2023', '2024'];
   var citationData = [5, 3, 7, 9, 2];
-
-  /*
-    // Example: If you want to add more years and citations, update the arrays:
-    var citationYears = ['2018', '2019', '2020', '2021', '2022', '2023', '2024'];
-    var citationData = [2, 4, 5, 3, 7, 9, 2];
-  */
 
   // Calculate total citations
   var totalCitations = citationData.reduce(function (accumulator, currentValue) {
