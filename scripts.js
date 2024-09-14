@@ -139,10 +139,22 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('citingPapersModal').remove();
   }
 
-  // Create citations chart
-  var ctx = document.getElementById('citations-chart').getContext('2d');
-  var citationData = [1, 1, 1, 6, 5]; // Replace with your actual citation data
-  var citationYears = ['2020', '2021', '2022', '2023', '2024']; // Replace with actual years
+  // Aggregate citations per year from publications data
+  var citationDataMap = {};
+  publications.forEach(function (pub) {
+    var year = pub.year.toString();
+    if (citationDataMap[year]) {
+      citationDataMap[year] += pub.citations;
+    } else {
+      citationDataMap[year] = pub.citations;
+    }
+  });
+
+  // Convert the citation data map to arrays and sort by year
+  var citationYears = Object.keys(citationDataMap).sort();
+  var citationData = citationYears.map(function (year) {
+    return citationDataMap[year];
+  });
 
   // Calculate total citations
   var totalCitations = citationData.reduce(function (accumulator, currentValue) {
@@ -152,6 +164,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Display total citations
   document.getElementById('total-citations').textContent = totalCitations;
 
+  // Create citations chart
+  var ctx = document.getElementById('citations-chart').getContext('2d');
   new Chart(ctx, {
     type: 'bar',
     data: {
