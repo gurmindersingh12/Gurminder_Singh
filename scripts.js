@@ -127,92 +127,61 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to display the abstract in a modal
   function showAbstract(pub) {
     var modalContent = `
-      <h5>${pub.title}</h5>
-      <p>${pub.abstract}</p>
-    `;
-
-    // Create a modal to display the abstract
-    var modal = document.createElement("div");
-    modal.className = "modal fade";
-    modal.id = "abstractModal";
-    modal.tabIndex = -1;
-    modal.role = "dialog";
-    modal.innerHTML = `
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Abstract</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeAbstractModal()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ${modalContent}
-          </div>
-          <div class="modal-footer">
-            <a href="${pub.url}" class="btn btn-primary" target="_blank">View Publication</a>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeAbstractModal()">Close</button>
-          </div>
-        </div>
+      <div class="modal-header">
+        <h5 class="modal-title">Abstract</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>${pub.title}</h5>
+        <p>${pub.abstract}</p>
+      </div>
+      <div class="modal-footer">
+        <a href="${pub.url}" class="btn btn-primary" target="_blank">View Publication</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     `;
-    document.body.appendChild(modal);
-    $('#abstractModal').modal('show');
-  }
 
-  // Function to close the abstract modal and remove it from DOM
-  function closeAbstractModal() {
-    $('#abstractModal').modal('hide');
-    document.getElementById('abstractModal').remove();
+    // Inject the content into the existing modal
+    document.querySelector('#abstractModal .modal-content').innerHTML = modalContent;
+    $('#abstractModal').modal('show');
   }
 
   // Function to display citing papers
   function showCitingPapers(pub) {
-    var modalContent = `
-      <h5>Citing Papers for "${pub.title}"</h5>
-      <ul>
-        ${pub.citingPapers
-          .map(function (cp) {
-            return `<li>
-              ${cp.authors}, ${cp.year}. <a href="${cp.url}" target="_blank">${cp.title}</a>. ${cp.journal}.
-            </li>`;
-          })
-          .join("")}
-      </ul>
-    `;
+    // Sort citing papers by year in descending order
+    var sortedCitingPapers = pub.citingPapers.sort(function (a, b) {
+      return b.year - a.year;
+    });
 
-    // Create a modal to display citing papers
-    var modal = document.createElement("div");
-    modal.className = "modal fade";
-    modal.id = "citingPapersModal";
-    modal.tabIndex = -1;
-    modal.role = "dialog";
-    modal.innerHTML = `
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Citing Papers</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeCitingPapersModal()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ${modalContent}
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeCitingPapersModal()">Close</button>
-          </div>
-        </div>
+    var modalContent = `
+      <div class="modal-header">
+        <h5 class="modal-title">Citing Papers</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>Citing Papers for "${pub.title}"</h5>
+        <ul>
+          ${sortedCitingPapers
+            .map(function (cp) {
+              return `<li>
+                ${cp.authors}, ${cp.year}. <a href="${cp.url}" target="_blank">${cp.title}</a>. ${cp.journal}.
+              </li>`;
+            })
+            .join("")}
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     `;
-    document.body.appendChild(modal);
-    $('#citingPapersModal').modal('show');
-  }
 
-  // Function to close citing papers modal and remove it from DOM
-  function closeCitingPapersModal() {
-    $('#citingPapersModal').modal('hide');
-    document.getElementById('citingPapersModal').remove();
+    // Inject the content into the existing modal
+    document.querySelector('#citingPapersModal .modal-content').innerHTML = modalContent;
+    $('#citingPapersModal').modal('show');
   }
 
   // Manually define your citation data here
