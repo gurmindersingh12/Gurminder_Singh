@@ -47,7 +47,45 @@ const publications = [
     citations: 4,
     url: "https://link.springer.com/article/10.1007/s11032-023-01400-5",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB) and tan spot, caused by the necrotrophic fungal pathogens Parastagonospora nodorum and Pyrenophora tritici-repentis, respectively, often occur together as a leaf spotting disease complex on wheat (Triticum aestivum L.). Both pathogens produce necrotrophic effectors (NEs) that contribute to the development of disease. Here, genome-wide association analysis of a diverse panel of 264 winter wheat lines revealed novel loci on chromosomes 5A and 5B associated with sensitivity to the NEs SnTox3 and SnTox5 in addition to the known sensitivity genes for NEs Ptr/SnToxA, SnTox1, SnTox3, and SnTox5. Sensitivity loci for SnTox267 and Ptr ToxB were not detected. Evaluation of the panel with five P. nodorum isolates for SNB development indicated the Snn3-SnTox3 and Tsn1-SnToxA interactions played significant roles in disease development along with additional QTL on chromosomes 2A and 2D, which may correspond to the Snn7-SnTox267 interaction. For tan spot, the Tsc1-Ptr ToxC interaction was associated with disease caused by two isolates, and a novel QTL on chromosome 7D was associated with a third isolate. The Tsn1-ToxA interaction was associated with SNB but not tan spot. Therefore some, but not all, of the previously characterized host gene-NE interactions in these pathosystems play significant roles in disease development in winter wheat. Based on these results, breeders should prioritize the selection of resistance alleles at the Tsc1, Tsn1, Snn3, and Snn7 loci as well as the 2A and 7D QTL to obtain good levels of resistance to SNB and tan spot in winter wheat.",
-    citingPapers: []
+    citingPapers: [
+      // Existing citing papers (if any)
+      // Add the new citing papers below
+      {
+        title: "Intelligent reprogramming of wheat for enhancement of fungal and nematode disease resistance using advanced molecular techniques.",
+        authors: "Jabran M, Ali MA, Zahoor A, Muhae-Ud-Din G, Liu T, Chen W, Gao L",
+        journal: "<em>Frontiers in Plant Science</em>",
+        year: 2023,
+        url: "https://doi.org/10.3389/fpls.2023.1132699"
+      },
+      {
+        title: "Association mapping of tan spot and septoria nodorum blotch resistance in cultivated emmer wheat.",
+        authors: "Lhamo D, Sun Q, Friesen T.L., <em>et al.</em>",
+        journal: "<em>Theoretical and Applied Genetics</em>",
+        year: 2024,
+        url: "https://doi.org/10.1007/s00122-024-04700-2"
+      },
+      {
+        title: "Interaction of wheat-Parastagonospora nodorum isolates: Exploring host susceptibility and fungal virulence.",
+        authors: "Choupannejad R, Sharifnabi B, Collemare J, Massah A, Gholami J, Mehrabi R",
+        journal: "<em>Physiological and Molecular Plant Pathology</em>",
+        year: 2024,
+        url: "https://doi.org/10.1016/j.pmpp.2023.102235"
+      },
+      {
+        title: "Survival of the <em>Exserohilum rostratum</em> causal leaf spot of wheat and dissemination, infection behaviour from flower-seed-seedlings.",
+        authors: "Korra T., P. T., Chandra R.",
+        journal: "<em>Cereal Research Communications</em>",
+        year: 2024,
+        url: "https://doi.org/10.1007/s42976-024-00575-7"
+      },
+      {
+        title: "Host susceptibility and fungal virulence in the wheat-Parastagonospora nodorum interactions.",
+        authors: "Choupannejad R, Sharifnabi B, Collemare J, Massah A, Gholami J, Mehrabi R",
+        journal: "<em>Research Square</em> (Preprint)",
+        year: 2023,
+        url: "https://doi.org/10.21203/rs.3.rs-3198290/v1"
+      }
+    ]
   },
   {
     title: "Resistance screening and QTL mapping in wheat and triticale against root-lesion nematode.",
