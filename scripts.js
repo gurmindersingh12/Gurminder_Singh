@@ -164,6 +164,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to display the abstract in a modal
   function showAbstract(pub) {
+    // Check if the publication is under review
+    var isUnderReview = pub.journal.includes("(Under Review)");
     var modalContent = `
       <div class="modal-header">
         <h5 class="modal-title">Abstract</h5>
@@ -176,7 +178,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>${pub.abstract}</p>
       </div>
       <div class="modal-footer">
-        <a href="${pub.url}" class="btn btn-primary" target="_blank">View Publication</a>
+        ${
+          isUnderReview
+            ? `<span class="text-muted">This publication is currently under review and not yet published.</span>`
+            : `<a href="${pub.url}" class="btn btn-primary" target="_blank">View Publication</a>`
+        }
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     `;
