@@ -386,4 +386,9 @@ body {
   .hero-image img {
     margin: 0 auto; /* Center the image */
   }
+  /* Adjust buttons on smaller screens */
+  .hero-content .btn {
+    width: 100%; /* Make buttons full width on small screens */
+    margin-bottom: 10px; /* Add space between buttons */
+  }
 }
