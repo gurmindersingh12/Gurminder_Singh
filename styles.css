@@ -389,6 +389,6 @@ body {
   /* Adjust buttons on smaller screens */
   .hero-content .btn {
     width: 100%; /* Make buttons full width on small screens */
-    margin-bottom: 10px; /* Add space between buttons */
+    margin-bottom: 15px; /* Increase space between buttons */
   }
 }
