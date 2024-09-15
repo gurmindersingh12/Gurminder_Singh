@@ -50,7 +50,7 @@
       <!-- Main Content Area -->
       <div class="col-md-9 content py-4">
         <!-- Home Section -->
-        <div id="home" class="tab-content active">
+        <div id="home" class="tab-content">
           <div class="card mb-4">
             <div class="card-body">
               <h2>Welcome to My Portfolio</h2>
@@ -159,34 +159,34 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Publications Section -->
-          <div id="publications" class="tab-content">
-            <h2>Publications</h2>
-            <div class="accordion" id="publications-accordion">
-              <!-- Publications will be populated here by scripts.js -->
+        <!-- Publications Section -->
+        <div id="publications" class="tab-content">
+          <h2>Publications</h2>
+          <div class="accordion" id="publications-accordion">
+            <!-- Publications will be populated here by scripts.js -->
+          </div>
+        </div>
+
+        <!-- Citations Section -->
+        <div id="citations" class="tab-content">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2>Citations Over the Years</h2>
+              <!-- Total Citations Display -->
+              <p>Total Citations: <strong id="total-citations">0</strong></p>
+              <canvas id="citations-chart" width="400" height="200"></canvas>
             </div>
           </div>
+        </div>
 
-          <!-- Citations Section -->
-          <div id="citations" class="tab-content">
-            <div class="card mb-4">
-              <div class="card-body">
-                <h2>Citations Over the Years</h2>
-                <!-- Total Citations Display -->
-                <p>Total Citations: <strong id="total-citations">0</strong></p>
-                <canvas id="citations-chart" width="400" height="200"></canvas>
-              </div>
-            </div>
-          </div>
-
-          <!-- Contact Section -->
-          <div id="contact" class="tab-content">
-            <div class="card mb-4">
-              <div class="card-body">
-                <h2>Contact Me</h2>
-                <p>Email: <a href="mailto:g.singh@ndsu.edu">g.singh@ndsu.edu</a></p>
-              </div>
+        <!-- Contact Section -->
+        <div id="contact" class="tab-content">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2>Contact Me</h2>
+              <p>Email: <a href="mailto:g.singh@ndsu.edu">g.singh@ndsu.edu</a></p>
             </div>
           </div>
         </div>
@@ -223,17 +223,20 @@
       // Function to show the selected section and highlight the active nav link
       function showSection(event, sectionId) {
         event.preventDefault();
-        
+
         // Hide all sections
         var sections = document.querySelectorAll('.tab-content, .about-section');
         sections.forEach(function (section) {
-          section.style.display = 'none';
+          section.classList.remove('active');
         });
-        
+
         // Show the clicked section
-        document.getElementById(sectionId).style.display = 'block';
-        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-        
+        var targetSection = document.getElementById(sectionId);
+        if (targetSection) {
+          targetSection.classList.add('active');
+          targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
         // Remove active class from all nav links
         var navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(function (link) {
@@ -244,7 +247,7 @@
         event.currentTarget.classList.add('active');
       }
 
-      // Show the Home section by default
+      // Show the Home section by default on page load
       document.addEventListener('DOMContentLoaded', function () {
         showSection({ preventDefault: () => {} }, 'home');
       });
