@@ -6,9 +6,6 @@ body {
   padding: 0;
 }
 
-
-
-
 .sidebar {
   height: 100vh;
   position: fixed;
@@ -100,22 +97,17 @@ body {
 /* Timeline Styling */
 .timeline {
   position: relative;
-  padding-left: 30px; /* Space for dots and line */
+  margin-left: 40px; /* Space for line and dots */
+  padding: 0 0 0 20px; /* Adjust for dot alignment */
   border-left: 2px solid #007bff; /* Light blue line connecting the dots */
 }
 
 .timeline-item {
   position: relative;
-  margin: 20px 0;
   display: flex;
   align-items: center;
-}
-
-.timeline-year {
-  position: absolute;
-  left: -60px; /* Position the years on the left side */
-  font-weight: bold;
-  color: #007bff;
+  margin: 20px 0;
+  padding-left: 20px; /* Adjust alignment */
 }
 
 .timeline-dot {
@@ -124,12 +116,18 @@ body {
   background-color: #007bff;
   border-radius: 50%;
   position: absolute;
-  left: -8px; /* Align dots with the blue line */
-  top: 5px;
+  left: -30px; /* Position dots on the line */
+}
+
+.timeline-year {
+  margin-left: auto; /* Push the year to the far right */
+  font-weight: bold;
+  color: #007bff;
 }
 
 .timeline-content {
-  margin-left: 20px; /* Spacing between the dot and content */
+  flex: 1;
+  margin-left: 20px; /* Space between dot and content */
 }
 
 .timeline-content h3,
@@ -141,6 +139,13 @@ body {
 
 .timeline-content p {
   color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-content p i {
+  margin-right: 8px; /* Space between icon and text */
+  color: #007bff; /* Color for the location icon */
 }
 
 /* Skills Section Styling */
@@ -213,5 +218,8 @@ body {
   .content {
     margin-left: 0;
   }
+  .timeline {
+    margin-left: 20px; /* Adjust for smaller screens */
+    padding-left: 15px;
+  }
 }
-
