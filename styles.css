@@ -97,8 +97,7 @@ body {
 /* Timeline Styling */
 .timeline {
   position: relative;
-  margin-left: 60px; /* Space for year */
-  padding-left: 20px; /* Adjust for dot alignment */
+  margin-left: 80px; /* Space for year */
 }
 
 .timeline-item {
@@ -106,17 +105,17 @@ body {
   display: flex;
   align-items: center;
   margin: 20px 0;
-  padding-left: 20px; /* Space for timeline */
 }
 
 .timeline-item:before {
   content: '';
   position: absolute;
-  width: 2px; /* Thickness of the line connecting dots */
+  width: 2px; /* Thickness of the line */
   background-color: #007bff;
   top: 0;
   bottom: 0;
-  left: 0; /* Position line in the center of the dot */
+  left: 50%; /* Line positioned exactly in the center */
+  transform: translateX(-50%);
 }
 
 .timeline-dot {
@@ -124,13 +123,15 @@ body {
   height: 12px;
   background-color: #007bff;
   border-radius: 50%;
-  position: relative; /* Relative positioning to align with line */
-  z-index: 1; /* Ensure dots are on top of the line */
+  position: relative; /* Positioned relative to align with line */
+  z-index: 1; /* Ensures dots are on top of the line */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .timeline-year {
   position: absolute;
-  left: -80px; /* Position the years on the left side of the dots and line */
+  left: -80px; /* Position the years to the left of the dots and line */
   font-weight: bold;
   color: #007bff;
   text-align: right;
@@ -232,6 +233,5 @@ body {
   }
   .timeline {
     margin-left: 20px; /* Adjust for smaller screens */
-    padding-left: 15px;
   }
 }
