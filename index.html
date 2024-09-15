@@ -228,12 +228,14 @@
         var sections = document.querySelectorAll('.tab-content, .about-section');
         sections.forEach(function (section) {
           section.classList.remove('active');
+          section.style.display = 'none';
         });
 
         // Show the clicked section
         var targetSection = document.getElementById(sectionId);
         if (targetSection) {
           targetSection.classList.add('active');
+          targetSection.style.display = 'block';
           targetSection.scrollIntoView({ behavior: 'smooth' });
         }
 
@@ -246,11 +248,6 @@
         // Add active class to the clicked nav link
         event.currentTarget.classList.add('active');
       }
-
-      // Show the Home section by default on page load
-      document.addEventListener('DOMContentLoaded', function () {
-        showSection({ preventDefault: () => {} }, 'home');
-      });
     </script>
 
     <!-- Your JS files -->
