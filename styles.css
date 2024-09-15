@@ -97,9 +97,9 @@ body {
 /* Timeline Styling */
 .timeline {
   position: relative;
-  margin-left: 40px; /* Space for line and dots */
-  padding: 0 0 0 20px; /* Adjust for dot alignment */
-  border-left: 2px solid #007bff; /* Light blue line connecting the dots */
+  margin-left: 60px; /* Space for line and dots */
+  padding-left: 40px; /* Adjust for dot alignment */
+  border-left: 2px solid #007bff; /* Light blue line */
 }
 
 .timeline-item {
@@ -116,18 +116,23 @@ body {
   background-color: #007bff;
   border-radius: 50%;
   position: absolute;
-  left: -30px; /* Position dots on the line */
+  left: -7px; /* Position dots on the line */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .timeline-year {
-  margin-left: auto; /* Push the year to the far right */
+  position: absolute;
+  left: -70px; /* Position the years on the left side of the dots */
   font-weight: bold;
   color: #007bff;
+  text-align: right;
+  width: 50px; /* Adjust width for alignment */
 }
 
 .timeline-content {
   flex: 1;
-  margin-left: 20px; /* Space between dot and content */
+  margin-left: 30px; /* Space between dot and content */
 }
 
 .timeline-content h3,
