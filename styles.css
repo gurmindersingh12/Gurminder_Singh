@@ -164,7 +164,6 @@ body {
   margin: 0;
 }
 
-
 /* Stripe Styling for Cards */
 .card-with-stripe {
   position: relative;
@@ -197,6 +196,141 @@ body {
   border-left-color: #e83e8c; /* Pink for contact */
 }
 
+/* Home Section Styling */
+.home-section {
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #e0f7fa; /* Light teal background */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  color: #00695c; /* Teal color */
+}
+
+.hero-content h2 {
+  font-size: 1.5em;
+  color: #004d40;
+  margin-top: 10px;
+}
+
+.hero-content .highlight {
+  color: #00796b; /* Highlight with darker teal */
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  color: #333;
+}
+
+.hero-content .btn {
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+  background-color: #004d40;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Expertise Section */
+.expertise {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.expertise h2 {
+  font-size: 2em;
+  color: #00695c;
+  margin-bottom: 20px;
+}
+
+.expertise-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.expertise-item {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  background-color: white;
+  transition: transform 0.3s;
+}
+
+.expertise-item:hover {
+  transform: translateY(-5px);
+}
+
+.expertise-item i {
+  font-size: 40px;
+  color: #00695c;
+  margin-bottom: 10px;
+}
+
+.expertise-item h4 {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.expertise-item p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cta-section .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-section .btn:hover {
+  background-color: #004d40;
+}
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -208,7 +342,18 @@ body {
   .content {
     margin-left: 0;
   }
-  .skills-grid {
+  .skills-grid,
+  .expertise-grid {
     flex-direction: column;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .hero-image {
+    margin-top: 20px;
   }
 }
