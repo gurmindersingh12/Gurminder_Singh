@@ -94,57 +94,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* Timeline Styling */
-.timeline {
-  position: relative;
-  margin: 20px 0;
-  padding: 10px 0;
-  border-left: 3px solid #007bff;
-}
-
-.timeline-item {
-  position: relative;
-  padding-left: 20px;
-  margin-bottom: 20px;
-}
-
-.timeline-year {
-  position: absolute;
-  left: -75px;
-  width: 60px;
-  text-align: right;
-  color: #007bff;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.timeline-dot {
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background-color: #007bff;
-  border-radius: 50%;
-  left: -6px; /* Align with the line */
-  top: 0;
-  transform: translateY(-50%);
-}
-
-.timeline-content {
-  padding-left: 40px;
-  color: #333;
-}
-
-.timeline-content h3 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.timeline-content p {
-  margin: 0;
-  color: #666;
-}
-
-/* Skills Section Styling */
+/* Grid Style for Education and Awards */
 .skills-grid {
   display: flex;
   gap: 20px;
@@ -169,6 +119,16 @@ body {
   font-size: 24px;
   margin-bottom: 10px;
   color: #007bff;
+}
+
+.skill-item h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.skill-item p {
+  color: #666;
+  margin: 0;
 }
 
 /* Chart and Modal Styling */
@@ -214,15 +174,7 @@ body {
   .content {
     margin-left: 0;
   }
-  .timeline-year {
-    position: static;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  .timeline-item {
-    padding-left: 10px;
-  }
-  .timeline-dot {
-    left: 0;
+  .skills-grid {
+    flex-direction: column;
   }
 }
