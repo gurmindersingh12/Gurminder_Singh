@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var pubDiv = document.createElement("div");
       pubDiv.className = "mb-3";
       pubDiv.innerHTML = `
-        <h5><a href="${pub.url}" target="_blank">${pub.title}</a></h5>
+        <h5><a href="#" class="publication-link" data-pub-index="${pubIndex}" data-year="${year}">${pub.title}</a></h5>
         <p>
           <strong>Authors:</strong> ${pub.authors}<br>
           <strong>Journal:</strong> ${pub.journal}<br>
@@ -124,12 +124,50 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Handle publication link clicks to show "not published" popup
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.classList.contains("publication-link")) {
+      e.preventDefault();
+      var pubIndex = e.target.getAttribute("data-pub-index");
+      var year = e.target.getAttribute("data-year");
+      var pub = publicationsByYear[year][pubIndex];
+      if (pub.journal.includes("(Under Review)")) {
+        showNotPublishedYet(pub);
+      } else {
+        showAbstract(pub);
+      }
+    }
+  });
+
+  // Function to display a "Not Published Yet" message in a modal
+  function showNotPublishedYet(pub) {
+    var modalContent = `
+      <div class="modal-header">
+        <h5 class="modal-title">Publication Status</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>${pub.title}</h5>
+        <p>This publication is currently under review and not yet published.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    `;
+
+    // Inject the content into the existing modal
+    document.querySelector('#abstractModal .modal-content').innerHTML = modalContent;
+    $('#abstractModal').modal('show');
+  }
+
   // Function to display the abstract in a modal
   function showAbstract(pub) {
     var modalContent = `
       <div class="modal-header">
         <h5 class="modal-title">Abstract</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -158,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var modalContent = `
       <div class="modal-header">
         <h5 class="modal-title">Citing Papers</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
