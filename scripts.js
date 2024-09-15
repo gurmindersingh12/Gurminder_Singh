@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Manually define your citation data here
   var citationYears = ['2020', '2021', '2022', '2023', '2024'];
-  var citationData = [5, 3, 7, 9, 2];
+  var citationData = [1, 1, 2, 5, 6];
 
   // Calculate total citations
   var totalCitations = citationData.reduce(function (accumulator, currentValue) {
