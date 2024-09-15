@@ -1,6 +1,9 @@
+/* Basic Styling */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar {
@@ -8,6 +11,7 @@ body {
   position: fixed;
   width: 250px;
   overflow-y: auto;
+  background-color: #343a40;
 }
 
 .content {
@@ -19,10 +23,13 @@ body {
 .profile-pic {
   width: 120px;
   height: 120px;
+  border: 3px solid #ffffff;
+  object-fit: cover;
 }
 
 .nav-link {
   padding: 10px 15px;
+  cursor: pointer;
 }
 
 .nav-link.active {
@@ -37,9 +44,11 @@ body {
   display: block;
 }
 
+/* Card Styling */
 .card {
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .publication-card {
@@ -60,6 +69,7 @@ body {
   color: #007bff;
 }
 
+/* About Section Styling */
 .about-section {
   padding: 20px;
   background-color: #ffffff;
@@ -80,6 +90,7 @@ body {
   margin-bottom: 30px;
 }
 
+/* Timeline Styling */
 .timeline {
   position: relative;
   padding-left: 20px;
@@ -122,19 +133,38 @@ body {
   padding-left: 20px;
 }
 
-.card {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Skills Section Styling */
+.skills-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
+.skill-item {
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
 
+.skill-item:hover {
+  transform: translateY(-5px);
+}
 
-/* Ensure the chart doesn't cause infinite scrolling */
+.skill-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Chart and Modal Styling */
 #citations-chart {
   max-height: 400px;
 }
 
-/* Modal Styling */
 .modal .modal-body ul {
   list-style-type: none;
   padding-left: 0;
@@ -144,7 +174,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Accordion Button Styles */
 .btn-link {
   text-decoration: none;
   font-size: 18px;
@@ -164,6 +193,7 @@ body {
   margin: 0;
 }
 
+/* Responsive Adjustments */
 @media (max-width: 768px) {
   .sidebar {
     position: relative;
@@ -174,3 +204,4 @@ body {
     margin-left: 0;
   }
 }
+
