@@ -63,9 +63,6 @@ body {
 .about-section {
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
 }
 
 .profile-header {
@@ -79,130 +76,57 @@ body {
   margin-bottom: 15px;
 }
 
-.profile-header h1 {
-  font-size: 24px;
-  margin-bottom: 5px;
-}
-
-.profile-header p {
-  color: #6c757d;
-}
-
-.education-timeline {
+.education-timeline, .research-highlights, .skills-section, .awards-section {
   margin-bottom: 30px;
 }
 
 .timeline {
   position: relative;
-  margin-top: 20px;
   padding-left: 20px;
-  border-left: 2px solid #007bff;
+  border-left: 2px dashed #007bff;
 }
 
 .timeline-item {
   position: relative;
   margin: 20px 0;
-  padding: 15px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
 }
 
 .timeline-date {
   font-weight: bold;
   color: #007bff;
   position: absolute;
-  left: -75px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 70px;
+  left: -70px;
+  top: 0;
   text-align: right;
-  font-size: 14px;
+  width: 60px;
 }
 
-.timeline-item h3 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-.timeline-item p {
-  margin-bottom: 0;
-  color: #6c757d;
-}
-
-
-.research-highlights {
-  margin-bottom: 30px;
-}
-
-.research-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.research-list li {
-  margin-bottom: 10px;
-  padding-left: 20px;
-  position: relative;
-}
-
-.research-list li::before {
-  content: "•";
-  color: #007bff;
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #007bff;
+  border-radius: 50%;
   position: absolute;
-  left: 0;
+  left: -8px;
+  top: 5px;
 }
 
-.skills-section {
-  margin-bottom: 30px;
-}
-
-.skills-grid {
+.awards-timeline .timeline-item {
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.skill-item {
-  flex: 1 1 calc(33.333% - 20px);
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #e0e0e0;
+.awards-timeline .timeline-item p {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.card {
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.skill-item:hover {
-  transform: translateY(-5px);
-}
-
-.skill-item i {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #007bff;
-}
-
-.awards-section {
-  margin-bottom: 30px;
-}
-
-.awards-carousel {
-  display: flex;
-  overflow-x: auto;
-  gap: 20px;
-}
-
-.award-item {
-  flex: 0 0 auto;
-  padding: 10px 20px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
 
 
 /* Ensure the chart doesn't cause infinite scrolling */
