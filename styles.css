@@ -212,6 +212,7 @@ body {
   background-color: #e0f7fa; /* Light teal background */
   border-radius: 10px;
   margin-bottom: 20px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .hero-content {
@@ -254,9 +255,18 @@ body {
 }
 
 .hero-image {
-  max-width: 150px; /* Reduced size to a smaller, profile-like size */
+  max-width: 150px;
   height: auto;
   border-radius: 10px;
+  overflow: hidden; /* Ensures content doesn't overflow */
+  flex-shrink: 0; /* Prevents the image from shrinking too much */
+  margin-left: 20px; /* Space between text and image */
+}
+
+.hero-image img {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image fits nicely */
 }
 
 /* Expertise Section */
@@ -350,14 +360,17 @@ body {
     align-items: center; /* Center items on smaller screens */
   }
   .hero {
-    flex-direction: column;
+    flex-direction: column; /* Stacks elements vertically on smaller screens */
+    align-items: center; /* Center align on small screens */
+    text-align: center; /* Center text alignment on small screens */
   }
   .hero-content {
     max-width: 100%;
     text-align: center;
   }
   .hero-image {
+    margin-left: 0; /* Remove left margin on small screens */
+    margin-top: 20px; /* Add space above the image */
     max-width: 100px; /* Adjust hero image size on smaller screens */
-    margin-top: 20px;
   }
 }
