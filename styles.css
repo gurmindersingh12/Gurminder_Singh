@@ -80,7 +80,7 @@ body {
 /* About Section Styling */
 .about-section {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #f0f8ff; /* Light blue background similar to home */
 }
 
 .profile-header {
@@ -92,6 +92,14 @@ body {
   height: 150px;
   object-fit: cover;
   margin-bottom: 15px;
+}
+
+/* Publications, Citations, and Contact Section Styling */
+#publications,
+#citations,
+#contact {
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background similar to home */
 }
 
 /* Grid Style for Education and Awards */
