@@ -60,6 +60,133 @@ body {
   color: #007bff;
 }
 
+.about-section {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.profile-header {
+  margin-bottom: 30px;
+}
+
+.profile-pic-large {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-header h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.profile-header p {
+  color: #6c757d;
+}
+
+.education-timeline {
+  margin-bottom: 30px;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 40px;
+  border-left: 2px solid #007bff;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007bff;
+  position: absolute;
+  left: -85px;
+  top: 0;
+  width: 80px;
+  text-align: right;
+}
+
+.research-highlights {
+  margin-bottom: 30px;
+}
+
+.research-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.research-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.research-list li::before {
+  content: "•";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+}
+
+.skills-section {
+  margin-bottom: 30px;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.awards-section {
+  margin-bottom: 30px;
+}
+
+.awards-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.award-item {
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
 /* Ensure the chart doesn't cause infinite scrolling */
 #citations-chart {
   max-height: 400px;
