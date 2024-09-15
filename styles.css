@@ -253,8 +253,8 @@ body {
   background-color: #004d40;
 }
 
-.hero-image img {
-  max-width: 100%;
+.hero-image {
+  max-width: 40%; /* Reduced size for hero image */
   border-radius: 10px;
 }
 
@@ -354,6 +354,7 @@ body {
     text-align: center;
   }
   .hero-image {
+    max-width: 80%; /* Adjust hero image size on smaller screens */
     margin-top: 20px;
   }
 }
