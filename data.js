@@ -5,7 +5,6 @@ const publications = [
     journal: "<i>Plant Disease</i> (Under Review)",
     year: 2024,
     citations: 0,
-    url: "",
     abstract: "Abstract for this publication is not available as it is under review.",
     citingPapers: []
   },
