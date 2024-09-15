@@ -57,7 +57,8 @@
               <h1>Gurminder Singh</h1>
               <h2><span class="highlight">Plant Geneticist</span> & <span class="highlight">Molecular Biologist</span></h2>
               <p>Bridging the gap between genetics and sustainable agriculture through innovative research in host-pathogen interactions.</p>
-              <button class="btn explore-more">Discover My Work</button>
+              <button class="btn explore-more" onclick="showSection(event, 'publications')">Discover My Work</button>
+              <button class="btn contact-me" onclick="showSection(event, 'contact')">Contact Me</button>
             </div>
             <div class="hero-image">
               <img src="hero-image.jpg" alt="DNA and Plant Visual" />
@@ -88,13 +89,18 @@
                 <h4>Data-Driven Insights</h4>
                 <p>Leveraging computational tools to transform data into actionable insights.</p>
               </div>
+              <div class="expertise-item">
+                <i class="fas fa-shield-alt"></i>
+                <h4>Host-Pathogen Interaction Studies</h4>
+                <p>Investigating the molecular dialogue between wheat and pathogens to develop better defenses.</p>
+              </div>
             </div>
           </section>
 
           <!-- Call-to-Action Section -->
           <section class="cta-section">
             <button class="btn download-cv">Download My CV</button>
-            <button class="btn contact-me">Contact Me</button>
+            <button class="btn contact-me" onclick="showSection(event, 'contact')">Contact Me</button>
           </section>
         </div>
 
