@@ -219,7 +219,7 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #00695c; /* Teal color */
 }
 
@@ -254,7 +254,8 @@ body {
 }
 
 .hero-image {
-  max-width: 40%; /* Reduced size for hero image */
+  max-width: 150px; /* Reduced size to a smaller, profile-like size */
+  height: auto;
   border-radius: 10px;
 }
 
@@ -356,7 +357,7 @@ body {
     text-align: center;
   }
   .hero-image {
-    max-width: 80%; /* Adjust hero image size on smaller screens */
+    max-width: 100px; /* Adjust hero image size on smaller screens */
     margin-top: 20px;
   }
 }
