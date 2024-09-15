@@ -33,11 +33,11 @@
         </div>
         <!-- Navigation Links -->
         <nav class="nav flex-column text-center">
-          <a href="#" class="nav-link text-white active" onclick="openTab(event, 'home')">Home</a>
-          <a href="#" class="nav-link text-white" onclick="openTab(event, 'about')">About</a>
-          <a href="#" class="nav-link text-white" onclick="openTab(event, 'publications')">Publications</a>
-          <a href="#" class="nav-link text-white" onclick="openTab(event, 'citations')">Citations</a>
-          <a href="#" class="nav-link text-white" onclick="openTab(event, 'contact')">Contact</a>
+          <a href="#home" class="nav-link text-white" onclick="showSection(event, 'home')">Home</a>
+          <a href="#about-section" class="nav-link text-white" onclick="showSection(event, 'about-section')">About</a>
+          <a href="#publications" class="nav-link text-white" onclick="showSection(event, 'publications')">Publications</a>
+          <a href="#citations" class="nav-link text-white" onclick="showSection(event, 'citations')">Citations</a>
+          <a href="#contact" class="nav-link text-white" onclick="showSection(event, 'contact')">Contact</a>
         </nav>
         <!-- Social Media Icons -->
         <div class="social-icons text-center mt-4">
@@ -59,17 +59,15 @@
           </div>
         </div>
         
-        
         <!-- About Section -->
-        <div id="about-section" class="about-section">
+        <div id="about-section" class="about-section tab-content">
           <!-- Profile Header -->
           <div class="profile-header text-center">
             <img src="DSC5864_Singh,Gurminder.JPG" alt="Gurminder Singh" class="rounded-circle profile-pic-large" />
             <h1>Gurminder Singh</h1>
             <p>PhD Candidate | Plant Geneticist | Data Enthusiast</p>
           </div>
-          
-          
+
           <!-- Education Card -->
           <div class="card mb-4">
             <div class="card-body">
@@ -93,8 +91,7 @@
               </div>
             </div>
           </div>
-          
-          
+
           <!-- Research Highlights Card -->
           <div class="card mb-4">
             <div class="card-body">
@@ -106,29 +103,28 @@
               </ul>
             </div>
           </div>
-          
-          
+
           <!-- Skills Section -->
-          <div class="skills-section mb-4">
-            <h2>Core Skills</h2>
-            <div class="skills-grid">
-              <div class="skill-item">
-                <i class="fas fa-dna"></i>
-                <h4>CRISPR/Cas9 Gene Editing</h4>
-              </div>
-              <div class="skill-item">
-                <i class="fas fa-seedling"></i>
-                <h4>Wheat Transformation</h4>
-              </div>
-              <div class="skill-item">
-                <i class="fas fa-chart-line"></i>
-                <h4>Data Analysis in R & Python</h4>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2>Core Skills</h2>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <i class="fas fa-dna"></i>
+                  <h4>CRISPR/Cas9 Gene Editing</h4>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-seedling"></i>
+                  <h4>Wheat Transformation</h4>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-chart-line"></i>
+                  <h4>Data Analysis in R & Python</h4>
+                </div>
               </div>
             </div>
           </div>
-          
-          
-          
+
           <!-- Awards Card with Timeline -->
           <div class="card mb-4">
             <div class="card-body">
@@ -150,7 +146,6 @@
             </div>
           </div>
         </div>
-
 
         <!-- Publications Section -->
         <div id="publications" class="tab-content">
@@ -209,6 +204,26 @@
     src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"
   ></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <!-- JavaScript for Section Navigation and Smooth Scrolling -->
+  <script>
+    // Function to show the selected section and hide others
+    function showSection(event, sectionId) {
+      event.preventDefault();
+      var sections = document.querySelectorAll('.tab-content, .about-section');
+      sections.forEach(function (section) {
+        section.style.display = 'none';
+      });
+      document.getElementById(sectionId).style.display = 'block';
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Show the Home section by default
+    document.addEventListener('DOMContentLoaded', function () {
+      showSection(event, 'home');
+    });
+  </script>
+
   <!-- Your JS files -->
   <script src="data.js"></script>
   <script src="scripts.js"></script>
