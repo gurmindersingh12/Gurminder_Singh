@@ -97,67 +97,51 @@ body {
 /* Timeline Styling */
 .timeline {
   position: relative;
-  padding-left: 60px; /* Adjusted space for year */
+  margin: 20px 0;
+  padding: 10px 0;
+  border-left: 3px solid #007bff;
 }
 
 .timeline-item {
   position: relative;
-  display: flex;
-  align-items: flex-start; /* Adjust for alignment of dots and description */
-  margin: 20px 0;
-}
-
-.timeline-item:before {
-  content: '';
-  position: absolute;
-  width: 2px; /* Thickness of the line connecting dots */
-  background-color: #007bff;
-  top: 0;
-  bottom: 0;
-  left: 40px; /* Center the line in the middle of the dots */
-  z-index: 0;
-}
-
-.timeline-dot {
-  width: 12px;
-  height: 12px;
-  background-color: #007bff;
-  border-radius: 50%;
-  position: relative; /* Relative positioning to align with line */
-  z-index: 1; /* Ensure dots are on top of the line */
-  margin-right: 20px; /* Space between dot and content */
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .timeline-year {
   position: absolute;
-  left: -60px; /* Position the years on the left side */
-  font-weight: bold;
-  color: #007bff;
+  left: -75px;
+  width: 60px;
   text-align: right;
-  width: 50px; /* Adjust width for alignment */
+  color: #007bff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #007bff;
+  border-radius: 50%;
+  left: -6px; /* Align with the line */
+  top: 0;
+  transform: translateY(-50%);
 }
 
 .timeline-content {
-  flex: 1;
-  margin-left: 20px; /* Space between dot and content */
-}
-
-.timeline-content h3,
-.timeline-content p {
-  margin: 0;
-  font-size: 16px;
+  padding-left: 40px;
   color: #333;
 }
 
-.timeline-content p {
-  color: #666;
-  display: flex;
-  align-items: center;
+.timeline-content h3 {
+  margin: 0;
+  font-size: 16px;
 }
 
-.timeline-content p i {
-  margin-right: 8px; /* Space between icon and text */
-  color: #007bff; /* Color for the location icon */
+.timeline-content p {
+  margin: 0;
+  color: #666;
 }
 
 /* Skills Section Styling */
@@ -230,7 +214,15 @@ body {
   .content {
     margin-left: 0;
   }
-  .timeline {
-    padding-left: 20px; /* Adjust for smaller screens */
+  .timeline-year {
+    position: static;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .timeline-item {
+    padding-left: 10px;
+  }
+  .timeline-dot {
+    left: 0;
   }
 }
