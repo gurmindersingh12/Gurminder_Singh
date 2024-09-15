@@ -58,7 +58,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- About Section -->
         <div id="about-section" class="about-section tab-content">
           <!-- Profile Header -->
@@ -67,8 +67,7 @@
             <h1>Gurminder Singh</h1>
             <p>PhD Candidate | Plant Geneticist | Data Enthusiast</p>
           </div>
-          
-          
+
           <!-- Education Card -->
           <div class="card mb-4">
             <div class="card-body">
@@ -123,11 +122,11 @@
               <div class="skills-grid">
                 <div class="skill-item">
                   <i class="fas fa-dna"></i>
-                  <h4>Genetics and Genomics</h4>
+                  <h4>CRISPR/Cas9 Gene Editing</h4>
                 </div>
                 <div class="skill-item">
                   <i class="fas fa-seedling"></i>
-                  <h4>Agrobacterium-mediated Wheat Transformation</h4>
+                  <h4>Wheat Transformation</h4>
                 </div>
                 <div class="skill-item">
                   <i class="fas fa-chart-line"></i>
@@ -137,21 +136,25 @@
             </div>
           </div>
 
-          <!-- Awards Card with Timeline -->
+          <!-- Awards Card -->
           <div class="card mb-4">
             <div class="card-body">
               <h2>Awards & Achievements</h2>
               <div class="awards-timeline">
                 <div class="timeline">
                   <div class="timeline-item">
-                    <span class="timeline-date">2024</span>
+                    <span class="timeline-year">2024</span>
                     <span class="timeline-dot"></span>
-                    <p>NAPB George Washington Carver Scholar Award</p>
+                    <div class="timeline-content">
+                      <p>NAPB George Washington Carver Scholar Award</p>
+                    </div>
                   </div>
                   <div class="timeline-item">
-                    <span class="timeline-date">2023</span>
+                    <span class="timeline-year">2023</span>
                     <span class="timeline-dot"></span>
-                    <p>Outstanding Graduate Research Award</p>
+                    <div class="timeline-content">
+                      <p>Outstanding Graduate Research Award</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -217,22 +220,35 @@
   ></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
-  <!-- JavaScript for Section Navigation and Smooth Scrolling -->
+  <!-- JavaScript for Section Navigation and Highlighting Active Section -->
   <script>
-    // Function to show the selected section and hide others
+    // Function to show the selected section and highlight the active nav link
     function showSection(event, sectionId) {
       event.preventDefault();
+      
+      // Hide all sections
       var sections = document.querySelectorAll('.tab-content, .about-section');
       sections.forEach(function (section) {
         section.style.display = 'none';
       });
+
+      // Show the clicked section
       document.getElementById(sectionId).style.display = 'block';
       document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+
+      // Remove active class from all nav links
+      var navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(function (link) {
+        link.classList.remove('active');
+      });
+
+      // Add active class to the clicked nav link
+      event.currentTarget.classList.add('active');
     }
 
     // Show the Home section by default
     document.addEventListener('DOMContentLoaded', function () {
-      showSection(event, 'home');
+      showSection({ preventDefault: () => {} }, 'home');
     });
   </script>
 
