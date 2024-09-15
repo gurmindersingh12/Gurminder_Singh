@@ -164,6 +164,40 @@ body {
   margin: 0;
 }
 
+
+/* Stripe Styling for Cards */
+.card-with-stripe {
+  position: relative;
+  border-left: 8px solid #007bff; /* Default Blue stripe */
+  padding-left: 15px; /* Adjust to make room for the stripe */
+}
+
+/* Different colors for each section */
+.card-with-stripe.education {
+  border-left-color: #28a745; /* Green for education */
+}
+
+.card-with-stripe.research {
+  border-left-color: #17a2b8; /* Teal for research */
+}
+
+.card-with-stripe.skills {
+  border-left-color: #ffc107; /* Yellow for skills */
+}
+
+.card-with-stripe.awards {
+  border-left-color: #fd7e14; /* Orange for awards */
+}
+
+.card-with-stripe.home {
+  border-left-color: #6610f2; /* Purple for home */
+}
+
+.card-with-stripe.contact {
+  border-left-color: #e83e8c; /* Pink for contact */
+}
+
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .sidebar {
