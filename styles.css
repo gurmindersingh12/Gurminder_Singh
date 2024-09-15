@@ -372,5 +372,10 @@ body {
     margin-left: 0; /* Remove left margin on small screens */
     margin-top: 20px; /* Add space above the image */
     max-width: 100px; /* Adjust hero image size on smaller screens */
+    display: flex;
+    justify-content: center; /* Center the image on smaller screens */
+  }
+  .hero-image img {
+    margin: 0 auto; /* Center the image */
   }
 }
