@@ -10,14 +10,21 @@ const publications = [
     citingPapers: []
   },
   {
-    title: "Evolution, diversity, and function of the disease susceptibility gene Snn1 in wheat.",
+    title: "Evolution, diversity, and function of the disease susceptibility gene <i>Snn1</i> in wheat.",
     authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <strong>Singh G</strong>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, and Faris JD",
     journal: "<i>The Plant Journal</i> 119:1720-1736",
     year: 2024,
-    citations: 1,
+    citations: 2,
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB), caused by Parastagonospora nodorum, is a disease of durum and common wheat initiated by the recognition of pathogen-produced necrotrophic effectors (NEs) by specific wheat genes. The wheat gene Snn1 was previously cloned, and it encodes a wall-associated kinase that directly interacts with the NE SnTox1 leading to programmed cell death and ultimately the development of SNB. Here, sequence analysis of Snn1 from 114 accessions including diploid, tetraploid, and hexaploid wheat species revealed that some wheat lines possess two copies of Snn1 (designated Snn1-B1 and Snn1-B2) approximately 120 kb apart. Snn1-B2 evolved relatively recently as a paralog of Snn1-B1, and both genes have undergone diversifying selection. Three point mutations associated with the formation of the first SnTox1-sensitive Snn1-B1 allele from a primitive wild wheat were identified. Four subsequent and independent SNPs, three in Snn1-B1 and one in Snn1-B2, converted the sensitive alleles to insensitive forms. Protein modeling indicated these four mutations could abolish Snn1–SnTox1 compatibility either through destabilization of the Snn1 protein or direct disruption of the protein–protein interaction. A high-throughput marker was developed for the absent allele of Snn1, and it was 100% accurate at predicting SnTox1-insensitive lines in both durum and spring wheat. Results of this study increase our understanding of the evolution, diversity, and function of Snn1-B1 and Snn1-B2 genes and will be useful for marker-assisted elimination of these genes for better host resistance.",
     citingPapers: [
+      {
+        title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum.",
+        authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, Faris JD",
+        journal: "<em>Plant Disease</em>",
+        year: 2024,
+        url: "https://doi.org/10.1094/PDIS-05-24-0990-RE"
+      },
       {
         title: "Association mapping of tan spot and septoria nodorum blotch resistance in cultivated emmer wheat.",
         authors: "Lhamo D, Sun Q, Friesen TL, Karmacharya A, Li X, Fiedler J, Faris JD, Xia G, Luo M, Gu Y, Liu Z, Xu SS",
@@ -28,7 +35,7 @@ const publications = [
     ]
   },
   {
-    title: "Evaluation of wheat cultivars and germplasm lines for resistance to Pratylenchus neglectus populations collected in North Dakota.",
+    title: "Evaluation of wheat cultivars and germplasm lines for resistance to <i>Pratylenchus neglectus</i> populations collected in North Dakota.",
     authors: "<strong>Singh G</strong>, KC A, Sandhu KS, Friskop AJ, Liu Z, and Yan GP",
     journal: "<i>Plant Disease</i> 117:3817-3824",
     year: 2023,
@@ -57,10 +64,17 @@ const publications = [
     authors: "Szabo-Hever A, <strong>Singh G</strong>, Haugrud A, Running K, Seneviratne S, Zhang Z, Shi G, Bassi F, Maccaferri M, Cattivelli L, Tuberosa R, Friesen TL, Liu Z, Xu SS, and Faris JD",
     journal: "<i>Phytopathology</i> 113:1967-1978",
     year: 2023,
-    citations: 3,
+    citations: 5,
     url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-02-23-0043-R",
     abstract: "<strong>Abstract:</strong> Tan spot, caused by the necrotrophic fungal pathogen Pyrenophora tritici-repentis (Ptr), is an important disease of durum and common wheat worldwide. Compared with common wheat, less is known about the genetics and molecular basis of tan spot resistance in durum wheat. We evaluated 510 durum lines from the Global Durum Wheat Panel (GDP) for sensitivity to the necrotrophic effectors (NEs) Ptr ToxA and Ptr ToxB and for reaction to Ptr isolates representing races 1 to 5. Overall, susceptible durum lines were most prevalent in South Asia, the Middle East, and North Africa. Genome-wide association analysis showed that the resistance locus Tsr7 was significantly associated with tan spot caused by races 2 and 3, but not races 1, 4, or 5. The NE sensitivity genes Tsc1 and Tsc2 were associated with susceptibility to Ptr ToxC- and Ptr ToxB-producing isolates, respectively, but Tsn1 was not associated with tan spot caused by Ptr ToxA-producing isolates, which further validates that the Tsn1−Ptr ToxA interaction does not play a significant role in tan spot development in durum. A unique locus on chromosome arm 2AS was associated with tan spot caused by race 4, a race once considered avirulent. A novel trait characterized by expanding chlorosis leading to increased disease severity caused by the Ptr ToxB-producing race 5 isolate DW5 was identified, and this trait was governed by a locus on chromosome 5B. We recommend that durum breeders select resistance alleles at the Tsr7, Tsc1, Tsc2, and the chromosome 2AS loci to obtain broad resistance to tan spot.",
     citingPapers: [
+      {
+        title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum.",
+        authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, Faris JD",
+        journal: "<em>Plant Disease</em>",
+        year: 2024,
+        url: "https://doi.org/10.1094/PDIS-05-24-0990-RE"
+      },
       {
         title: "Evolution, diversity, and function of the disease susceptibility gene Snn1 in wheat.",
         authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <strong>Singh G</strong>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, Faris JD",
@@ -76,6 +90,13 @@ const publications = [
         url: "https://doi.org/10.1007/s00122-024-04700-2"
       },
       {
+        title: "Marker assisted backcross introgression of a race non-specific QTL to develop durum wheat lines with improved tan spot resistance.",
+        authors: "Acharya N",
+        journal: "<i>MS Thesis, North Dakota State University, Fargo, ND, USA</i>",
+        year: 2024,
+        url: "https://www.proquest.com/docview/3106536557?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses"
+
+      {
         title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat collection.",
         authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <strong>Singh G</strong>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, Faris JD",
         journal: "<em>Molecular Breeding</em>",
@@ -89,10 +110,17 @@ const publications = [
     authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <strong>Singh G</strong>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, and Faris JD",
     journal: "<i>Molecular Breeding</i> 43:54",
     year: 2023,
-    citations: 5,
+    citations: 6,
     url: "https://link.springer.com/article/10.1007/s11032-023-01400-5",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB) and tan spot, caused by the necrotrophic fungal pathogens Parastagonospora nodorum and Pyrenophora tritici-repentis, respectively, often occur together as a leaf spotting disease complex on wheat (Triticum aestivum L.). Both pathogens produce necrotrophic effectors (NEs) that contribute to the development of disease. Here, genome-wide association analysis of a diverse panel of 264 winter wheat lines revealed novel loci on chromosomes 5A and 5B associated with sensitivity to the NEs SnTox3 and SnTox5 in addition to the known sensitivity genes for NEs Ptr/SnToxA, SnTox1, SnTox3, and SnTox5. Sensitivity loci for SnTox267 and Ptr ToxB were not detected. Evaluation of the panel with five P. nodorum isolates for SNB development indicated the Snn3-SnTox3 and Tsn1-SnToxA interactions played significant roles in disease development along with additional QTL on chromosomes 2A and 2D, which may correspond to the Snn7-SnTox267 interaction. For tan spot, the Tsc1-Ptr ToxC interaction was associated with disease caused by two isolates, and a novel QTL on chromosome 7D was associated with a third isolate. The Tsn1-ToxA interaction was associated with SNB but not tan spot. Therefore some, but not all, of the previously characterized host gene-NE interactions in these pathosystems play significant roles in disease development in winter wheat. Based on these results, breeders should prioritize the selection of resistance alleles at the Tsc1, Tsn1, Snn3, and Snn7 loci as well as the 2A and 7D QTL to obtain good levels of resistance to SNB and tan spot in winter wheat.",
     citingPapers: [
+      {
+        title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum.",
+        authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, Faris JD",
+        journal: "<em>Plant Disease</em>",
+        year: 2024,
+        url: "https://doi.org/10.1094/PDIS-05-24-0990-RE"
+      },
       {
         title: "Association mapping of tan spot and septoria nodorum blotch resistance in cultivated emmer wheat.",
         authors: "Lhamo D, Sun Q, Friesen TL, Karmacharya A, Li X, Fiedler J, Faris JD, Xia G, Luo M, Gu Y, Liu Z, Xu SS",
