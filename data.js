@@ -95,7 +95,7 @@ const publications = [
         journal: "<i>MS Thesis, North Dakota State University, Fargo, ND, USA</i>",
         year: 2024,
         url: "https://www.proquest.com/docview/3106536557?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses"
-
+      },
       {
         title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat collection.",
         authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <strong>Singh G</strong>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, Faris JD",
