@@ -177,23 +177,23 @@ const publications = [
       {
         title: "Evaluation of wheat cultivars and germplasm lines for resistance to <i>Pratylenchus neglectus</i> populations collected in North Dakota",
         authors: "Singh G, KC A, Sandhu KS, Friskop AJ, Liu Z, Yan GP",
-        journal: "<em>Plant Disease</em> 117:3817-3824",
+        journal: "<em>Plant Disease</em>",
         year: 2023,
         url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-03-23-0590-RE"
       },
       {
+        title: "Population Development of the Root-Lesion Nematode <i>Pratylenchus dakotaensis</i> on Soybean Cultivars",
+        authors: "Chowdhury IA",
+        journal: "<em>Plant Disease</em>",
+        year: 2022,
+        url: "https://apsjournals.apsnet.org/doi/full/10.1094/PDIS-11-21-2444-RE"
+      },
+      {
         title: "Wheat Landraces Versus Resistance to Biotic and Abiotic Stresses",
-        authors: "Keskin ÇN, Karakaş FP, Ağıl F",
+        authors: "Shlibak A, Örgeç M, Zencirci N",
         journal: "<em>In book: Wheat Landraces. (Edition-1) Chapter-10</em>",
         year: 2021,
         url: "https://link.springer.com/chapter/10.1007/978-3-030-77388-5_10"
-      },
-      {
-        title: "Population Development of the Root-Lesion Nematode <i>Pratylenchus dakotaensis</i> on Soybean Cultivars",
-        authors: "Chowdhury IA",
-        journal: "<em><em>Plant Disease</em> 106:2117-2126",
-        year: 2022,
-        url: "https://apsjournals.apsnet.org/doi/full/10.1094/PDIS-11-21-2444-RE"
       },
       {
         title: "Plant-Parasitic Nematodes on Corn (<i>Zea mays</i> L.) and Soybean (<i>Glycine max</i> L.) in North Dakota",
