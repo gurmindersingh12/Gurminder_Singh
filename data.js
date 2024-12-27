@@ -1,5 +1,35 @@
 const publications = [
   {
+    title: "Development of diagnostic markers for the disease susceptibility gene <i>Tsn1</i> in wheat reveals novel resistance alleles and a new locus required for ToxA sensitivity",
+    authors: "Running K, Acharya K, Roth T, <strong>Singh G</strong>, Szabo-Hever A, Haugrud A, Fiedler J, Friesen TL, and Faris JD",
+    journal: "<i>Theoretical and Applied Genetics</i>",
+    year: 2025,
+    citations: 0,
+    url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
+    abstract: "This publication is under review.",
+    citingPapers: []
+  },  
+  {
+    title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum",
+    authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
+    journal: "<i>Plant Disease</i>",
+    year: 2025,
+    citations: 0,
+    url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
+    abstract: "This publication is under review.",
+    citingPapers: []
+  },  
+  {
+    title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum",
+    authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
+    journal: "<i>Plant Disease</i>",
+    year: 2025,
+    citations: 0,
+    url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
+    abstract: " ",
+    citingPapers: []
+  },  
+  {
     title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum",
     authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
     journal: "<i>Plant Disease</i>",
