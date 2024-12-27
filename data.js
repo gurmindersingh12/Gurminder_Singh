@@ -5,28 +5,28 @@ const publications = [
     journal: "<i>Theoretical and Applied Genetics</i>",
     year: 2025,
     citations: 0,
-    url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
+    url: "",
     abstract: "This publication is under review.",
     citingPapers: []
   },  
   {
-    title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum",
-    authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
+    title: "Evaluation of Field Pea Cultivars for Resistance to Pin Nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
+    authors: "Ojha E, <strong>Singh G</strong>, Plaisance A, and Yan GP",
     journal: "<i>Plant Disease</i>",
     year: 2025,
     citations: 0,
-    url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
+    url: "",
     abstract: "This publication is under review.",
     citingPapers: []
   },  
   {
-    title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum",
-    authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
-    journal: "<i>Plant Disease</i>",
+    title: "Protein kinase-major sperm protein (PK-MSP) genes mediate recognition of the fungal necrotrophic effector SnTox3 to cause septoria nodorum blotch in wheat",
+    authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, <strong>Singh G</strong>, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
+    journal: "<i>Molecular Plant-Microbe Interactions</i>",
     year: 2025,
     citations: 0,
-    url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
-    abstract: " ",
+    url: "",
+    abstract: "This publication is under review.",
     citingPapers: []
   },  
   {
