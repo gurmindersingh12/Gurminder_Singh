@@ -26,7 +26,7 @@ const publications = [
     year: 2025,
     citations: 0,
     url: "",
-    abstract: "This publication is under review.",
+    abstract: "This publication is under review and accepted with minor revisions.",
     citingPapers: []
   },  
   {
