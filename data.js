@@ -241,7 +241,7 @@ const conferences = [
   {
     title: "Genomic Analysis of the Wheat Exo70 Gene Family",
     authors: "<strong>Singh G</strong>, Faris JD, and Friesen TL",
-    event: "Plant and Animal Genome (PAG) Conference",
+    conference: "Plant and Animal Genome (PAG) Conference",
     year: 2025,
     citations: 0,
     url: "https://pag.confex.com/pag/2025/abstract/12345",
@@ -251,7 +251,7 @@ const conferences = [
   {
     title: "CRISPR/Cas9 Applications in Crop Resistance Research",
     authors: "<strong>Singh G</strong>, Haugrud A, Zhang Z, and Faris JD",
-    event: "American Phytopathological Society Annual Meeting",
+    conference: "American Phytopathological Society Annual Meeting",
     year: 2024,
     citations: 0,
     url: "",
@@ -261,7 +261,7 @@ const conferences = [
   {
     title: "Methodology to study the resistance of root-lesion nematode (<i>Pratylenchus neglectus</i>) in wheat under greenhouse conditions",
     authors: "<strong>Singh G</strong> and Yan GP",
-    event: "<i>APS North Central Divison Meeting</i>, Fargo, North Dakota",
+    conference: "<i>APS North Central Divison Meeting</i>, Fargo, North Dakota",
     year: 2018,
     citations: 1,
     url: "https://doi.org/10.1094/PHYTO-108-12-S2.20",
