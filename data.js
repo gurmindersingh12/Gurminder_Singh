@@ -259,14 +259,22 @@ const conferences = [
     citingPapers: []
   },
   {
-    title: "QTL Mapping for Tan Spot Resistance in Wheat",
-    authors: "<strong>Singh G</strong>, Haugrud A, Szabo-Hever A, and Faris JD",
-    event: "Tri-Societies (ASA-CSSA-SSSA) International Annual Meeting",
-    year: 2023,
-    citations: 0,
-    url: "https://example.com/qtl-mapping-tan-spot",
-    abstract: "Presented research findings on QTL mapping for tan spot resistance in wheat, highlighting key genetic loci.",
-    citingPapers: []
+    title: "Methodology to study the resistance of root-lesion nematode (<i>Pratylenchus neglectus</i>) in wheat under greenhouse conditions",
+    authors: "<strong>Singh G</strong> and Yan GP",
+    event: "<i>APS North Central Divison Meeting</i>, Fargo, North Dakota",
+    year: 2018,
+    citations: 1,
+    url: "https://doi.org/10.1094/PHYTO-108-12-S2.20",
+    abstract: "The root-lesion nematode (RLN; Pratylenchus neglectus) is one of the important plant-parasitic nematodes which invade the roots of wheat and cause yield losses throughout the world. Resistance of wheat cultivars against RLN is traditionally evaluated by measuring reproductive factor (RF) which is calculated by dividing the final nematode population density by the initial population density. However, RF is affected by several factors, such as plant growth period in greenhouse, and soil texture. The objective of this study was to evaluate the effects of these factors on RF. In one experiment, field soil naturally infested with P. neglectus was used to infect wheat plants, and nematodes were extracted at 8, 10, 12, 14, and 16 weeks after planting using Whitehead Tray method. In another experiment, the wheat was grown in two different soil types including sandy and sandy loam soil which were artificially inoculated with 300 P. neglectus/150 g of soil with five replications. A maximum plant root mass and nematode RF of 16 were obtained at 14 weeks after planting. Sandy soil, having RF of 8, had significantly greater reproduction than sandy loam soil (RF = 1). Using sandy soil and harvesting at 14 weeks after planting produced the best results. This improved methodology will facilitate resistance screening of wheat germplasm or varieties against RLN under greenhouse conditions.",
+    citingPapers: [
+      {
+        title: "Evaluation of wheat cultivars and germplasm lines for resistance to <i>Pratylenchus neglectus</i> populations collected in North Dakota",
+        authors: "<strong>Singh G</strong>, KC A, Sandhu KS, Friskop AJ, Liu Z, and Yan GP",
+        journal: "<i>Plant Disease</i> 117:3817-3824",
+        year: 2023,
+        url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-03-23-0590-RE"
+      },
+    ]
   }
 ];
 
