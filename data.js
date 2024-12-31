@@ -239,23 +239,25 @@ const publications = [
 
 const conferences = [
   {
-    title: "Genomic Analysis of the Wheat Exo70 Gene Family",
-    authors: "<strong>Singh G</strong>, Faris JD, and Friesen TL",
-    conference: "Plant and Animal Genome (PAG) Conference",
+    title: "Genomic and Functional Characterization of an <i>Exo70-like</i> Gene Governing Susceptibility to Tan Spot in Wheat",
+    authors: "<strong>Singh G</strong>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
+    conference: "<i>Plant and Animal Genome XXXII (PAG 32)</i> Conference",
     year: 2025,
     citations: 0,
-    url: "https://pag.confex.com/pag/2025/abstract/12345",
-    abstract: "Presented a talk on the genomic analysis of wheat Exo70 gene family, exploring its role in plant-pathogen interactions.",
+    url: "https://plan.core-apps.com/pag32/abstract/0d2898dc-9da9-49f8-8f92-e5c77817cf59",
+    abstract: "Tan spot, caused by the necrotrophic fungus Pyrenophora tritici-repentis, leads to significant yield losses in wheat worldwide. The fungal effector Ptr ToxB interacts with the wheat susceptibility gene Tsc2, inducing chlorosis and reducing photosynthetic activity. This study aimed to identify and functionally characterize Tsc2 to enhance understanding of this host-pathogen interaction. We mapped the Tsc2 locus using a biparental population derived from a cross between durum wheat cultivars Kronos (Ptr ToxB-sensitive) and Gredho (insensitive). High-resolution mapping was conducted in an F2 population of 1,490 individuals (Kronos × Gredho) using KASP markers designed from exome capture data, narrowing Tsc2 to a 108-kb interval on chromosome arm 2BS containing ten candidate genes. Comparative genomics across ten wheat genome assemblies revealed that two genes, an Exo70 and an LRR-Protein Kinase, were present exclusively in sensitive genotypes. Sequencing of Kronos TILLING mutants and Ptr ToxB-insensitive EMS mutants of the cultivar Prosper identified mutations in Exo70 correlating with insensitivity, implicating it as the candidate Tsc2 gene. Functional validation is underway through genetic complementation using Agrobacterium-mediated transformation of insensitive genotypes (Bobwhite and Fielder) with the wild-type Exo70 gene and CRISPR/Cas9-mediated gene knockouts. Additionally, yeast two-hybrid assays are being conducted to elucidate the interaction between Exo70 and Ptr ToxB. The identification and functional characterization of Exo70 advances our understanding of the molecular mechanisms underlying wheat susceptibility to tan spot. We developed a high-throughput marker for the absent Tsc2 allele, efficiently predicting Ptr ToxB-insensitive lines in durum and spring wheat, facilitating marker-assisted elimination of Tsc2.
+
+",
     citingPapers: []
   },
   {
-    title: "CRISPR/Cas9 Applications in Crop Resistance Research",
-    authors: "<strong>Singh G</strong>, Haugrud A, Zhang Z, and Faris JD",
-    conference: "American Phytopathological Society Annual Meeting",
-    year: 2024,
+    title: "Identification of QTL associated with resistance to root-lesion nematode (<i>Pratylenchus neglectus</i>) in wheat using genotyping-by-sequencing",
+    authors: "<strong>Singh G</strong>, Li X, Smiley R, and Yan GP",
+    conference: "<i>APS Plant Health 2019 Annual Meeting<i>, Cleveland, Ohio",
+    year: 2019,
     citations: 0,
-    url: "",
-    abstract: "Discussed applications of CRISPR/Cas9 technology in improving disease resistance in wheat and other crops.",
+    url: "https://doi.org/10.1094/PHYTO-109-10-S2.1",
+    abstract: "The root-lesion nematode, <i>Pratylenchus neglectus</i> is one of the major soil-borne pathogens that reduces wheat productivity throughout the world. As very few management practices are available, utilization of host resistance is considered to be the most effective and preferred method to mitigate effects of root-lesion nematode in wheat. Phenotyping of resistance to <i>P. neglectus</i> in wheat is labor- intensive and time-consuming, which is the major constraint in breeding programs to develop resistant cultivars. Molecular marker assisted selection may enhance the process of developing resistant cultivars. An F2:5 recombinant inbred line population was developed from a cross between a soft white spring wheat “Louise” (susceptible parent) and an Iranian landrace “Persia 20” (resistant parent). The recombinant inbred lines were evaluated for <i>P. neglectus</i> resistance reactions under controlled greenhouse conditions, and then were genotyped using genotyping-by-sequencing (GBS). Using Tassel5 GBSv2 Pipeline, a total of 2,427 high-quality SNPs were identified and used to construct a linkage map. We detected one major QTL (LOD = 5.3) showing association with <i>P. neglectus</i> resistance, located on chromosome 4A and accounted for 35.4% of the total phenotypic variation. The SNP markers closely linked with this QTL will be converted to PCR-based markers that may provide an efficient tool to breeders for developing <i>P. neglectus</i>-resistant cultivars using marker-assisted selection. ",
     citingPapers: []
   },
   {
@@ -265,7 +267,7 @@ const conferences = [
     year: 2018,
     citations: 1,
     url: "https://doi.org/10.1094/PHYTO-108-12-S2.20",
-    abstract: "The root-lesion nematode (RLN; Pratylenchus neglectus) is one of the important plant-parasitic nematodes which invade the roots of wheat and cause yield losses throughout the world. Resistance of wheat cultivars against RLN is traditionally evaluated by measuring reproductive factor (RF) which is calculated by dividing the final nematode population density by the initial population density. However, RF is affected by several factors, such as plant growth period in greenhouse, and soil texture. The objective of this study was to evaluate the effects of these factors on RF. In one experiment, field soil naturally infested with P. neglectus was used to infect wheat plants, and nematodes were extracted at 8, 10, 12, 14, and 16 weeks after planting using Whitehead Tray method. In another experiment, the wheat was grown in two different soil types including sandy and sandy loam soil which were artificially inoculated with 300 P. neglectus/150 g of soil with five replications. A maximum plant root mass and nematode RF of 16 were obtained at 14 weeks after planting. Sandy soil, having RF of 8, had significantly greater reproduction than sandy loam soil (RF = 1). Using sandy soil and harvesting at 14 weeks after planting produced the best results. This improved methodology will facilitate resistance screening of wheat germplasm or varieties against RLN under greenhouse conditions.",
+    abstract: "The root-lesion nematode (RLN; <i>Pratylenchus neglectus</i>) is one of the important plant-parasitic nematodes which invade the roots of wheat and cause yield losses throughout the world. Resistance of wheat cultivars against RLN is traditionally evaluated by measuring reproductive factor (RF) which is calculated by dividing the final nematode population density by the initial population density. However, RF is affected by several factors, such as plant growth period in greenhouse, and soil texture. The objective of this study was to evaluate the effects of these factors on RF. In one experiment, field soil naturally infested with <i>P. neglectus</i> was used to infect wheat plants, and nematodes were extracted at 8, 10, 12, 14, and 16 weeks after planting using Whitehead Tray method. In another experiment, the wheat was grown in two different soil types including sandy and sandy loam soil which were artificially inoculated with 300 <i>P. neglectus</i>/150 g of soil with five replications. A maximum plant root mass and nematode RF of 16 were obtained at 14 weeks after planting. Sandy soil, having RF of 8, had significantly greater reproduction than sandy loam soil (RF = 1). Using sandy soil and harvesting at 14 weeks after planting produced the best results. This improved methodology will facilitate resistance screening of wheat germplasm or varieties against RLN under greenhouse conditions.",
     citingPapers: [
       {
         title: "Evaluation of wheat cultivars and germplasm lines for resistance to <i>Pratylenchus neglectus</i> populations collected in North Dakota",
