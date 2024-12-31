@@ -235,3 +235,38 @@ const publications = [
     ]
   }
 ];
+
+
+const conferences = [
+  {
+    title: "Genomic Analysis of the Wheat Exo70 Gene Family",
+    authors: "<strong>Singh G</strong>, Faris JD, and Friesen TL",
+    event: "Plant and Animal Genome (PAG) Conference",
+    year: 2025,
+    citations: 0,
+    url: "https://pag.confex.com/pag/2025/abstract/12345",
+    abstract: "Presented a talk on the genomic analysis of wheat Exo70 gene family, exploring its role in plant-pathogen interactions.",
+    citingPapers: []
+  },
+  {
+    title: "CRISPR/Cas9 Applications in Crop Resistance Research",
+    authors: "<strong>Singh G</strong>, Haugrud A, Zhang Z, and Faris JD",
+    event: "American Phytopathological Society Annual Meeting",
+    year: 2024,
+    citations: 0,
+    url: "",
+    abstract: "Discussed applications of CRISPR/Cas9 technology in improving disease resistance in wheat and other crops.",
+    citingPapers: []
+  },
+  {
+    title: "QTL Mapping for Tan Spot Resistance in Wheat",
+    authors: "<strong>Singh G</strong>, Haugrud A, Szabo-Hever A, and Faris JD",
+    event: "Tri-Societies (ASA-CSSA-SSSA) International Annual Meeting",
+    year: 2023,
+    citations: 0,
+    url: "https://example.com/qtl-mapping-tan-spot",
+    abstract: "Presented research findings on QTL mapping for tan spot resistance in wheat, highlighting key genetic loci.",
+    citingPapers: []
+  }
+];
+
