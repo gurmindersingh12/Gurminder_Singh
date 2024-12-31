@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Handle citation link clicks
-  document.addEventListener("click", function (e) {
+  document.addListener("click", function (e) {
     if (e.target && e.target.classList.contains("citation-link")) {
       e.preventDefault();
       var pubTitle = e.target.getAttribute("data-pub-title");
@@ -326,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <h5><a href="#" class="conference-link" data-conf-index="${confIndex}" data-year="${year}">${conf.title}</a></h5>
         <p>
           <strong>Authors:</strong> ${conf.authors}<br>
-          <strong>Event:</strong> ${conf.event}<br>
+          <strong>Conference:</strong> ${conf.conference}<br>
           <strong>Citations:</strong> 
           <a href="#" class="citation-link" data-conf-title="${conf.title}">
             ${conf.citations}
