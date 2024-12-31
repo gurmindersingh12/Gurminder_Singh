@@ -263,3 +263,95 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Existing code...
+
+  // Group conferences by year
+  var conferencesByYear = {};
+  conferences.forEach(function (conf) {
+    if (!conferencesByYear[conf.year]) {
+      conferencesByYear[conf.year] = [];
+    }
+    conferencesByYear[conf.year].push(conf);
+  });
+
+  // Sort years in descending order
+  var confYears = Object.keys(conferencesByYear).sort(function (a, b) {
+    return b - a;
+  });
+
+  // Populate conferences accordion
+  var conferencesAccordion = document.getElementById("conferences-accordion");
+  confYears.forEach(function (year, index) {
+    // Create the accordion card for each year
+    var card = document.createElement("div");
+    card.className = "card";
+
+    var cardHeader = document.createElement("div");
+    cardHeader.className = "card-header";
+    cardHeader.id = "heading-conference-" + year;
+
+    var h2 = document.createElement("h2");
+    h2.className = "mb-0";
+
+    var button = document.createElement("button");
+    button.className = "btn btn-link btn-block text-left";
+    button.type = "button";
+    button.setAttribute("data-toggle", "collapse");
+    button.setAttribute("data-target", "#collapse-conference-" + year);
+    button.setAttribute("aria-expanded", index === 0 ? "true" : "false");
+    button.setAttribute("aria-controls", "collapse-conference-" + year);
+    button.innerHTML = `<i class="fas fa-calendar-alt"></i> Conferences in ${year}`;
+
+    h2.appendChild(button);
+    cardHeader.appendChild(h2);
+
+    var collapseDiv = document.createElement("div");
+    collapseDiv.id = "collapse-conference-" + year;
+    collapseDiv.className = "collapse" + (index === 0 ? " show" : "");
+    collapseDiv.setAttribute("aria-labelledby", "heading-conference-" + year);
+    collapseDiv.setAttribute("data-parent", "#conferences-accordion");
+
+    var cardBody = document.createElement("div");
+    cardBody.className = "card-body";
+
+    // Add conferences for the year
+    conferencesByYear[year].forEach(function (conf, confIndex) {
+      var confDiv = document.createElement("div");
+      confDiv.className = "mb-3";
+      confDiv.innerHTML = `
+        <h5><a href="#" class="conference-link" data-conf-index="${confIndex}" data-year="${year}">${conf.title}</a></h5>
+        <p>
+          <strong>Authors:</strong> ${conf.authors}<br>
+          <strong>Event:</strong> ${conf.event}<br>
+          <strong>Citations:</strong> 
+          <a href="#" class="citation-link" data-conf-title="${conf.title}">
+            ${conf.citations}
+          </a>
+        </p>
+        <button class="btn btn-primary btn-sm read-more-btn" data-conf-index="${confIndex}" data-year="${year}">Read More</button>
+        <hr>
+      `;
+      cardBody.appendChild(confDiv);
+    });
+
+    collapseDiv.appendChild(cardBody);
+    card.appendChild(cardHeader);
+    card.appendChild(collapseDiv);
+    conferencesAccordion.appendChild(card);
+  });
+
+  // Handle Read More button clicks for conferences
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.classList.contains("read-more-btn")) {
+      var confIndex = e.target.getAttribute("data-conf-index");
+      var year = e.target.getAttribute("data-year");
+      var conf = conferencesByYear[year][confIndex];
+      showAbstract(conf);
+    }
+  });
+});
+
