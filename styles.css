@@ -139,6 +139,28 @@ body {
   margin: 0;
 }
 
+
+#conferences .card-header {
+  background-color: #f8f9fa;
+}
+
+#conferences .card-header h2 {
+  margin: 0;
+}
+
+#conferences .btn-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #007bff;
+}
+
+#conferences .btn-link:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+
+
 /* Chart and Modal Styling */
 #citations-chart {
   max-height: 400px;
