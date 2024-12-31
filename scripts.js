@@ -98,23 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
     publicationsAccordion.appendChild(card);
   });
 
-  // Handle citation link clicks
-  document.addListener("click", function (e) {
-    if (e.target && e.target.classList.contains("citation-link")) {
-      e.preventDefault();
-      var pubTitle = e.target.getAttribute("data-pub-title");
-      var pub = publications.find(function (p) {
-        return p.title === pubTitle;
-      });
-      if (pub && pub.citingPapers.length > 0) {
-        showCitingPapers(pub);
-      } else {
-        alert("No citations found for this publication.");
-      }
-    }
-  });
-
-  // Handle Read More button clicks
+  // Handle Read More button clicks for publications
   document.addEventListener("click", function (e) {
     if (e.target && e.target.classList.contains("read-more-btn")) {
       var pubIndex = e.target.getAttribute("data-pub-index");
@@ -124,150 +108,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Handle publication link clicks to show "not published" popup
+  // Handle publication title clicks
   document.addEventListener("click", function (e) {
     if (e.target && e.target.classList.contains("publication-link")) {
       e.preventDefault();
       var pubIndex = e.target.getAttribute("data-pub-index");
       var year = e.target.getAttribute("data-year");
       var pub = publicationsByYear[year][pubIndex];
-      if (pub.journal.includes("(Under Review)")) {
-        showNotPublishedYet(pub);
-      } else {
-        showAbstract(pub);
-      }
+      showAbstract(pub);
     }
   });
-
-  // Function to display a "Not Published Yet" message in a modal
-  function showNotPublishedYet(pub) {
-    var modalContent = `
-      <div class="modal-header">
-        <h5 class="modal-title">Publication Status</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h5>${pub.title}</h5>
-        <p>This publication is currently under review and not yet published.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    `;
-
-    // Inject the content into the existing modal
-    document.querySelector('#abstractModal .modal-content').innerHTML = modalContent;
-    $('#abstractModal').modal('show');
-  }
-
-  // Function to display the abstract in a modal
-  function showAbstract(pub) {
-    // Check if the publication is under review
-    var isUnderReview = pub.journal.includes("(Under Review)");
-    var modalContent = `
-      <div class="modal-header">
-        <h5 class="modal-title">Abstract</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h5>${pub.title}</h5>
-        <p>${pub.abstract}</p>
-      </div>
-      <div class="modal-footer">
-        ${
-          isUnderReview
-            ? `<span class="text-muted">This publication is currently under review and not yet published.</span>`
-            : `<a href="${pub.url}" class="btn btn-primary" target="_blank">View Publication</a>`
-        }
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    `;
-
-    // Inject the content into the existing modal
-    document.querySelector('#abstractModal .modal-content').innerHTML = modalContent;
-    $('#abstractModal').modal('show');
-  }
-
-  // Function to display citing papers
-  function showCitingPapers(pub) {
-    // Sort citing papers by year in descending order
-    var sortedCitingPapers = pub.citingPapers.sort(function (a, b) {
-      return b.year - a.year;
-    });
-
-    var modalContent = `
-      <div class="modal-header">
-        <h5 class="modal-title">Citing Papers</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h5>Citing Papers for "${pub.title}"</h5>
-        <ul>
-          ${sortedCitingPapers
-            .map(function (cp) {
-              return `<li>
-                ${cp.authors}, ${cp.year}. <a href="${cp.url}" target="_blank">${cp.title}</a>. ${cp.journal}.
-              </li>`;
-            })
-            .join("")}
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    `;
-
-    // Inject the content into the existing modal
-    document.querySelector('#citingPapersModal .modal-content').innerHTML = modalContent;
-    $('#citingPapersModal').modal('show');
-  }
-
-  // Manually define your citation data here
-  var citationYears = ['2020', '2021', '2022', '2023', '2024'];
-  var citationData = [1, 1, 2, 7, 10];
-
-  // Calculate total citations
-  var totalCitations = citationData.reduce(function (accumulator, currentValue) {
-    return accumulator + currentValue;
-  }, 0);
-
-  // Display total citations
-  document.getElementById('total-citations').textContent = totalCitations;
-
-  // Create citations chart
-  var ctx = document.getElementById('citations-chart').getContext('2d');
-  new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: citationYears,
-      datasets: [{
-        label: 'Citations per Year',
-        data: citationData,
-        backgroundColor: 'rgba(75, 192, 192, 0.7)',
-        borderColor: 'rgba(75, 192, 192, 1)',
-        borderWidth: 1
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: true, // Prevents infinite scrolling
-      scales: {
-        y: { beginAtZero: true }
-      }
-    }
-  });
-});
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Existing code...
 
   // Group conferences by year
   var conferencesByYear = {};
@@ -353,5 +203,47 @@ document.addEventListener("DOMContentLoaded", function () {
       showAbstract(conf);
     }
   });
-});
 
+  // Handle conference title clicks
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.classList.contains("conference-link")) {
+      e.preventDefault();
+      var confIndex = e.target.getAttribute("data-conf-index");
+      var year = e.target.getAttribute("data-year");
+      var conf = conferencesByYear[year][confIndex];
+      showAbstract(conf);
+    }
+  });
+
+  // Function to display the abstract in a modal
+  function showAbstract(item) {
+    // Check if the item (publication or conference) has a URL
+    var hasUrl = item.url && item.url !== "";
+
+    var modalContent = `
+      <div class="modal-header">
+        <h5 class="modal-title">Abstract</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>${item.title}</h5>
+        <p><strong>Authors:</strong> ${item.authors}</p>
+        <p>${item.abstract}</p>
+      </div>
+      <div class="modal-footer">
+        ${
+          hasUrl
+            ? `<a href="${item.url}" class="btn btn-primary" target="_blank">View Abstract</a>`
+            : `<span class="text-muted">No abstract link available.</span>`
+        }
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    `;
+
+    // Inject the content into the existing modal
+    document.querySelector("#abstractModal .modal-content").innerHTML = modalContent;
+    $("#abstractModal").modal("show");
+  }
+});
