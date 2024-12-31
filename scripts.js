@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var pubIndex = e.target.getAttribute("data-pub-index");
       var year = e.target.getAttribute("data-year");
       var pub = publicationsByYear[year][pubIndex];
-      showAbstract(pub);
+      showAbstract(pub, "publication");
     }
   });
 
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var pubIndex = e.target.getAttribute("data-pub-index");
       var year = e.target.getAttribute("data-year");
       var pub = publicationsByYear[year][pubIndex];
-      showAbstract(pub);
+      showAbstract(pub, "publication");
     }
   });
 
@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var confIndex = e.target.getAttribute("data-conf-index");
       var year = e.target.getAttribute("data-year");
       var conf = conferencesByYear[year][confIndex];
-      showAbstract(conf);
+      showAbstract(conf, "conference");
     }
   });
 
@@ -211,18 +211,24 @@ document.addEventListener("DOMContentLoaded", function () {
       var confIndex = e.target.getAttribute("data-conf-index");
       var year = e.target.getAttribute("data-year");
       var conf = conferencesByYear[year][confIndex];
-      showAbstract(conf);
+      showAbstract(conf, "conference");
     }
   });
 
   // Function to display the abstract in a modal
-  function showAbstract(item) {
+  function showAbstract(item, type) {
     // Check if the item (publication or conference) has a URL
     var hasUrl = item.url && item.url !== "";
 
+    var buttonText = type === "publication" ? "View Publication" : "View Abstract";
+    var noLinkText =
+      type === "publication"
+        ? "No publication link available."
+        : "No abstract link available.";
+
     var modalContent = `
       <div class="modal-header">
-        <h5 class="modal-title">Abstract</h5>
+        <h5 class="modal-title">${type === "publication" ? "Publication" : "Abstract"}</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -235,8 +241,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="modal-footer">
         ${
           hasUrl
-            ? `<a href="${item.url}" class="btn btn-primary" target="_blank">View Abstract</a>`
-            : `<span class="text-muted">No abstract link available.</span>`
+            ? `<a href="${item.url}" class="btn btn-primary" target="_blank">${buttonText}</a>`
+            : `<span class="text-muted">${noLinkText}</span>`
         }
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
