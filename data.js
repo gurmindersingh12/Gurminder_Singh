@@ -10,7 +10,7 @@ const publications = [
     citingPapers: []
   },  
   {
-    title: "Evaluation of Field Pea Cultivars for Resistance to Pin Nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
+    title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
     authors: "Ojha E, <strong>Singh G</strong>, Plaisance A, and Yan GP",
     journal: "<i>Plant Disease</i>",
     year: 2025,
@@ -30,13 +30,13 @@ const publications = [
     citingPapers: []
   },  
   {
-    title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by Parastagonospora nodorum",
+    title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by <i>Parastagonospora nodorum</i>",
     authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
     journal: "<i>Plant Disease</i>",
     year: 2024,
     citations: 0,
     url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
-    abstract: "<strong>Abstract:</strong> Septoria nodorum blotch is an important disease of both durum and hard red spring wheat (HRSW) worldwide. The disease is caused by the necrotrophic fungal pathogen Parastagonospora nodorum when compatible gene-for-gene interactions occur between pathogen-produced necrotrophic effectors (NEs) and corresponding host sensitivity genes. To date, nine sensitivity gene-NE interactions have been identified, but there is little information available regarding their overall frequency in durum and HRSW. Here, we infiltrated a global HRSW panel (HRSWP) and the Global Durum Panel (GDP) with P. nodorum NEs SnToxA, SnTox1, SnTox267, SnTox3, and SnTox5. Frequencies of sensitivity to SnTox1 and SnTox5 were higher in durum compared to HRSW and vice versa for SnTox267 and SnTox3. Strong associations for the known sensitivity loci Tsn1, Snn1, Snn2, Snn3, Snn5, and Snn7 along with potentially novel sensitivity loci on chromosome arms 7DS and 3BL associated with SnToxA and SnTox267, respectively, were identified in the HRSWP. In the GDP, Snn1, Snn3, and Snn5 were identified along with novel loci associated with sensitivity to SnTox267 on chromosome arms 2AS, 2AL, and 6AS and with SnTox5 sensitivity on 2BS and 7BL. These results reveal additional NE sensitivity loci beyond those previously described demonstrating a higher level of genetic complexity of the wheat-P. nodorum system than previously thought. Knowledge regarding the prevalence and genomic locations of SNB susceptibility genes in HRSW and durum will prove useful for developing efficient breeding strategies and improving varieties for SNB resistance.",
+    abstract: "<strong>Abstract:</strong> Septoria nodorum blotch is an important disease of both durum and hard red spring wheat (HRSW) worldwide. The disease is caused by the necrotrophic fungal pathogen Parastagonospora nodorum when compatible gene-for-gene interactions occur between pathogen-produced necrotrophic effectors (NEs) and corresponding host sensitivity genes. To date, nine sensitivity gene-NE interactions have been identified, but there is little information available regarding their overall frequency in durum and HRSW. Here, we infiltrated a global HRSW panel (HRSWP) and the Global Durum Panel (GDP) with P. nodorum NEs SnToxA, SnTox1, SnTox267, SnTox3, and SnTox5. Frequencies of sensitivity to SnTox1 and SnTox5 were higher in durum compared to HRSW and vice versa for SnTox267 and SnTox3. Strong associations for the known sensitivity loci <i>Tsn1</i>, <i>Snn1</i>, <i>Snn2</i>, <i>Snn3</i>, <i>Snn5</i>, and <i>Snn7</i> along with potentially novel sensitivity loci on chromosome arms 7DS and 3BL associated with SnToxA and SnTox267, respectively, were identified in the HRSWP. In the GDP, <i>Snn1</i>, <i>Snn3</i>, and <i>Snn5</i> were identified along with novel loci associated with sensitivity to SnTox267 on chromosome arms 2AS, 2AL, and 6AS and with SnTox5 sensitivity on 2BS and 7BL. These results reveal additional NE sensitivity loci beyond those previously described demonstrating a higher level of genetic complexity of the wheat-<i>P. nodorum</i> system than previously thought. Knowledge regarding the prevalence and genomic locations of SNB susceptibility genes in HRSW and durum will prove useful for developing efficient breeding strategies and improving varieties for SNB resistance.",
     citingPapers: []
   },
   {
@@ -240,7 +240,7 @@ const publications = [
 
 const conferences = [
   {
-    title: "Genomic and Functional Characterization of an <i>Exo70-like</i> Gene Governing Susceptibility to Tan Spot in Wheat",
+    title: "Genomic and functional characterization of an <i>Exo70-like</i> gene governing susceptibility to tan spot in wheat",
     authors: "<strong>Singh G</strong>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
     conference: "<i>Plant and Animal Genome XXXII (PAG 32)</i> Conference, San Diego, California",
     year: 2025,
@@ -280,13 +280,13 @@ const conferences = [
     citingPapers: []
   },
   {
-    title: "Molecular Cloning and Validation of Candidate Genes for the Tan Spot Susceptibility Locus <i>Tsc2</i> in Wheat",
+    title: "Molecular cloning and validation of candidate genes for the tan spot susceptibility locus <i>Tsc2</i> in wheat",
     authors: "<strong>Singh G</strong>, Running K, Haugrud A, Seneviratne S, Zhang Z, Szabo-Hever A, Acharya K, Liu Z, and Faris JD",
     conference: "<i>ASA, CSSA, SSSA International Annual Meeting</i>, St. Louis, Missouri",
     year: 2023,
     citations: 0,
     url: "https://scisoc.confex.com/scisoc/2023am/meetingapp.cgi/Paper/148627",
-    abstract: "Tan spot, a prevalent foliar disease caused by the necrotrophic fungus Pyrenophora tritici-repentis, causes significant yield losses in wheat worldwide. The Tsc2 locus on chromosome arm 2BS in wheat recognizes the fungal necrotrophic effector Ptr ToxB. The Tsc2-Ptr ToxB interaction triggers chlorosis, which leads to decreased photosynthetic activity, plant stress, and ultimately yield loss. In this study, we used a durum wheat recombinant inbred line population derived from a cross between Kronos (sensitive to Ptr ToxB) and Gredho (insensitive), along with a diverse hard red spring wheat panel, to precisely map the Tsc2 locus. To saturate the Tsc2 genomic region, KASP markers were designed using exome capture data from Kronos and Gredho. High-resolution mapping of these molecular markers delineated the Tsc2 locus to a 0.13 cM interval in an F2 population (Kronos × Gredho) consisting of 2,980 gametes. Based on the genome assembly of the durum wheat cultivar Simeto, the interval was 108.48 kb in size and harbored ten candidate genes. These genes were interrogated using a reverse genetics approach with the Kronos TILLING mutants. We also developed an ethyl methanesulfonate (EMS)-induced mutant population of Prosper, and screening of M2 families led to the identification of multiple Ptr ToxB-insensitive mutants. Comparative sequence analysis of multiple Kronos and Prosper EMS mutants revealed a single candidate gene as Tsc2 and is currently being further validated by genetic complementation. Transcription expression levels, allelic diversity, and functional analysis of the gene are also being conducted. The findings of this study will expedite the functional characterization of the Tsc2 gene, enhance our understanding of the wheat-P. tritici-repentis interaction, and aid in developing diagnostic genetic markers for breeding programs to mitigate tan spot in wheat.",
+    abstract: "Tan spot, a prevalent foliar disease caused by the necrotrophic fungus <i>Pyrenophora tritici-repentis</i>, causes significant yield losses in wheat worldwide. The Tsc2 locus on chromosome arm 2BS in wheat recognizes the fungal necrotrophic effector Ptr ToxB. The Tsc2-Ptr ToxB interaction triggers chlorosis, which leads to decreased photosynthetic activity, plant stress, and ultimately yield loss. In this study, we used a durum wheat recombinant inbred line population derived from a cross between Kronos (sensitive to Ptr ToxB) and Gredho (insensitive), along with a diverse hard red spring wheat panel, to precisely map the Tsc2 locus. To saturate the Tsc2 genomic region, KASP markers were designed using exome capture data from Kronos and Gredho. High-resolution mapping of these molecular markers delineated the Tsc2 locus to a 0.13 cM interval in an F2 population (Kronos × Gredho) consisting of 2,980 gametes. Based on the genome assembly of the durum wheat cultivar Simeto, the interval was 108.48 kb in size and harbored ten candidate genes. These genes were interrogated using a reverse genetics approach with the Kronos TILLING mutants. We also developed an ethyl methanesulfonate (EMS)-induced mutant population of Prosper, and screening of M2 families led to the identification of multiple Ptr ToxB-insensitive mutants. Comparative sequence analysis of multiple Kronos and Prosper EMS mutants revealed a single candidate gene as Tsc2 and is currently being further validated by genetic complementation. Transcription expression levels, allelic diversity, and functional analysis of the gene are also being conducted. The findings of this study will expedite the functional characterization of the Tsc2 gene, enhance our understanding of the wheat-P. tritici-repentis interaction, and aid in developing diagnostic genetic markers for breeding programs to mitigate tan spot in wheat.",
     citingPapers: []
   },
   {
@@ -330,7 +330,7 @@ const conferences = [
     citingPapers: []
   },
   {
-    title: "",
+    title: "Identification of quantitative trait loci for resistance to <i>Pratylenchus neglectus</i> in triticale",
     authors: "<strong>Singh G</strong>, Yan GP, Liu Z, and Faris JD",
     conference: "<i>7th International Congress of Nematology</i>, Antibes Juan-les-Pins, France",
     year: 2022,
