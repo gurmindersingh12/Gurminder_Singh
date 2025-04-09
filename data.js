@@ -34,20 +34,35 @@ const publications = [
     authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
     journal: "<i>Plant Disease</i>",
     year: 2024,
-    citations: 0,
+    citations: 1,
     url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch is an important disease of both durum and hard red spring wheat (HRSW) worldwide. The disease is caused by the necrotrophic fungal pathogen Parastagonospora nodorum when compatible gene-for-gene interactions occur between pathogen-produced necrotrophic effectors (NEs) and corresponding host sensitivity genes. To date, nine sensitivity gene-NE interactions have been identified, but there is little information available regarding their overall frequency in durum and HRSW. Here, we infiltrated a global HRSW panel (HRSWP) and the Global Durum Panel (GDP) with P. nodorum NEs SnToxA, SnTox1, SnTox267, SnTox3, and SnTox5. Frequencies of sensitivity to SnTox1 and SnTox5 were higher in durum compared to HRSW and vice versa for SnTox267 and SnTox3. Strong associations for the known sensitivity loci <i>Tsn1</i>, <i>Snn1</i>, <i>Snn2</i>, <i>Snn3</i>, <i>Snn5</i>, and <i>Snn7</i> along with potentially novel sensitivity loci on chromosome arms 7DS and 3BL associated with SnToxA and SnTox267, respectively, were identified in the HRSWP. In the GDP, <i>Snn1</i>, <i>Snn3</i>, and <i>Snn5</i> were identified along with novel loci associated with sensitivity to SnTox267 on chromosome arms 2AS, 2AL, and 6AS and with SnTox5 sensitivity on 2BS and 7BL. These results reveal additional NE sensitivity loci beyond those previously described demonstrating a higher level of genetic complexity of the wheat-<i>P. nodorum</i> system than previously thought. Knowledge regarding the prevalence and genomic locations of SNB susceptibility genes in HRSW and durum will prove useful for developing efficient breeding strategies and improving varieties for SNB resistance.",
-    citingPapers: []
+    citingPapers: [
+      {
+        title: "Protein kinase-major sperm protein (PK-MSP) genes mediate recognition of the fungal necrotrophic effector SnTox3 to cause septoria nodorum blotch in wheat",
+        authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, Singh G, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
+        journal: "<em>Molecular Plant-Microbe Interactions</em>",
+        year: 2025,
+        url: "https://doi.org/10.1094/MPMI-10-24-0125-FI"
+      }
+    ]
   },
   {
     title: "Evolution, diversity, and function of the disease susceptibility gene <i>Snn1</i> in wheat",
     authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <strong>Singh G</strong>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, and Faris JD",
     journal: "<i>The Plant Journal</i> 119:1720-1736",
     year: 2024,
-    citations: 2,
+    citations: 3,
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB), caused by <i>Parastagonospora nodorum</i>, is a disease of durum and common wheat initiated by the recognition of pathogen-produced necrotrophic effectors (NEs) by specific wheat genes. The wheat gene Snn1 was previously cloned, and it encodes a wall-associated kinase that directly interacts with the NE SnTox1 leading to programmed cell death and ultimately the development of SNB. Here, sequence analysis of <i>Snn1</i> from 114 accessions including diploid, tetraploid, and hexaploid wheat species revealed that some wheat lines possess two copies of Snn1 (designated <i>Snn1-B1</i> and <i>Snn1-B2</i>) approximately 120 kb apart. <i>Snn1-B2</i> evolved relatively recently as a paralog of <i>Snn1-B1</i>, and both genes have undergone diversifying selection. Three point mutations associated with the formation of the first SnTox1-sensitive <i>Snn1-B1</i> allele from a primitive wild wheat were identified. Four subsequent and independent SNPs, three in <i>Snn1-B1</i> and one in <i>Snn1-B2</i>, converted the sensitive alleles to insensitive forms. Protein modeling indicated these four mutations could abolish Snn1–SnTox1 compatibility either through destabilization of the Snn1 protein or direct disruption of the protein–protein interaction. A high-throughput marker was developed for the absent allele of Snn1, and it was 100% accurate at predicting SnTox1-insensitive lines in both durum and spring wheat. Results of this study increase our understanding of the evolution, diversity, and function of Snn1-B1 and Snn1-B2 genes and will be useful for marker-assisted elimination of these genes for better host resistance.",
     citingPapers: [
+      {
+        title: "Protein kinase-major sperm protein (PK-MSP) genes mediate recognition of the fungal necrotrophic effector SnTox3 to cause septoria nodorum blotch in wheat",
+        authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, Singh G, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
+        journal: "<em>Molecular Plant-Microbe Interactions</em>",
+        year: 2025,
+        url: "https://doi.org/10.1094/MPMI-10-24-0125-FI"
+      },
       {
         title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by <i>Parastagonospora nodorum</i>",
         authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, Faris JD",
