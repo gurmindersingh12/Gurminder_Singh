@@ -109,10 +109,17 @@ const publications = [
     authors: "Szabo-Hever A, <strong>Singh G</strong>, Haugrud A, Running K, Seneviratne S, Zhang Z, Shi G, Bassi F, Maccaferri M, Cattivelli L, Tuberosa R, Friesen TL, Liu Z, Xu SS, and Faris JD",
     journal: "<i>Phytopathology</i> 113:1967-1978",
     year: 2023,
-    citations: 5,
+    citations: 6,
     url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-02-23-0043-R",
     abstract: "<strong>Abstract:</strong> Tan spot, caused by the necrotrophic fungal pathogen <i>Pyrenophora tritici-repentis</i> (<i>Ptr</i>), is an important disease of durum and common wheat worldwide. Compared with common wheat, less is known about the genetics and molecular basis of tan spot resistance in durum wheat. We evaluated 510 durum lines from the Global Durum Wheat Panel (GDP) for sensitivity to the necrotrophic effectors (NEs) Ptr ToxA and Ptr ToxB and for reaction to Ptr isolates representing races 1 to 5. Overall, susceptible durum lines were most prevalent in South Asia, the Middle East, and North Africa. Genome-wide association analysis showed that the resistance locus <i>Tsr7</i> was significantly associated with tan spot caused by races 2 and 3, but not races 1, 4, or 5. The NE sensitivity genes <i>Tsc1</i> and <i>Tsc2</i> were associated with susceptibility to Ptr ToxC- and Ptr ToxB-producing isolates, respectively, but <i>Tsn1</i> was not associated with tan spot caused by Ptr ToxA-producing isolates, which further validates that the <i>Tsn1</i>−Ptr ToxA interaction does not play a significant role in tan spot development in durum. A unique locus on chromosome arm 2AS was associated with tan spot caused by race 4, a race once considered avirulent. A novel trait characterized by expanding chlorosis leading to increased disease severity caused by the Ptr ToxB-producing race 5 isolate DW5 was identified, and this trait was governed by a locus on chromosome 5B. We recommend that durum breeders select resistance alleles at the <i>Tsr7</i>, <i>Tsc1</i>, <i>Tsc2</i>, and the chromosome 2AS loci to obtain broad resistance to tan spot.",
     citingPapers: [
+      {
+        title: "Molecular mapping of a novel tan spot susceptibility gene in durum wheat",
+        authors: "Roth TM",
+        journal: "<i>MS Thesis, North Dakota State University, Fargo, ND, USA</i>",
+        year: 2024,
+        url: "https://www.proquest.com/docview/3158247605?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses"
+      },
       {
         title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by <i>Parastagonospora nodorum</i>",
         authors: "Szabo-Hever A, Running K, Seneviratne S, Singh G, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, Faris JD",
