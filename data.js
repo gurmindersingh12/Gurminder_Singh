@@ -5,8 +5,8 @@ const publications = [
     journal: "<i>Theoretical and Applied Genetics</i>",
     year: 2025,
     citations: 0,
-    url: "",
-    abstract: "This publication is under review.",
+    url: "https://doi.org/10.1007/s00122-025-04952-6",
+    abstract: "The wheat <i>Tsn1</i> gene recognizes the necrotrophic effector ToxA, which is produced by three different necrotrophic fungal pathogens. A compatible <i>Tsn1</i>–ToxA interaction leads to host-induced responses that result in the development of disease. Therefore, marker-assisted elimination of functional <i>Tsn1</i> alleles is an effective strategy for the development of disease resistant varieties. To develop such markers, available wheat genome assemblies were used to compare gene and transposable element content in lines with and without <i>Tsn1</i> (<i>Tsn1</i>- and <i>Tsn1</i> +), revealing two conserved haplotypes. Because <i>Tsn1</i> is almost always absent in insensitive lines, Kompetitive allele-specific PCR (KASP) markers were designed in flanking syntenic regions of <i>Tsn1</i>- and <i>Tsn1</i> + assemblies. The KASP markers were validated in more than 1,500 diverse lines. The markers correctly predicted a ToxA-insensitive phenotype in 99.33–100% of the lines, but they were less effective at predicting a ToxA-sensitive phenotype (89.50–94.55%) due to 60 insensitive lines with sensitive marker alleles. Sequence analysis of <i>Tsn1</i> from these lines revealed that some were not transcribed and others contained point mutations. However, some carried and expressed the dominant <i>Tsn1</i> allele, and subsequent analysis of two such lines revealed a second locus controlling ToxA sensitivity on chromosome 2B, termed <i>Tsn1-B2</i>. Genetic mapping of <i>Tsn1-B2</i> in a biparental durum population defined the locus to a 4.8 cM region corresponding to 8.6 Mb in Svevo Rel 2.0. The markers presented here could be used for reliable and robust marker-assisted elimination of <i>Tsn1</i> in a high-throughput manner, furthering the development of wheat genetically resistant to multiple pathogens.",
     citingPapers: []
   },  
   {
@@ -15,8 +15,8 @@ const publications = [
     journal: "<i>Plant Disease</i>",
     year: 2025,
     citations: 0,
-    url: "",
-    abstract: "This publication is under review.",
+    url: "https://doi.org/10.1094/PDIS-02-25-0356-RE",
+    abstract: "Pin nematodes (<i>Paratylenchus</i> spp.) are common plant-parasitic nematodes in North Dakota that can negatively impact field pea (<i>Pisum sativum</i>) production. These nematodes rely on a functional stylet to feed, which develops through molting from a non-feeding fourth-stage juvenile (J-4) into an adult. Understanding the role of host resistance and root exudates in triggering this molting process is crucial for effective nematode management. In this study, we evaluated 31 field pea cultivars for resistance to <i>P. nanus</i> type B in greenhouse experiments using naturally infested soil and investigated the influence of root exudates on J-4 molting under laboratory conditions. Reproductive factor (RF) was calculated as the final nematode population density divided by the initial density. Among the tested cultivars, six were classified as susceptible (Columbia, Carousel, Mystique, Flute, Banner, and Arcadia), twenty were moderately susceptible (DS Admiral, Ginny, Melrose, Korando, Capella, Bacurra, LG Amigo, CDC Striker, Granger, Spider, LG Sunrise, LG Koda, Fergie, SW Midas, Monarch, Nette, Hampton, Greenwood, K2, and Chrome), and five were moderately resistant (Matrix, Agassiz, Salamanca, Viper, and Aragorn). Additionally, root exudates from the susceptible cultivar Columbia induced molting up to 39% in J-4 nematodes, compared to only 6% in exudates from the moderately resistant cultivar Viper. This is the first report examining the effects of field pea root exudates on the molting of J-4 pin nematodes. Further studies on root exudate chemistry could provide deeper insights into host-nematode interactions. Overall, most cultivars supported nematode reproduction, underscoring the need for effective management strategies to mitigate nematode infestations.",
     citingPapers: []
   },  
   {
