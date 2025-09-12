@@ -225,9 +225,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>
           <strong>Authors:</strong> ${conf.authors}<br>
           <strong>Conference:</strong> ${conf.conference}<br>
-          <strong>Citations:</strong> 
           <a href="#" class="citation-link" data-conf-title="${conf.title}">
-            ${conf.citations}
           </a>
         </p>
         <button class="btn btn-primary btn-sm read-more-btn" data-conf-index="${confIndex}" data-year="${year}">Read More</button>
