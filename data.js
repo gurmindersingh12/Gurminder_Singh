@@ -1,5 +1,25 @@
 const publications = [
   {
+    title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
+    authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+    journal: "<i>Theoretical and Applied Genetics</i>",
+    year: 2025,
+    citations: 0,
+    url: "",
+    abstract: "This publication is Under Review",
+    citingPapers: []
+  },  
+  {
+    title: "Genomic and Functional Characterization of the Tan Spot Susceptibility Gene <i>Tsc2</i> in Wheat",
+    authors: "<strong>Singh, Gurminder</strong>",
+    journal: "<i>PhD Thesis</i>, North Dakota State University, Fargo, ND, USA",
+    year: 2025,
+    citations: 0,
+    url: "https://www.proquest.com/docview/3217054618?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses",
+    abstract: "Tan spot, caused by the necrotrophic fungus <i>Pyrenophora tritici-repentis</i>, continues to threaten global wheat production, sometimes reducing yields by over 50% under conducive conditions. The interaction between the fungal necrotrophic effector Ptr ToxB and the host susceptibility gene <i>Tsc2</i> initiates leaf chlorosis and drives disease progression. Although <i>Tsc2</i> was previously localized to chromosome arm 2BS, the underlying gene has not been identified. In this thesis, I used high-resolution genetic mapping, EMS mutagenesis, TILLING, and transgenic complementation to demonstrate that <i>Tsc2</i> is a member of an unconventional exocyst subunit encoded by the gene <i>TtExo70FX15</i>. Functional analyses revealed that <i>Tsc2</i> was broadly expressed in various wheat tissues but downregulated in leaves after Ptr ToxB exposure. Structural modeling and subcellular localization experiments suggest that Tsc2 has diverged from canonical exocyst functions, highlighting a unique “hijacking” scenario by a necrotrophic pathogen. Yeast two-hybrid assays revealed no direct binding between Tsc2 and Ptr ToxB, implying that additional host factors mediate susceptibility. Sequencing of 409 diverse wheat accessions uncovered five major <i>Tsc2</i> haplotypes. One canonical haplotype consistently correlated with sensitivity, whereas others often lacking a 21-nucleotide deletion or bearing nonsynonymous SNPs abolished or reduced Ptr ToxB-induced chlorosis. To support breeding applications, I developed a high-throughput marker (<i>fcp1066</i>) that specifically detected absent alleles of <i>Tsc2</i> associated with insensitivity. Validation in over 1,500 wheat lines confirmed its efficacy, opening avenues for marker-assisted selection aimed at eliminating this susceptibility gene from breeding pipelines. These findings provide insights into how necrotrophic effectors may exploit host exocyst components for disease development. By elucidating the role of <i>Tsc2</i> in Ptr ToxB susceptibility and establishing a rapid genotyping assay, this work offers a foundation for reducing tan spot severity in both durum and bread wheat, supporting more resilient wheat production.",
+    citingPapers: []
+  },  
+  {
     title: "Development of diagnostic markers for the disease susceptibility gene <i>Tsn1</i> in wheat reveals novel resistance alleles and a new locus required for ToxA sensitivity",
     authors: "Running K, Acharya K, Roth T, <strong>Singh G</strong>, Szabo-Hever A, Haugrud A, Fiedler J, Friesen TL, and Faris JD",
     journal: "<i>Theoretical and Applied Genetics</i>",
@@ -212,7 +232,7 @@ const publications = [
   },
   {
     title: "Resistance screening and QTL mapping in wheat and triticale against root-lesion nematode",
-    authors: "<strong>Singh G</strong>",
+    authors: "<strong>Singh, Gurminder</strong>",
     journal: "<i>MS Thesis</i>, North Dakota State University, Fargo, ND, USA",
     year: 2020,
     citations: 5,
