@@ -287,7 +287,7 @@ const conferences = [
     conference: "<i>International Bean Improvement Cooperative (BIC) and North American Pulse Improvement Association (NAPIA)</i> Biennial Meeting, Lincoln, Nebraska",
     year: 2025,
     url: "",
-    abstract: "Tan spot, caused by the necrotrophic fungus <i>Pyrenophora tritici-repentis</i>, leads to significant yield losses in wheat worldwide. The fungal effector Ptr ToxB interacts with the wheat susceptibility gene <i>Tsc2</i>, inducing chlorosis and reducing photosynthetic activity. This study aimed to identify and functionally characterize <i>Tsc2</i> to enhance understanding of this host-pathogen interaction. We mapped the <i>Tsc2</i> locus using a biparental population derived from a cross between durum wheat cultivars Kronos (Ptr ToxB-sensitive) and Gredho (insensitive). High-resolution mapping was conducted in an F<sub>2</sub> population of 1,490 individuals (Kronos × Gredho) using KASP markers designed from exome capture data, narrowing <i>Tsc2</i> to a 108-kb interval on chromosome arm 2BS containing ten candidate genes. Comparative genomics across ten wheat genome assemblies revealed that two genes, an <i>Exo70</i> and an <i>LRR-Protein Kinase</i>, were present exclusively in sensitive genotypes. Sequencing of Kronos TILLING mutants and Ptr ToxB-insensitive EMS mutants of the cultivar Prosper identified mutations in Exo70 correlating with insensitivity, implicating it as the candidate <i>Tsc2</i> gene. Functional validation is underway through genetic complementation using <i>Agrobacterium</i>-mediated transformation of insensitive genotypes (Bobwhite and Fielder) with the wild-type <i>Exo70</i> gene and CRISPR/Cas9-mediated gene knockouts. Additionally, yeast two-hybrid assays are being conducted to elucidate the interaction between Exo70 and Ptr ToxB. The identification and functional characterization of <i>Exo70</i> advances our understanding of the molecular mechanisms underlying wheat susceptibility to tan spot. We developed a high-throughput marker for the absent <i>Tsc2</i> allele, efficiently predicting Ptr ToxB-insensitive lines in durum and spring wheat, facilitating marker-assisted elimination of <i>Tsc2</i>.",
+    abstract: "",
     citingPapers: []
   },
   {
@@ -421,18 +421,9 @@ const conferences = [
     authors: "<strong>Singh G</strong> and Yan GP",
     conference: "<i>APS North Central Divison Meeting</i>, Fargo, North Dakota",
     year: 2018,
-    citations: 1,
     url: "https://doi.org/10.1094/PHYTO-108-12-S2.20",
     abstract: "The root-lesion nematode (RLN; <i>Pratylenchus neglectus</i>) is one of the important plant-parasitic nematodes which invade the roots of wheat and cause yield losses throughout the world. Resistance of wheat cultivars against RLN is traditionally evaluated by measuring reproductive factor (RF) which is calculated by dividing the final nematode population density by the initial population density. However, RF is affected by several factors, such as plant growth period in greenhouse, and soil texture. The objective of this study was to evaluate the effects of these factors on RF. In one experiment, field soil naturally infested with <i>P. neglectus</i> was used to infect wheat plants, and nematodes were extracted at 8, 10, 12, 14, and 16 weeks after planting using Whitehead Tray method. In another experiment, the wheat was grown in two different soil types including sandy and sandy loam soil which were artificially inoculated with 300 <i>P. neglectus</i>/150 g of soil with five replications. A maximum plant root mass and nematode RF of 16 were obtained at 14 weeks after planting. Sandy soil, having RF of 8, had significantly greater reproduction than sandy loam soil (RF = 1). Using sandy soil and harvesting at 14 weeks after planting produced the best results. This improved methodology will facilitate resistance screening of wheat germplasm or varieties against RLN under greenhouse conditions.",
-    citingPapers: [
-      {
-        title: "Evaluation of wheat cultivars and germplasm lines for resistance to <i>Pratylenchus neglectus</i> populations collected in North Dakota",
-        authors: "<strong>Singh G</strong>, KC A, Sandhu KS, Friskop AJ, Liu Z, and Yan GP",
-        journal: "<i>Plant Disease</i> 117:3817-3824",
-        year: 2023,
-        url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-03-23-0590-RE"
-      },
-    ]
+    citingPapers: []
   }
 ];
 
