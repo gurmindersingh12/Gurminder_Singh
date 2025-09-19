@@ -17,7 +17,15 @@ const publications = [
     citations: 0,
     url: "https://www.proquest.com/docview/3217054618?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses",
     abstract: "Tan spot, caused by the necrotrophic fungus <i>Pyrenophora tritici-repentis</i>, continues to threaten global wheat production, sometimes reducing yields by over 50% under conducive conditions. The interaction between the fungal necrotrophic effector Ptr ToxB and the host susceptibility gene <i>Tsc2</i> initiates leaf chlorosis and drives disease progression. Although <i>Tsc2</i> was previously localized to chromosome arm 2BS, the underlying gene has not been identified. In this thesis, I used high-resolution genetic mapping, EMS mutagenesis, TILLING, and transgenic complementation to demonstrate that <i>Tsc2</i> is a member of an unconventional exocyst subunit encoded by the gene <i>TtExo70FX15</i>. Functional analyses revealed that <i>Tsc2</i> was broadly expressed in various wheat tissues but downregulated in leaves after Ptr ToxB exposure. Structural modeling and subcellular localization experiments suggest that Tsc2 has diverged from canonical exocyst functions, highlighting a unique “hijacking” scenario by a necrotrophic pathogen. Yeast two-hybrid assays revealed no direct binding between Tsc2 and Ptr ToxB, implying that additional host factors mediate susceptibility. Sequencing of 409 diverse wheat accessions uncovered five major <i>Tsc2</i> haplotypes. One canonical haplotype consistently correlated with sensitivity, whereas others often lacking a 21-nucleotide deletion or bearing nonsynonymous SNPs abolished or reduced Ptr ToxB-induced chlorosis. To support breeding applications, I developed a high-throughput marker (<i>fcp1066</i>) that specifically detected absent alleles of <i>Tsc2</i> associated with insensitivity. Validation in over 1,500 wheat lines confirmed its efficacy, opening avenues for marker-assisted selection aimed at eliminating this susceptibility gene from breeding pipelines. These findings provide insights into how necrotrophic effectors may exploit host exocyst components for disease development. By elucidating the role of <i>Tsc2</i> in Ptr ToxB susceptibility and establishing a rapid genotyping assay, this work offers a foundation for reducing tan spot severity in both durum and bread wheat, supporting more resilient wheat production.",
-    citingPapers: []
+    citingPapers: [
+      {
+        title: "Development of genomic resources and exploration of disease resistance in <i>Aegilops umbellulata</i> to improve the cultivated wheat",
+        authors: "Singh, J",
+        journal: "<i>PhD Thesis</i>, North Dakota State University, Fargo, ND, USA",
+        year: 2025,
+        url: "https://www.proquest.com/docview/3248177347/E98FD438024B4F25PQ/1?accountid=6766&sourcetype=Dissertations%20&%20Theses"
+      }
+    ]
   },  
   {
     title: "Development of diagnostic markers for the disease susceptibility gene <i>Tsn1</i> in wheat reveals novel resistance alleles and a new locus required for ToxA sensitivity",
@@ -34,27 +42,42 @@ const publications = [
     authors: "Ojha E, <strong>Singh G</strong>, Plaisance A, and Yan GP",
     journal: "<i>Plant Disease</i>",
     year: 2025,
-    citations: 0,
+    citations: 1,
     url: "https://doi.org/10.1094/PDIS-02-25-0356-RE",
     abstract: "Pin nematodes (<i>Paratylenchus</i> spp.) are common plant-parasitic nematodes in North Dakota that can negatively impact field pea (<i>Pisum sativum</i>) production. These nematodes rely on a functional stylet to feed, which develops through molting from a non-feeding fourth-stage juvenile (J-4) into an adult. Understanding the role of host resistance and root exudates in triggering this molting process is crucial for effective nematode management. In this study, we evaluated 31 field pea cultivars for resistance to <i>P. nanus</i> type B in greenhouse experiments using naturally infested soil and investigated the influence of root exudates on J-4 molting under laboratory conditions. Reproductive factor (RF) was calculated as the final nematode population density divided by the initial density. Among the tested cultivars, six were classified as susceptible (Columbia, Carousel, Mystique, Flute, Banner, and Arcadia), twenty were moderately susceptible (DS Admiral, Ginny, Melrose, Korando, Capella, Bacurra, LG Amigo, CDC Striker, Granger, Spider, LG Sunrise, LG Koda, Fergie, SW Midas, Monarch, Nette, Hampton, Greenwood, K2, and Chrome), and five were moderately resistant (Matrix, Agassiz, Salamanca, Viper, and Aragorn). Additionally, root exudates from the susceptible cultivar Columbia induced molting up to 39% in J-4 nematodes, compared to only 6% in exudates from the moderately resistant cultivar Viper. This is the first report examining the effects of field pea root exudates on the molting of J-4 pin nematodes. Further studies on root exudate chemistry could provide deeper insights into host-nematode interactions. Overall, most cultivars supported nematode reproduction, underscoring the need for effective management strategies to mitigate nematode infestations.",
-    citingPapers: []
+    citingPapers: [
+      {
+        title: "Advancing molecular diagnostics and resistance assessment of a new root-lesion nematode, <i>Pratylenchus dakotaensis</i> on soybean",
+        authors: "Ranabhat S",
+        journal: "<i>MS Thesis</i>, North Dakota State University, Fargo, ND, USA",
+        year: 2025,
+        url: "https://www.proquest.com/docview/3248170780/fulltextPDF/640077CA10604592PQ/1?accountid=6766&sourcetype=Dissertations%20&%20Theses"
+      }
+    ]
   },  
   {
     title: "Protein kinase-major sperm protein (PK-MSP) genes mediate recognition of the fungal necrotrophic effector SnTox3 to cause septoria nodorum blotch in wheat",
     authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, <strong>Singh G</strong>, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
     journal: "<i>Molecular Plant-Microbe Interactions</i>",
     year: 2025,
-    citations: 1,
+    citations: 2,
     url: "https://doi.org/10.1094/MPMI-10-24-0125-FI",
     abstract: "The wheat-Parastagonospora nodorum pathosystem has emerged as a model system for plant-necrotrophic fungal pathogen interactions. In this system, fungal necrotrophic effectors (NEs) are recognized by specific host genes in an inverse gene-for-gene manner to induce programmed cell death (PCD) and other host responses, which leads to disease. We previously cloned a wheat gene (Snn3-D1) encoding protein kinase (PK) and major sperm protein (MSP) domains that recognizes the P. nodorum NE SnTox3. Here, we identified an Snn3-D1 homoeolog (Snn3-B1) and a paralog (Snn3-B2) that also recognize SnTox3 leading to susceptibility. DNA sequence divergence of Snn3-B1 and Snn3-B2 and differences in transcriptional expression patterns and 3D protein conformation were associated with a more severe PCD response conferred by Snn3-B2 compared to Snn3-B1. Both Snn3 proteins were localized to the nucleus and cytoplasm in wheat protoplasts suggesting they may have acquired novel functions compared to previously characterized MSP domain-containing proteins in other species. Snn3-B2 was previously shown to govern osmotic stress and salt tolerance indicating that PK-MSP genes can act in plant defense responses to both biotic and abiotic stresses. Evaluation of a large collection of wheat lines showed that several alleles of each gene, including absent alleles, exist within the germplasm. Diagnostic markers were developed for the absent alleles of both genes, which will prove useful for marker-assisted selection in wheat to eliminate SnTox3 sensitivity and achieve better disease resistance.",
     citingPapers: [
+      {
+        title: "A viral brake on bloom: BYDV-GAV delays flowering via VOZ degradation",
+        authors: "Prakash V, and Singh J",
+        journal: "<i>Molecular Plant-Microbe Interactions</i>",
+        year: 2025,
+        url: "https://doi.org/10.1094/MPMI-05-25-0060-CM"
+      },
       {
         title: "Fine grain: molecular, cellular, and genomic details of cereal crop diseases",
         authors: "Derevnina L, Krasileva KV, Schwessinger B, and Wilson RA",
         journal: "<i>Molecular Plant-Microbe Interactions</i>",
         year: 2025,
         url: "https://doi.org/10.1094/MPMI-04-25-0040-CM"
-      },      
+      }      
     ]
   },  
   {
@@ -140,10 +163,24 @@ const publications = [
     authors: "<strong>Singh G</strong>, KC A, Sandhu KS, Friskop AJ, Liu Z, and Yan GP",
     journal: "<i>Plant Disease</i> 117:3817-3824",
     year: 2023,
-    citations: 3,
+    citations: 5,
     url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-03-23-0590-RE",
     abstract: "<strong>Abstract:</strong> Root-lesion nematode (RLN; <i>Pratylenchus neglectus</i>) is a migratory endoparasite and a major soilborne pathogen that affects wheat (<i>Triticum</i> spp.) production worldwide. Genetic resistance is one of the most economical and effective ways to manage <i>P. neglectus</i> in wheat. This study evaluated 37 local cultivars and germplasm lines in seven greenhouse experiments, including 26 hexaploid wheat, six durum wheat, two synthetic hexaploid wheat, one emmer wheat, and two triticale for <i>P. neglectus</i> resistance from 2016 to 2020. North Dakota field soils infested with two RLN populations (350 to 1,125 nematodes per kilogram of soil) were used for resistance screening under controlled greenhouse conditions. The final nematode population density for each cultivar and line was counted under the microscope to categorize the resistance ranking of these entries as resistant, moderately resistant, moderately susceptible, and susceptible. Out of the 37 cultivars and lines, one was classified as resistant (Brennan); 18 were moderately resistant (Divide, Carpio, Prosper, Advance, Alkabo, SY Soren, Barlow, Bolles, Select, Faller, Briggs, WB Mayville, SY Ingmar, W7984, PI 626573, Ben, Grandin, and Villax St. Jose); 11 were moderately susceptible; and seven were susceptible to <i>P. neglectus</i>. The resistant to moderately resistant lines identified in this study could be used in breeding programs after the resistance genes or loci are further elucidated. This research provides valuable information about <i>P. neglectus</i> resistance among wheat and triticale cultivars used in the Upper Midwest region of the United States.",
     citingPapers: [
+      {
+        title: "Advancing molecular diagnostics and resistance assessment of a new root-lesion nematode, <i>Pratylenchus dakotaensis</i> on soybean",
+        authors: "Ranabhat S",
+        journal: "<i>MS Thesis</i>, North Dakota State University, Fargo, ND, USA",
+        year: 2025,
+        url: "https://www.proquest.com/docview/3248170780/fulltextPDF/640077CA10604592PQ/1?accountid=6766&sourcetype=Dissertations%20&%20Theses"
+      },
+      {
+        title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
+        authors: "Ojha E, Singh G, Plaisance A, and Yan GP",
+        journal: "<em>Plant Disease</em>",
+        year: 2025,
+        url: "https://doi.org/10.1094/PDIS-02-25-0356-RE"
+      }
       {
         title: "Genomic and functional characterization of the tan spot susceptibility gene <i>Tsc2</i> in wheat",
         authors: "Singh, Gurminder",
