@@ -180,7 +180,7 @@ const publications = [
         journal: "<em>Plant Disease</em>",
         year: 2025,
         url: "https://doi.org/10.1094/PDIS-02-25-0356-RE"
-      }
+      },
       {
         title: "Genomic and functional characterization of the tan spot susceptibility gene <i>Tsc2</i> in wheat",
         authors: "Singh, Gurminder",
