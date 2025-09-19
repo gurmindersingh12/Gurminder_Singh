@@ -2,11 +2,11 @@ const publications = [
   {
     title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
     authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
-    journal: "<i>Theoretical and Applied Genetics</i>",
+    journal: "<i>Theoretical and Applied Genetics <strong>(Under Review)</strong></i>",
     year: 2025,
     citations: 0,
-    url: "",
-    abstract: "This publication is Under Review",
+    url: "https://doi.org/10.21203/rs.3.rs-7585385/v1",
+    abstract: "This publication is Under Review (Click on <i>View Publication</i> to read the current preprint)",
     citingPapers: []
   },  
   {
