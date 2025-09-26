@@ -14,7 +14,7 @@ const publications = [
     authors: "<strong>Singh, Gurminder</strong>",
     journal: "<i>PhD Thesis</i>, North Dakota State University, Fargo, ND, USA",
     year: 2025,
-    citations: 1,
+    citations: 2,
     url: "https://www.proquest.com/docview/3217054618?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses",
     abstract: "Tan spot, caused by the necrotrophic fungus <i>Pyrenophora tritici-repentis</i>, continues to threaten global wheat production, sometimes reducing yields by over 50% under conducive conditions. The interaction between the fungal necrotrophic effector Ptr ToxB and the host susceptibility gene <i>Tsc2</i> initiates leaf chlorosis and drives disease progression. Although <i>Tsc2</i> was previously localized to chromosome arm 2BS, the underlying gene has not been identified. In this thesis, I used high-resolution genetic mapping, EMS mutagenesis, TILLING, and transgenic complementation to demonstrate that <i>Tsc2</i> is a member of an unconventional exocyst subunit encoded by the gene <i>TtExo70FX15</i>. Functional analyses revealed that <i>Tsc2</i> was broadly expressed in various wheat tissues but downregulated in leaves after Ptr ToxB exposure. Structural modeling and subcellular localization experiments suggest that Tsc2 has diverged from canonical exocyst functions, highlighting a unique “hijacking” scenario by a necrotrophic pathogen. Yeast two-hybrid assays revealed no direct binding between Tsc2 and Ptr ToxB, implying that additional host factors mediate susceptibility. Sequencing of 409 diverse wheat accessions uncovered five major <i>Tsc2</i> haplotypes. One canonical haplotype consistently correlated with sensitivity, whereas others often lacking a 21-nucleotide deletion or bearing nonsynonymous SNPs abolished or reduced Ptr ToxB-induced chlorosis. To support breeding applications, I developed a high-throughput marker (<i>fcp1066</i>) that specifically detected absent alleles of <i>Tsc2</i> associated with insensitivity. Validation in over 1,500 wheat lines confirmed its efficacy, opening avenues for marker-assisted selection aimed at eliminating this susceptibility gene from breeding pipelines. These findings provide insights into how necrotrophic effectors may exploit host exocyst components for disease development. By elucidating the role of <i>Tsc2</i> in Ptr ToxB susceptibility and establishing a rapid genotyping assay, this work offers a foundation for reducing tan spot severity in both durum and bread wheat, supporting more resilient wheat production.",
     citingPapers: [
@@ -39,10 +39,18 @@ const publications = [
     authors: "Running K, Acharya K, Roth T, <strong>Singh G</strong>, Szabo-Hever A, Haugrud A, Fiedler J, Friesen TL, and Faris JD",
     journal: "<i>Theoretical and Applied Genetics</i>",
     year: 2025,
-    citations: 0,
+    citations: 1,
     url: "https://doi.org/10.1007/s00122-025-04952-6",
     abstract: "The wheat <i>Tsn1</i> gene recognizes the necrotrophic effector ToxA, which is produced by three different necrotrophic fungal pathogens. A compatible <i>Tsn1</i>–ToxA interaction leads to host-induced responses that result in the development of disease. Therefore, marker-assisted elimination of functional <i>Tsn1</i> alleles is an effective strategy for the development of disease resistant varieties. To develop such markers, available wheat genome assemblies were used to compare gene and transposable element content in lines with and without <i>Tsn1</i> (<i>Tsn1</i>- and <i>Tsn1</i> +), revealing two conserved haplotypes. Because <i>Tsn1</i> is almost always absent in insensitive lines, Kompetitive allele-specific PCR (KASP) markers were designed in flanking syntenic regions of <i>Tsn1</i>- and <i>Tsn1</i> + assemblies. The KASP markers were validated in more than 1,500 diverse lines. The markers correctly predicted a ToxA-insensitive phenotype in 99.33–100% of the lines, but they were less effective at predicting a ToxA-sensitive phenotype (89.50–94.55%) due to 60 insensitive lines with sensitive marker alleles. Sequence analysis of <i>Tsn1</i> from these lines revealed that some were not transcribed and others contained point mutations. However, some carried and expressed the dominant <i>Tsn1</i> allele, and subsequent analysis of two such lines revealed a second locus controlling ToxA sensitivity on chromosome 2B, termed <i>Tsn1-B2</i>. Genetic mapping of <i>Tsn1-B2</i> in a biparental durum population defined the locus to a 4.8 cM region corresponding to 8.6 Mb in Svevo Rel 2.0. The markers presented here could be used for reliable and robust marker-assisted elimination of <i>Tsn1</i> in a high-throughput manner, furthering the development of wheat genetically resistant to multiple pathogens.",
-    citingPapers: []
+    citingPapers: [
+      {
+        title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
+        authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+        journal: "<i>Theoretical and Applied Genetics</i>",
+        year: 2025,
+        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
+      }
+    ]
   },  
   {
     title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
@@ -124,10 +132,17 @@ const publications = [
     authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <strong>Singh G</strong>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, and Faris JD",
     journal: "<i>The Plant Journal</i> 119:1720-1736",
     year: 2024,
-    citations: 5,
+    citations: 6,
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB), caused by <i>Parastagonospora nodorum</i>, is a disease of durum and common wheat initiated by the recognition of pathogen-produced necrotrophic effectors (NEs) by specific wheat genes. The wheat gene Snn1 was previously cloned, and it encodes a wall-associated kinase that directly interacts with the NE SnTox1 leading to programmed cell death and ultimately the development of SNB. Here, sequence analysis of <i>Snn1</i> from 114 accessions including diploid, tetraploid, and hexaploid wheat species revealed that some wheat lines possess two copies of Snn1 (designated <i>Snn1-B1</i> and <i>Snn1-B2</i>) approximately 120 kb apart. <i>Snn1-B2</i> evolved relatively recently as a paralog of <i>Snn1-B1</i>, and both genes have undergone diversifying selection. Three point mutations associated with the formation of the first SnTox1-sensitive <i>Snn1-B1</i> allele from a primitive wild wheat were identified. Four subsequent and independent SNPs, three in <i>Snn1-B1</i> and one in <i>Snn1-B2</i>, converted the sensitive alleles to insensitive forms. Protein modeling indicated these four mutations could abolish Snn1–SnTox1 compatibility either through destabilization of the Snn1 protein or direct disruption of the protein–protein interaction. A high-throughput marker was developed for the absent allele of Snn1, and it was 100% accurate at predicting SnTox1-insensitive lines in both durum and spring wheat. Results of this study increase our understanding of the evolution, diversity, and function of Snn1-B1 and Snn1-B2 genes and will be useful for marker-assisted elimination of these genes for better host resistance.",
     citingPapers: [
+      {
+        title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
+        authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+        journal: "<i>Theoretical and Applied Genetics</i>",
+        year: 2025,
+        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
+      },
       {
         title: "Genomic and functional characterization of the tan spot susceptibility gene <i>Tsc2</i> in wheat",
         authors: "Singh, Gurminder",
