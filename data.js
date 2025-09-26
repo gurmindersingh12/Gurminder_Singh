@@ -24,6 +24,13 @@ const publications = [
         journal: "<i>PhD Thesis</i>, North Dakota State University, Fargo, ND, USA",
         year: 2025,
         url: "https://www.proquest.com/docview/3248177347/E98FD438024B4F25PQ/1?accountid=6766&sourcetype=Dissertations%20&%20Theses"
+      },
+      {
+        title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
+        authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+        journal: "<i>Theoretical and Applied Genetics</i>",
+        year: 2025,
+        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
       }
     ]
   },  
