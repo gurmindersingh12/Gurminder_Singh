@@ -27,7 +27,7 @@ const publications = [
       },
       {
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
-        authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+        authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
         journal: "<i>Theoretical and Applied Genetics</i>",
         year: 2025,
         url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
@@ -45,7 +45,7 @@ const publications = [
     citingPapers: [
       {
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
-        authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+        authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
         journal: "<i>Theoretical and Applied Genetics</i>",
         year: 2025,
         url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
@@ -138,7 +138,7 @@ const publications = [
     citingPapers: [
       {
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
-        authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+        authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
         journal: "<i>Theoretical and Applied Genetics</i>",
         year: 2025,
         url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
@@ -185,10 +185,17 @@ const publications = [
     authors: "<strong>Singh G</strong>, KC A, Sandhu KS, Friskop AJ, Liu Z, and Yan GP",
     journal: "<i>Plant Disease</i> 117:3817-3824",
     year: 2023,
-    citations: 5,
+    citations: 6,
     url: "https://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-03-23-0590-RE",
     abstract: "<strong>Abstract:</strong> Root-lesion nematode (RLN; <i>Pratylenchus neglectus</i>) is a migratory endoparasite and a major soilborne pathogen that affects wheat (<i>Triticum</i> spp.) production worldwide. Genetic resistance is one of the most economical and effective ways to manage <i>P. neglectus</i> in wheat. This study evaluated 37 local cultivars and germplasm lines in seven greenhouse experiments, including 26 hexaploid wheat, six durum wheat, two synthetic hexaploid wheat, one emmer wheat, and two triticale for <i>P. neglectus</i> resistance from 2016 to 2020. North Dakota field soils infested with two RLN populations (350 to 1,125 nematodes per kilogram of soil) were used for resistance screening under controlled greenhouse conditions. The final nematode population density for each cultivar and line was counted under the microscope to categorize the resistance ranking of these entries as resistant, moderately resistant, moderately susceptible, and susceptible. Out of the 37 cultivars and lines, one was classified as resistant (Brennan); 18 were moderately resistant (Divide, Carpio, Prosper, Advance, Alkabo, SY Soren, Barlow, Bolles, Select, Faller, Briggs, WB Mayville, SY Ingmar, W7984, PI 626573, Ben, Grandin, and Villax St. Jose); 11 were moderately susceptible; and seven were susceptible to <i>P. neglectus</i>. The resistant to moderately resistant lines identified in this study could be used in breeding programs after the resistance genes or loci are further elucidated. This research provides valuable information about <i>P. neglectus</i> resistance among wheat and triticale cultivars used in the Upper Midwest region of the United States.",
     citingPapers: [
+      {
+        title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
+        authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+        journal: "<i>Theoretical and Applied Genetics</i>",
+        year: 2025,
+        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
+      },
       {
         title: "Advancing molecular diagnostics and resistance assessment of a new root-lesion nematode, <i>Pratylenchus dakotaensis</i> on soybean",
         authors: "Ranabhat S",
