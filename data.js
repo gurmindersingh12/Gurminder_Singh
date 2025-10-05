@@ -14,10 +14,17 @@ const publications = [
     authors: "<strong>Singh, Gurminder</strong>",
     journal: "<i>PhD Thesis</i>, North Dakota State University, Fargo, ND, USA",
     year: 2025,
-    citations: 2,
+    citations: 3,
     url: "https://www.proquest.com/docview/3217054618?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses",
     abstract: "Tan spot, caused by the necrotrophic fungus <i>Pyrenophora tritici-repentis</i>, continues to threaten global wheat production, sometimes reducing yields by over 50% under conducive conditions. The interaction between the fungal necrotrophic effector Ptr ToxB and the host susceptibility gene <i>Tsc2</i> initiates leaf chlorosis and drives disease progression. Although <i>Tsc2</i> was previously localized to chromosome arm 2BS, the underlying gene has not been identified. In this thesis, I used high-resolution genetic mapping, EMS mutagenesis, TILLING, and transgenic complementation to demonstrate that <i>Tsc2</i> is a member of an unconventional exocyst subunit encoded by the gene <i>TtExo70FX15</i>. Functional analyses revealed that <i>Tsc2</i> was broadly expressed in various wheat tissues but downregulated in leaves after Ptr ToxB exposure. Structural modeling and subcellular localization experiments suggest that Tsc2 has diverged from canonical exocyst functions, highlighting a unique “hijacking” scenario by a necrotrophic pathogen. Yeast two-hybrid assays revealed no direct binding between Tsc2 and Ptr ToxB, implying that additional host factors mediate susceptibility. Sequencing of 409 diverse wheat accessions uncovered five major <i>Tsc2</i> haplotypes. One canonical haplotype consistently correlated with sensitivity, whereas others often lacking a 21-nucleotide deletion or bearing nonsynonymous SNPs abolished or reduced Ptr ToxB-induced chlorosis. To support breeding applications, I developed a high-throughput marker (<i>fcp1066</i>) that specifically detected absent alleles of <i>Tsc2</i> associated with insensitivity. Validation in over 1,500 wheat lines confirmed its efficacy, opening avenues for marker-assisted selection aimed at eliminating this susceptibility gene from breeding pipelines. These findings provide insights into how necrotrophic effectors may exploit host exocyst components for disease development. By elucidating the role of <i>Tsc2</i> in Ptr ToxB susceptibility and establishing a rapid genotyping assay, this work offers a foundation for reducing tan spot severity in both durum and bread wheat, supporting more resilient wheat production.",
     citingPapers: [
+      {
+        title: "Improved reannotations of <i>Aegilops umbellulata</i> (PI 554389) genome and transcriptomics data provides candidates for leaf rust resistance for wheat improvement",
+        authors: "Singh J, Gudi S, Maughan PJ, Gupta R, and Gill U",
+        journal: "<i>Scientific Reports</i>",
+        year: 2025,
+        url: "https://doi.org/10.21203/rs.3.rs-7539367/v1"
+      },
       {
         title: "Development of genomic resources and exploration of disease resistance in <i>Aegilops umbellulata</i> to improve the cultivated wheat",
         authors: "Singh, J",
@@ -319,10 +326,17 @@ const publications = [
     authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <strong>Singh G</strong>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, and Faris JD",
     journal: "<i>Molecular Breeding</i> 43:54",
     year: 2023,
-    citations: 11,
+    citations: 12,
     url: "https://link.springer.com/article/10.1007/s11032-023-01400-5",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB) and tan spot, caused by the necrotrophic fungal pathogens <i>Parastagonospora nodorum</i> and <i>Pyrenophora tritici-repentis</i>, respectively, often occur together as a leaf spotting disease complex on wheat (<i>Triticum aestivum</i> L.). Both pathogens produce necrotrophic effectors (NEs) that contribute to the development of disease. Here, genome-wide association analysis of a diverse panel of 264 winter wheat lines revealed novel loci on chromosomes 5A and 5B associated with sensitivity to the NEs SnTox3 and SnTox5 in addition to the known sensitivity genes for NEs Ptr/SnToxA, SnTox1, SnTox3, and SnTox5. Sensitivity loci for SnTox267 and Ptr ToxB were not detected. Evaluation of the panel with five P. nodorum isolates for SNB development indicated the Snn3-SnTox3 and Tsn1-SnToxA interactions played significant roles in disease development along with additional QTL on chromosomes 2A and 2D, which may correspond to the Snn7-SnTox267 interaction. For tan spot, the Tsc1-Ptr ToxC interaction was associated with disease caused by two isolates, and a novel QTL on chromosome 7D was associated with a third isolate. The Tsn1-ToxA interaction was associated with SNB but not tan spot. Therefore some, but not all, of the previously characterized host gene-NE interactions in these pathosystems play significant roles in disease development in winter wheat. Based on these results, breeders should prioritize the selection of resistance alleles at the <i>Tsc1</i>, <i>Tsn1</i>, <i>Snn3</i>, and <i>Snn7</i> loci as well as the 2A and 7D QTL to obtain good levels of resistance to SNB and tan spot in winter wheat.",
     citingPapers: [
+      {
+        title: "Performance and stability of winter wheat cultivars to <i>Stagonospora nodorum</i> blotch epidemics in multi-environment trials",
+        authors: "Garnica VC, Shalizi MN, and Ojiambo PS",
+        journal: "<i>Phytopathology</i>",
+        year: 2025,
+        url: "https://doi.org/10.1094/PHYTO-12-24-0398-R"
+      },
       {
         title: "Identification and validation of a major QTL on chromosome 2A for wheat-<i>Parastagonospora nodorum</i> interactions",
         authors: "Li C, He X, Ma J, and Singh PK",
