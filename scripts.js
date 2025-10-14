@@ -20,7 +20,7 @@ function openTab(evt, tabName) {
 // Function to initialize Citations Chart
 function initializeCitationsChart() {
   var citationYears = ['2020', '2021', '2022', '2023', '2024', '2025'];
-  var citationData = [1, 1, 2, 7, 10, 29];
+  var citationData = [1, 1, 2, 7, 10, 30];
 
   // Calculate total citations
   var totalCitations = citationData.reduce(function (accumulator, currentValue) {
