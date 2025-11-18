@@ -482,6 +482,15 @@ const publications = [
 
 const conferences = [
   {
+    title: "High-quality T2T genomes of spring wheat cultivars Boost and Timstein provide cultivar-resolved frameworks for wheat disease resistance genetics",
+    authors: "Singh J, Gudi S, Maughan PJ, Seneviratne S, <strong>Singh G</strong>, Running KLD, Acharya K, Green AJ, Glover K, Faris JD, and Gupta R",
+    conference: "<i>Plant and Animal Genome XXXIII (PAG 33)</i> Conference, San Diego, California",
+    year: 2026,
+    url: "",
+    abstract: "Wheat has shaped human civilization and remains central to human society. It fulfills nearly 20% of global dietary caloric intake. The development of genomic resources has accelerated wheat improvement for yield, nutritional quality, and tolerance to biotic and abiotic stresses. Here, we generated near telomere-to-telomere (T2T), high quality genome assemblies for two spring wheat cultivars with contrasting disease-response profiles, Boost and Timstein. Boost exhibits robust bacterial leaf streak resistance, while Timstein has been central to classical genetic studies of stem rust and leaf rust resistance, and carries susceptibility genes for <i>Parastagonospora nodorum</i>, the causal agent of Septoria nodorum blotch. We used ~25x PacBio HiFi sequencing combined with Hi-C scaffolding to generate chromosome level assemblies for these two cultivars. The assemblies span 14.58 Gb (Boost) and 14.76 Gb (Timstein), resolving all 21 chromosomes across three sub-genomes (A, B, and D). Both genomes comprise ~85% transposable elements, primarily Gypsy, Copia, and CACTA families. Gene annotation identified ~103,000 high-confidence gene models in each assembly. The BUSCO analysis showed 97.4-99.6% completeness across individual sub-genomes. Comparative genomics analysis against IWGSC RefSeq v2.1 revealed high chromosomal collinearity in both genomes. We also detected a ~70 Mb terminal deletion on Boost chromosome 7A. These assemblies establish cultivar-resolved genomic frameworks that will accelerate fine mapping of disease resistance and susceptibility loci. The integration of these genomes into the wheat pangenome can enhance understanding of effector-target interactions, unique R-gene architectures, and the genomic basis of host-pathogen adaptation. Together, Boost and Timstein provide powerful resources for advancing wheat disease resistance genetics and translational breeding.",
+    citingPapers: []
+  },
+  {
     title: "Genome-wide association study to identify genomic regions associated with resistance to soybean cyst nematode HG type 2.5.7 in dry beans",
     authors: "Singh D, Poudyal P, <strong>Singh G</strong>, Neupane R, Cerna JF, Osorno JM, and Yan G",
     conference: "<i>International Bean Improvement Cooperative (BIC) and North American Pulse Improvement Association (NAPIA)</i> Biennial Meeting, Lincoln, Nebraska",
