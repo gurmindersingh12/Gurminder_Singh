@@ -491,6 +491,15 @@ const conferences = [
     citingPapers: []
   },
   {
+    title: "Development and validation of SNP-based KASP markers for detection of rare earliness <i>Hope-FTB1</i> gene and mapping of novel genetic loci for yield component traits in hard red spring wheat (<i>Triticum aestivum</i> L.)",
+    authors: "Kumari P, Peters Haugrud AR, Seneviratne S, Acharya K, <strong>Singh G</strong>, Xu SS, Zhang Q, Green AJ, and Faris JD",
+    conference: "<i>CANVAS 2025</i>, Salt Lake City, Utah",
+    year: 2025,
+    url: "https://scisoc.confex.com/scisoc/2025am/meetingapp.cgi/Paper/170320",
+    abstract: "Wheat (<i>Triticum aestivum</i> L.) feeds over 40% of the global population, and improving grain yield under variable environments remains a critical breeding objective. Yield is significantly impacted by fluctuating climatic conditions, and under such stress-prone environments, early heading (earliness) serves as an effective strategy to escape terminal stress. To dissect the genetic basis of earliness, we developed a Recombinant Isogenic lines (RILs) mapping population derived from a cross between a mid- to late-heading hard red spring wheat (HRSW) cultivar ‘Faller’ and an extremely early-heading Chinese variety ‘Jianquing-5’. A stable and robust QTL for heading date was identified on chromosome 7B, explaining 28% of the phenotypic variation, where a candidate gene, <i>HopeFT-B1</i>, was localized. The <i>HopeFT-B1</i> allele is associated with accelerated flowering and early heading. A highly efficient high-throughput diagnostic marker, <i>fcp1076</i>, was developed for this rare allele. Additionally, a total of 35 stable QTLs were identified for key yield component traits, including kernels per spike (KPS) on chromosomes 2A and 4A, total number of spikes (TNS) on 2A, 4A, and 7B, kernel parameters on 5A, and plant height on 4B. The stable genomic regions associated with yield traits and the <i>HopeFT-B1</i> diagnostic marker linked to earliness together provide robust tools for wheat improvement. These resources enable breeders to simultaneously enhance yield stability and accelerate flowering through efficient marker-assisted selection.",
+    citingPapers: []
+  },
+  {
     title: "Genome-wide association study to identify genomic regions associated with resistance to soybean cyst nematode HG type 2.5.7 in dry beans",
     authors: "Singh D, Poudyal P, <strong>Singh G</strong>, Neupane R, Cerna JF, Osorno JM, and Yan G",
     conference: "<i>International Bean Improvement Cooperative (BIC) and North American Pulse Improvement Association (NAPIA)</i> Biennial Meeting, Lincoln, Nebraska",
