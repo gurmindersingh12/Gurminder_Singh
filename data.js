@@ -53,7 +53,7 @@ const publications = [
       {
         title: "Features of the relationship between the parasite and the host in the pathosystem “<i>Triticum aestivum</i> – <i>Pyrenophora tritici-repentis</i>”",
         authors: "Mironenko NV",
-        journal: "<i>All-Russian Institute of Plant Protection, St. Petersburg, Russia</i>",
+        journal: "<i>Plant Protection News (Vestnik Zashchity Rasteniy), 108:132-140</i>",
         year: 2025,
         url: "https://doi.org/10.31993/2308-6459-2025-108-3-17254"
       },
