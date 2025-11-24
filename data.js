@@ -46,10 +46,17 @@ const publications = [
     authors: "Running K, Acharya K, Roth T, <strong>Singh G</strong>, Szabo-Hever A, Haugrud A, Fiedler J, Friesen TL, and Faris JD",
     journal: "<i>Theoretical and Applied Genetics</i>",
     year: 2025,
-    citations: 1,
+    citations: 2,
     url: "https://doi.org/10.1007/s00122-025-04952-6",
     abstract: "The wheat <i>Tsn1</i> gene recognizes the necrotrophic effector ToxA, which is produced by three different necrotrophic fungal pathogens. A compatible <i>Tsn1</i>–ToxA interaction leads to host-induced responses that result in the development of disease. Therefore, marker-assisted elimination of functional <i>Tsn1</i> alleles is an effective strategy for the development of disease resistant varieties. To develop such markers, available wheat genome assemblies were used to compare gene and transposable element content in lines with and without <i>Tsn1</i> (<i>Tsn1</i>- and <i>Tsn1</i> +), revealing two conserved haplotypes. Because <i>Tsn1</i> is almost always absent in insensitive lines, Kompetitive allele-specific PCR (KASP) markers were designed in flanking syntenic regions of <i>Tsn1</i>- and <i>Tsn1</i> + assemblies. The KASP markers were validated in more than 1,500 diverse lines. The markers correctly predicted a ToxA-insensitive phenotype in 99.33–100% of the lines, but they were less effective at predicting a ToxA-sensitive phenotype (89.50–94.55%) due to 60 insensitive lines with sensitive marker alleles. Sequence analysis of <i>Tsn1</i> from these lines revealed that some were not transcribed and others contained point mutations. However, some carried and expressed the dominant <i>Tsn1</i> allele, and subsequent analysis of two such lines revealed a second locus controlling ToxA sensitivity on chromosome 2B, termed <i>Tsn1-B2</i>. Genetic mapping of <i>Tsn1-B2</i> in a biparental durum population defined the locus to a 4.8 cM region corresponding to 8.6 Mb in Svevo Rel 2.0. The markers presented here could be used for reliable and robust marker-assisted elimination of <i>Tsn1</i> in a high-throughput manner, furthering the development of wheat genetically resistant to multiple pathogens.",
     citingPapers: [
+      {
+        title: "Features of the relationship between the parasite and the host in the pathosystem “<i>Triticum aestivum</i> – <i>Pyrenophora tritici-repentis</i>”",
+        authors: "Mironenko NV",
+        journal: "<i>All-Russian Institute of Plant Protection, St. Petersburg, Russia</i>",
+        year: 2025,
+        url: "https://doi.org/10.31993/2308-6459-2025-108-3-17254"
+      },
       {
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
         authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
