@@ -10,6 +10,24 @@ const publications = [
     citingPapers: []
   },  
   {
+    title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
+    authors: "Ojha E, <strong>Singh G</strong>, Plaisance A, and Yan GP",
+    journal: "<i>Plant Disease</i>",
+    year: 2026,
+    citations: 1,
+    url: "https://doi.org/10.1094/PDIS-02-25-0356-RE",
+    abstract: "Pin nematodes (<i>Paratylenchus</i> spp.) are common plant-parasitic nematodes in North Dakota that can negatively impact field pea (<i>Pisum sativum</i>) production. These nematodes rely on a functional stylet to feed, which develops through molting from a non-feeding fourth-stage juvenile (J-4) into an adult. Understanding the role of host resistance and root exudates in triggering this molting process is crucial for effective nematode management. In this study, we evaluated 31 field pea cultivars for resistance to <i>P. nanus</i> type B in greenhouse experiments using naturally infested soil and investigated the influence of root exudates on J-4 molting under laboratory conditions. Reproductive factor (RF) was calculated as the final nematode population density divided by the initial density. Among the tested cultivars, six were classified as susceptible (Columbia, Carousel, Mystique, Flute, Banner, and Arcadia), twenty were moderately susceptible (DS Admiral, Ginny, Melrose, Korando, Capella, Bacurra, LG Amigo, CDC Striker, Granger, Spider, LG Sunrise, LG Koda, Fergie, SW Midas, Monarch, Nette, Hampton, Greenwood, K2, and Chrome), and five were moderately resistant (Matrix, Agassiz, Salamanca, Viper, and Aragorn). Additionally, root exudates from the susceptible cultivar Columbia induced molting up to 39% in J-4 nematodes, compared to only 6% in exudates from the moderately resistant cultivar Viper. This is the first report examining the effects of field pea root exudates on the molting of J-4 pin nematodes. Further studies on root exudate chemistry could provide deeper insights into host-nematode interactions. Overall, most cultivars supported nematode reproduction, underscoring the need for effective management strategies to mitigate nematode infestations.",
+    citingPapers: [
+      {
+        title: "Advancing molecular diagnostics and resistance assessment of a new root-lesion nematode, <i>Pratylenchus dakotaensis</i> on soybean",
+        authors: "Ranabhat S",
+        journal: "<i>MS Thesis</i>, North Dakota State University, Fargo, ND, USA",
+        year: 2025,
+        url: "https://www.proquest.com/docview/3248170780/fulltextPDF/640077CA10604592PQ/1?accountid=6766&sourcetype=Dissertations%20&%20Theses"
+      }
+    ]
+  },
+  {
     title: "Genomic and Functional Characterization of the Tan Spot Susceptibility Gene <i>Tsc2</i> in Wheat",
     authors: "<strong>Singh, Gurminder</strong>",
     journal: "<i>PhD Thesis</i>, North Dakota State University, Fargo, ND, USA",
@@ -65,25 +83,7 @@ const publications = [
         url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
       }
     ]
-  },  
-  {
-    title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
-    authors: "Ojha E, <strong>Singh G</strong>, Plaisance A, and Yan GP",
-    journal: "<i>Plant Disease</i>",
-    year: 2025,
-    citations: 1,
-    url: "https://doi.org/10.1094/PDIS-02-25-0356-RE",
-    abstract: "Pin nematodes (<i>Paratylenchus</i> spp.) are common plant-parasitic nematodes in North Dakota that can negatively impact field pea (<i>Pisum sativum</i>) production. These nematodes rely on a functional stylet to feed, which develops through molting from a non-feeding fourth-stage juvenile (J-4) into an adult. Understanding the role of host resistance and root exudates in triggering this molting process is crucial for effective nematode management. In this study, we evaluated 31 field pea cultivars for resistance to <i>P. nanus</i> type B in greenhouse experiments using naturally infested soil and investigated the influence of root exudates on J-4 molting under laboratory conditions. Reproductive factor (RF) was calculated as the final nematode population density divided by the initial density. Among the tested cultivars, six were classified as susceptible (Columbia, Carousel, Mystique, Flute, Banner, and Arcadia), twenty were moderately susceptible (DS Admiral, Ginny, Melrose, Korando, Capella, Bacurra, LG Amigo, CDC Striker, Granger, Spider, LG Sunrise, LG Koda, Fergie, SW Midas, Monarch, Nette, Hampton, Greenwood, K2, and Chrome), and five were moderately resistant (Matrix, Agassiz, Salamanca, Viper, and Aragorn). Additionally, root exudates from the susceptible cultivar Columbia induced molting up to 39% in J-4 nematodes, compared to only 6% in exudates from the moderately resistant cultivar Viper. This is the first report examining the effects of field pea root exudates on the molting of J-4 pin nematodes. Further studies on root exudate chemistry could provide deeper insights into host-nematode interactions. Overall, most cultivars supported nematode reproduction, underscoring the need for effective management strategies to mitigate nematode infestations.",
-    citingPapers: [
-      {
-        title: "Advancing molecular diagnostics and resistance assessment of a new root-lesion nematode, <i>Pratylenchus dakotaensis</i> on soybean",
-        authors: "Ranabhat S",
-        journal: "<i>MS Thesis</i>, North Dakota State University, Fargo, ND, USA",
-        year: 2025,
-        url: "https://www.proquest.com/docview/3248170780/fulltextPDF/640077CA10604592PQ/1?accountid=6766&sourcetype=Dissertations%20&%20Theses"
-      }
-    ]
-  },  
+  },    
   {
     title: "Protein kinase-major sperm protein (PK-MSP) genes mediate recognition of the fungal necrotrophic effector SnTox3 to cause septoria nodorum blotch in wheat",
     authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, <strong>Singh G</strong>, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
