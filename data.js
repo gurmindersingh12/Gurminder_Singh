@@ -2,7 +2,7 @@ const publications = [
   {
     title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
     authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
-    journal: "<i>Theoretical and Applied Genetics</i>",
+    journal: "<i>Theoretical and Applied Genetics</i> 139(1):1-13",
     year: 2026,
     citations: 0,
     url: "https://doi.org/10.1007/s00122-025-05112-6",
@@ -62,7 +62,7 @@ const publications = [
   {
     title: "Development of diagnostic markers for the disease susceptibility gene <i>Tsn1</i> in wheat reveals novel resistance alleles and a new locus required for ToxA sensitivity",
     authors: "Running K, Acharya K, Roth T, <strong>Singh G</strong>, Szabo-Hever A, Haugrud A, Fiedler J, Friesen TL, and Faris JD",
-    journal: "<i>Theoretical and Applied Genetics</i>",
+    journal: "<i>Theoretical and Applied Genetics</i> 138(7):1-14",
     year: 2025,
     citations: 2,
     url: "https://doi.org/10.1007/s00122-025-04952-6",
@@ -87,7 +87,7 @@ const publications = [
   {
     title: "Protein kinase-major sperm protein (PK-MSP) genes mediate recognition of the fungal necrotrophic effector SnTox3 to cause septoria nodorum blotch in wheat",
     authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, <strong>Singh G</strong>, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
-    journal: "<i>Molecular Plant-Microbe Interactions</i>",
+    journal: "<i>Molecular Plant-Microbe Interactions</i> 38:315-327",
     year: 2025,
     citations: 2,
     url: "https://doi.org/10.1094/MPMI-10-24-0125-FI",
@@ -112,7 +112,7 @@ const publications = [
   {
     title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by <i>Parastagonospora nodorum</i>",
     authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
-    journal: "<i>Plant Disease</i>",
+    journal: "<i>Plant Disease</i> 109:851-861",
     year: 2025,
     citations: 3,
     url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
@@ -228,7 +228,7 @@ const publications = [
         title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
         authors: "Ojha E, Singh G, Plaisance A, and Yan GP",
         journal: "<em>Plant Disease</em>",
-        year: 2025,
+        year: 2026,
         url: "https://doi.org/10.1094/PDIS-02-25-0356-RE"
       },
       {
