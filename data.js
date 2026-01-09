@@ -54,8 +54,8 @@ const publications = [
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
         authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
         journal: "<i>Theoretical and Applied Genetics</i>",
-        year: 2025,
-        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
+        year: 2026,
+        url: "https://doi.org/10.1007/s00122-025-05112-6"
       }
     ]
   },  
@@ -79,8 +79,8 @@ const publications = [
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
         authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
         journal: "<i>Theoretical and Applied Genetics</i>",
-        year: 2025,
-        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
+        year: 2026,
+        url: "https://doi.org/10.1007/s00122-025-05112-6"
       }
     ]
   },    
@@ -154,8 +154,8 @@ const publications = [
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
         authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
         journal: "<i>Theoretical and Applied Genetics</i>",
-        year: 2025,
-        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
+        year: 2026,
+        url: "https://doi.org/10.1007/s00122-025-05112-6"
       },
       {
         title: "Genomic and functional characterization of the tan spot susceptibility gene <i>Tsc2</i> in wheat",
@@ -214,8 +214,8 @@ const publications = [
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
         authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
         journal: "<i>Theoretical and Applied Genetics</i>",
-        year: 2025,
-        url: "https://doi.org/10.21203/rs.3.rs-7585385/v1"
+        year: 2026,
+        url: "https://doi.org/10.1007/s00122-025-05112-6"
       },
       {
         title: "Advancing molecular diagnostics and resistance assessment of a new root-lesion nematode, <i>Pratylenchus dakotaensis</i> on soybean",
