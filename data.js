@@ -1,5 +1,15 @@
 const publications = [
   {
+    title: "Fluorescence-based absent allele-specific amplification (FAASA) for high-throughput detection of absent alleles",
+    authors: "Running K, Seneviratne S, Zhang Z, <strong>Singh G</strong>, Fiedler J, and Faris JD",
+    journal: "<i>Bio-protocol (Accepted; Minor revisions)</i>",
+    year: 2026,
+    citations: 0,
+    url: "",
+    abstract: "",
+    citingPapers: []
+  },
+  {
     title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
     authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
     journal: "<i>Theoretical and Applied Genetics</i> 139(1):1-13",
