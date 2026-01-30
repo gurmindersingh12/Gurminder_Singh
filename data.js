@@ -489,6 +489,15 @@ const publications = [
 
 const conferences = [
   {
+    title: "Artificial intelligence for soybean cyst nematode egg detection and quantification",
+    authors: "Omotosho J, <strong>Singh G</strong>, Plaisance A, and Yan G",
+    conference: "<i>2026 NDSU Soybean Symposium</i>, North Dakota State University (NDSU), Fargi, ND",
+    year: 2026,
+    url: "",
+    abstract: "Soybean cyst nematode (SCN; <i>Heterodera glycines</i>) is the most economically damaging disease of soybean in the United States, causing an estimated $1.5 billion in annual yield losses. Accurate quantification of SCN egg populations is essential for assessing infestation severity, evaluating host resistance, and guiding management decisions. However, manual microscopic counting methods are labor-intensive, time-consuming, and prone to human error. To address these limitations, we developed a deep learning-based object detection framework using the YOLO (You Only Look Once) model to automate the detection and quantification of SCN eggs from microscopic images. Images were obtained from 35 field-derived and 51 greenhouse-derived SCN samples, from which 501 microscopic images (40-100×) were taken and manually annotated to include eggs, debris, root fragments, and vermiform nematode structures. Image preprocessing and data augmentation expanded the dataset to 4,820 images, improving model robustness to debris variability and generalization to new/unseen sample conditions. The dataset was used to train and evaluate a YOLOv11 model, with performance assessed using mean Average Precision (mAP) and detection accuracy. The model achieved robust egg detection across samples, with an overall detection accuracy of 96.8% and a multi-class mAP@0.5 of 75%. AI (artificial intelligence)-predicted egg counts showed positive correlation (r) with manual counts on unseen test images, ranging from 0.65 in debris-rich field samples to 0.99 in laboratory-cleaned samples. The results demonstrate the great potential of AI tool application to improve the speed, consistency, and scalability of SCN egg quantification, while highlighting the need for further validation under diverse field conditions prior to routine diagnostic deployment.",
+    citingPapers: []
+  },
+  {
     title: "High-quality T2T genomes of spring wheat cultivars Boost and Timstein provide cultivar-resolved frameworks for wheat disease resistance genetics",
     authors: "Singh J, Gudi S, Maughan PJ, Seneviratne S, <strong>Singh G</strong>, Running KLD, Acharya K, Green AJ, Glover K, Faris JD, and Gupta R",
     conference: "<i>Plant and Animal Genome XXXIII (PAG 33)</i> Conference, San Diego, California",
