@@ -6,7 +6,7 @@ const publications = [
     year: 2026,
     citations: 0,
     url: "",
-    abstract: "",
+    abstract: "Accepted; Minor revisions. Abstract will be available soon.",
     citingPapers: []
   },
   {
