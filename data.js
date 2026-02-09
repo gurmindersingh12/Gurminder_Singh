@@ -1,7 +1,7 @@
 const publications = [
   {
     title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
-    authors: "<strong>Singh G</strong>, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
     journal: "<i>Nature Communication (Under Review)</i>",
     year: 2026,
     citations: 0,
