@@ -11,7 +11,7 @@ const publications = [
   },
   {
     title: "Fluorescence-based absent allele-specific amplification (FAASA) for high-throughput detection of absent alleles",
-    authors: "Running K, Seneviratne S, Zhang Z, <strong>Singh G</strong>, Fiedler J, and Faris JD",
+    authors: "Running K, Seneviratne S, Zhang Z, <u><strong>Singh G</strong></u>, Fiedler J, and Faris JD",
     journal: "<i>Bio-protocol (Accepted; in press)</i>",
     year: 2026,
     citations: 0,
@@ -21,7 +21,7 @@ const publications = [
   },
   {
     title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
-    authors: "<strong>Singh G</strong>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
+    authors: "<u><strong>Singh G</strong></u>, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
     journal: "<i>Theoretical and Applied Genetics</i> 139(1):1-13",
     year: 2026,
     citations: 0,
@@ -31,7 +31,7 @@ const publications = [
   },  
   {
     title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
-    authors: "Ojha E, <strong>Singh G</strong>, Plaisance A, and Yan GP",
+    authors: "Ojha E, <u><strong>Singh G</strong></u>, Plaisance A, and Yan GP",
     journal: "<i>Plant Disease</i>",
     year: 2026,
     citations: 1,
@@ -49,7 +49,7 @@ const publications = [
   },
   {
     title: "Genomic and Functional Characterization of the Tan Spot Susceptibility Gene <i>Tsc2</i> in Wheat",
-    authors: "<strong>Singh, Gurminder</strong>",
+    authors: "<u><strong>Singh, Gurminder</strong></u>",
     journal: "<i>PhD Thesis</i>, North Dakota State University, Fargo, ND, USA",
     year: 2025,
     citations: 3,
@@ -81,7 +81,7 @@ const publications = [
   },  
   {
     title: "Development of diagnostic markers for the disease susceptibility gene <i>Tsn1</i> in wheat reveals novel resistance alleles and a new locus required for ToxA sensitivity",
-    authors: "Running K, Acharya K, Roth T, <strong>Singh G</strong>, Szabo-Hever A, Haugrud A, Fiedler J, Friesen TL, and Faris JD",
+    authors: "Running K, Acharya K, Roth T, <u><strong>Singh G</strong></u>, Szabo-Hever A, Haugrud A, Fiedler J, Friesen TL, and Faris JD",
     journal: "<i>Theoretical and Applied Genetics</i> 138(7):1-14",
     year: 2025,
     citations: 2,
@@ -131,7 +131,7 @@ const publications = [
   },  
   {
     title: "Evaluation of durum and hard red spring wheat panels for sensitivity to necrotrophic effectors produced by <i>Parastagonospora nodorum</i>",
-    authors: "Szabo-Hever A, Running K, Seneviratne S, <strong>Singh G</strong>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
+    authors: "Szabo-Hever A, Running K, Seneviratne S, <u><strong>Singh G</strong></u>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
     journal: "<i>Plant Disease</i> 109:851-861",
     year: 2025,
     citations: 3,
@@ -163,7 +163,7 @@ const publications = [
   },
   {
     title: "Evolution, diversity, and function of the disease susceptibility gene <i>Snn1</i> in wheat",
-    authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <strong>Singh G</strong>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, and Faris JD",
+    authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <u><strong>Singh G</strong></u>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, and Faris JD",
     journal: "<i>The Plant Journal</i> 119:1720-1736",
     year: 2024,
     citations: 6,
@@ -216,7 +216,7 @@ const publications = [
   },
   {
     title: "Evaluation of wheat cultivars and germplasm lines for resistance to <i>Pratylenchus neglectus</i> populations collected in North Dakota",
-    authors: "<strong>Singh G</strong>, KC A, Sandhu KS, Friskop AJ, Liu Z, and Yan GP",
+    authors: "<u><strong>Singh G</strong></u>, KC A, Sandhu KS, Friskop AJ, Liu Z, and Yan GP",
     journal: "<i>Plant Disease</i> 117:3817-3824",
     year: 2023,
     citations: 7,
@@ -276,7 +276,7 @@ const publications = [
   },
   {
     title: "Association mapping of resistance to tan spot in the Global Durum Panel",
-    authors: "Szabo-Hever A, <strong>Singh G</strong>, Haugrud A, Running K, Seneviratne S, Zhang Z, Shi G, Bassi F, Maccaferri M, Cattivelli L, Tuberosa R, Friesen TL, Liu Z, Xu SS, and Faris JD",
+    authors: "Szabo-Hever A, <u><strong>Singh G</strong></u>, Haugrud A, Running K, Seneviratne S, Zhang Z, Shi G, Bassi F, Maccaferri M, Cattivelli L, Tuberosa R, Friesen TL, Liu Z, Xu SS, and Faris JD",
     journal: "<i>Phytopathology</i> 113:1967-1978",
     year: 2023,
     citations: 10,
@@ -357,7 +357,7 @@ const publications = [
   },
   {
     title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat collection",
-    authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <strong>Singh G</strong>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, and Faris JD",
+    authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <u><strong>Singh G</strong></u>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, and Faris JD",
     journal: "<i>Molecular Breeding</i> 43:54",
     year: 2023,
     citations: 13,
@@ -459,7 +459,7 @@ const publications = [
   },
   {
     title: "Resistance screening and QTL mapping in wheat and triticale against root-lesion nematode",
-    authors: "<strong>Singh, Gurminder</strong>",
+    authors: "<u><strong>Singh, Gurminder</strong></u>",
     journal: "<i>MS Thesis</i>, North Dakota State University, Fargo, ND, USA",
     year: 2020,
     citations: 5,
@@ -510,7 +510,7 @@ const publications = [
 const conferences = [
   {
     title: "Artificial intelligence for soybean cyst nematode egg detection and quantification",
-    authors: "Omotosho J, <strong>Singh G</strong>, Plaisance A, and Yan G",
+    authors: "Omotosho J, <u><strong>Singh G</strong></u>, Plaisance A, and Yan G",
     conference: "<i>2026 NDSU Soybean Symposium</i>, North Dakota State University (NDSU), Fargo, ND",
     year: 2026,
     url: "",
@@ -519,7 +519,7 @@ const conferences = [
   },
   {
     title: "High-quality T2T genomes of spring wheat cultivars Boost and Timstein provide cultivar-resolved frameworks for wheat disease resistance genetics",
-    authors: "Singh J, Gudi S, Maughan PJ, Seneviratne S, <strong>Singh G</strong>, Running KLD, Acharya K, Green AJ, Glover K, Faris JD, and Gupta R",
+    authors: "Singh J, Gudi S, Maughan PJ, Seneviratne S, <u><strong>Singh G</strong></u>, Running KLD, Acharya K, Green AJ, Glover K, Faris JD, and Gupta R",
     conference: "<i>Plant and Animal Genome XXXIII (PAG 33)</i> Conference, San Diego, California",
     year: 2026,
     url: "",
@@ -528,7 +528,7 @@ const conferences = [
   },
   {
     title: "Development and validation of SNP-based KASP markers for detection of rare earliness <i>Hope-FTB1</i> gene and mapping of novel genetic loci for yield component traits in hard red spring wheat (<i>Triticum aestivum</i> L.)",
-    authors: "Kumari P, Peters Haugrud AR, Seneviratne S, Acharya K, <strong>Singh G</strong>, Xu SS, Zhang Q, Green AJ, and Faris JD",
+    authors: "Kumari P, Peters Haugrud AR, Seneviratne S, Acharya K, <u><strong>Singh G</strong></u>, Xu SS, Zhang Q, Green AJ, and Faris JD",
     conference: "<i>CANVAS 2025</i>, Salt Lake City, Utah",
     year: 2025,
     url: "https://scisoc.confex.com/scisoc/2025am/meetingapp.cgi/Paper/170320",
@@ -537,7 +537,7 @@ const conferences = [
   },
   {
     title: "Genome-wide association study to identify genomic regions associated with resistance to soybean cyst nematode HG type 2.5.7 in dry beans",
-    authors: "Singh D, Poudyal P, <strong>Singh G</strong>, Neupane R, Cerna JF, Osorno JM, and Yan G",
+    authors: "Singh D, Poudyal P, <u><strong>Singh G</strong></u>, Neupane R, Cerna JF, Osorno JM, and Yan G",
     conference: "<i>International Bean Improvement Cooperative (BIC) and North American Pulse Improvement Association (NAPIA)</i> Biennial Meeting, Lincoln, Nebraska",
     year: 2025,
     url: "https://agronomy.unl.edu/bic-napia-speakers/#:~:text=Gurminder%20Singh",
@@ -546,7 +546,7 @@ const conferences = [
   },
   {
     title: "Genomic and functional characterization of an <i>Exo70-like</i> gene governing susceptibility to tan spot in wheat",
-    authors: "<strong>Singh G</strong>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
     conference: "<i>Corteva New Frontiers: Innovation in Genome Editing: Algorithms to On-Farm Solutions</i> Meeting, Johnston, Iowa",
     year: 2025,
     url: "",
@@ -555,7 +555,7 @@ const conferences = [
   },
   {
     title: "Genomic and functional characterization of an <i>Exo70-like</i> gene governing susceptibility to tan spot in wheat",
-    authors: "<strong>Singh G</strong>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
     conference: "<i>2025 National Association of Plant Breeders (NAPB)</i> Meeting, Kona, Big Island, Hawaii",
     year: 2025,
     url: "https://napbannualmeeting.org/wp-content/uploads/2025/05/NAPB_2025_Booklet_Digital_VF2.pdf",
@@ -564,7 +564,7 @@ const conferences = [
   },
   {
     title: "Genomic and functional characterization of an <i>Exo70-like</i> gene governing susceptibility to tan spot in wheat",
-    authors: "<strong>Singh G</strong>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
     conference: "<i>Bayer Crop Science - Bring Them In</i> Event, Chesterfield, Missouri",
     year: 2025,
     url: "",
@@ -573,7 +573,7 @@ const conferences = [
   },
   {
     title: "Genomic and functional characterization of an <i>Exo70-like</i> gene governing susceptibility to tan spot in wheat",
-    authors: "<strong>Singh G</strong>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Running K, Seneviratne S, Acharya K, Roth T, Haugrud A, Zhang Z, Szabo-Hever A, Kumari P, Liu Z, and Faris JD",
     conference: "<i>Plant and Animal Genome XXXII (PAG 32)</i> Conference, San Diego, California",
     year: 2025,
     url: "https://plan.core-apps.com/pag32/abstract/0d2898dc-9da9-49f8-8f92-e5c77817cf59",
@@ -582,7 +582,7 @@ const conferences = [
   },
   {
     title: "Characterization of wheat genes governing sensitivity to the <i>Parastagonospora nodorum</i> necrotrophic effector SnTox5",
-    authors: "Running K, Sharma S, Seneviratne S, Poddar S, Szabo-Hever A, Haugrud A, Pfaff T, <b>Singh G</b>, Acharya K, Kariyawasam G, Zhang Z, Staskawicz BJ, Xu SS, Friesen TL, and Faris JD",
+    authors: "Running K, Sharma S, Seneviratne S, Poddar S, Szabo-Hever A, Haugrud A, Pfaff T, <u><strong>Singh G</strong></u>, Acharya K, Kariyawasam G, Zhang Z, Staskawicz BJ, Xu SS, Friesen TL, and Faris JD",
     conference: "<i>International Symposium on Cereal Leaf Blight</i>, Zurich, Switzerland",
     year: 2024,
     url: "",
@@ -591,7 +591,7 @@ const conferences = [
   },
   {
     title: "Molecular cloning of the septoria nodorum blotch susceptibility gene <i>Snn2</i> in wheat",
-    authors: "Seneviratne S, Zhang Z, Running K, Peters Haugrud AR, Szabo-Hever A, <strong>Singh G</strong>, Acharya K, Fiedler JD, Mclean P, Xu SS, Yang S, Friesen TL, and Faris JD",
+    authors: "Seneviratne S, Zhang Z, Running K, Peters Haugrud AR, Szabo-Hever A, <u><strong>Singh G</strong></u>, Acharya K, Fiedler JD, Mclean P, Xu SS, Yang S, Friesen TL, and Faris JD",
     conference: "<i>Plant and Animal Genome XXXI (PAG 31)</i> Conference, San Diego, California",
     year: 2024,
     url: "https://www.ars.usda.gov/research/publications/publication/?seqNo115=410372",
@@ -600,7 +600,7 @@ const conferences = [
   },
   {
     title: "Molecular mapping of a novel genetic locus governing enhanced susceptibility to tan spot in durum wheat",
-    authors: "Pfaff T, <strong>Singh G</strong>, Running K, Szabo-Hever A, and Faris JD",
+    authors: "Pfaff T, <u><strong>Singh G</strong></u>, Running K, Szabo-Hever A, and Faris JD",
     conference: "<i>Plant and Animal Genome XXXI (PAG 31)</i> Conference, San Diego, California",
     year: 2024,
     url: "https://www.ars.usda.gov/research/publications/publication/?seqNo115=410373",
@@ -609,7 +609,7 @@ const conferences = [
   },
   {
     title: "Molecular cloning and validation of candidate genes for the tan spot susceptibility locus <i>Tsc2</i> in wheat",
-    authors: "<strong>Singh G</strong>, Running K, Haugrud A, Seneviratne S, Zhang Z, Szabo-Hever A, Acharya K, Liu Z, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Running K, Haugrud A, Seneviratne S, Zhang Z, Szabo-Hever A, Acharya K, Liu Z, and Faris JD",
     conference: "<i>ASA, CSSA, SSSA International Annual Meeting</i>, St. Louis, Missouri",
     year: 2023,
     url: "https://scisoc.confex.com/scisoc/2023am/meetingapp.cgi/Paper/148627",
@@ -618,7 +618,7 @@ const conferences = [
   },
   {
     title: "Development of diagnostic molecular markers for the multi-pathogen susceptibility gene <i>Tsn1</i>",
-    authors: "Running K, Pfaff T, <strong>Singh G</strong>, Szabo-Hever A, Peters Haugrud A, Zhang Z, Seneviratne S, McClean PE, Fiedler JD, Friesen TL, and Faris JD",
+    authors: "Running K, Pfaff T, <u><strong>Singh G</strong></u>, Szabo-Hever A, Peters Haugrud A, Zhang Z, Seneviratne S, McClean PE, Fiedler JD, Friesen TL, and Faris JD",
     conference: "<i>Plant and Animal Genome XXX (PAG 30)</i> Conference, San Diego, California",
     year: 2023,
     url: "https://www.ars.usda.gov/research/publications/publication/?seqNo115=399522",
@@ -627,7 +627,7 @@ const conferences = [
   },
   {
     title: "Towards the molecular cloning of tan spot susceptibility gene <i>Tsc2</i> in wheat",
-    authors: "<strong>Singh G</strong>, Running K, Peters Haugrud A, Seneviratne S, Zhang Z, Szabo-Hever A, Acharya K, Liu Z, Dubcovsky J, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Running K, Peters Haugrud A, Seneviratne S, Zhang Z, Szabo-Hever A, Acharya K, Liu Z, Dubcovsky J, and Faris JD",
     conference: "<i>Plant and Animal Genome XXX (PAG 30)</i> Conference, San Diego, California",
     year: 2023,
     url: "https://www.ars.usda.gov/research/publications/publication/?seqNo115=399524",
@@ -636,7 +636,7 @@ const conferences = [
   },
   {
     title: "Genome-wide association mapping of resistance to the foliar diseases septoria nodorum blotch and tan spot in a global winter wheat (<i>Triticum aestivum</i> L.) collection",
-    authors: "Peters Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <strong>Singh G</strong>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, and Faris JD",
+    authors: "Peters Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <u><strong>Singh G</strong></u>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, and Faris JD",
     conference: "<i>Plant and Animal Genome XXX (PAG 30)</i> Conference, San Diego, California",
     year: 2023,
     url: "https://www.ars.usda.gov/research/publications/publication/?seqNo115=399529",
@@ -645,7 +645,7 @@ const conferences = [
   },
   {
     title: "Genetic diversity and marker-assisted elimination of <i>Snn1</i> in wheat",
-    authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Peters Haugrud A, Running K, <strong>Singh G</strong>, Nandety RS, Fiedler JD, Xu SS, Friesen TL, McClean PE, and Faris JD",
+    authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Peters Haugrud A, Running K, <u><strong>Singh G</strong></u>, Nandety RS, Fiedler JD, Xu SS, Friesen TL, McClean PE, and Faris JD",
     conference: "<i>Plant and Animal Genome XXX (PAG 30)</i> Conference, San Diego, California",
     year: 2023,
     url: "https://www.ars.usda.gov/research/publications/publication/?seqNo115=399503",
@@ -654,7 +654,7 @@ const conferences = [
   },
   {
     title: "Identification of quantitative trait loci for resistance to <i>Pratylenchus neglectus</i> in triticale",
-    authors: "<strong>Singh G</strong>, Yan GP, Liu Z, and Faris JD",
+    authors: "<u><strong>Singh G</strong></u>, Yan GP, Liu Z, and Faris JD",
     conference: "<i>7th International Congress of Nematology</i>, Antibes Juan-les-Pins, France",
     year: 2022,
     url: "https://www.esn-online.org/assets/Uploads/meetings/e9d266eb07/Book-of-Abstracts_ICN2022.pdf",
@@ -663,7 +663,7 @@ const conferences = [
   },
   {
     title: "Identification of QTL associated with resistance to root-lesion nematode (<i>Pratylenchus neglectus</i>) in wheat using genotyping-by-sequencing",
-    authors: "<strong>Singh G</strong>, Li X, Smiley R, and Yan GP",
+    authors: "<u><strong>Singh G</strong></u>, Li X, Smiley R, and Yan GP",
     conference: "<i>APS Plant Health 2019 Annual Meeting</i>, Cleveland, Ohio",
     year: 2019,
     url: "https://doi.org/10.1094/PHYTO-109-10-S2.1",
@@ -672,7 +672,7 @@ const conferences = [
   },
   {
     title: "Methodology to study the resistance of root-lesion nematode (<i>Pratylenchus neglectus</i>) in wheat under greenhouse conditions",
-    authors: "<strong>Singh G</strong> and Yan GP",
+    authors: "<u><strong>Singh G</strong></u> and Yan GP",
     conference: "<i>APS North Central Divison Meeting</i>, Fargo, North Dakota",
     year: 2018,
     url: "https://doi.org/10.1094/PHYTO-108-12-S2.20",
