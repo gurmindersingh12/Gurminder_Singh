@@ -106,7 +106,7 @@ const publications = [
   },    
   {
     title: "Protein kinase-major sperm protein (PK-MSP) genes mediate recognition of the fungal necrotrophic effector SnTox3 to cause septoria nodorum blotch in wheat",
-    authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, <strong>Singh G</strong>, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
+    authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, <u><strong>Singh G</strong></u>, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
     journal: "<i>Molecular Plant-Microbe Interactions</i> 38:315-327",
     year: 2025,
     citations: 3,
