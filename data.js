@@ -109,10 +109,17 @@ const publications = [
     authors: "Zhang Z, Running K, Seneviratne S, Haugrud A, Szabo-Hever A, <strong>Singh G</strong>, Holušová K, Molnár I, Doležel J, Friesen TL, and Faris JD",
     journal: "<i>Molecular Plant-Microbe Interactions</i> 38:315-327",
     year: 2025,
-    citations: 2,
+    citations: 3,
     url: "https://doi.org/10.1094/MPMI-10-24-0125-FI",
     abstract: "The wheat-Parastagonospora nodorum pathosystem has emerged as a model system for plant-necrotrophic fungal pathogen interactions. In this system, fungal necrotrophic effectors (NEs) are recognized by specific host genes in an inverse gene-for-gene manner to induce programmed cell death (PCD) and other host responses, which leads to disease. We previously cloned a wheat gene (Snn3-D1) encoding protein kinase (PK) and major sperm protein (MSP) domains that recognizes the P. nodorum NE SnTox3. Here, we identified an Snn3-D1 homoeolog (Snn3-B1) and a paralog (Snn3-B2) that also recognize SnTox3 leading to susceptibility. DNA sequence divergence of Snn3-B1 and Snn3-B2 and differences in transcriptional expression patterns and 3D protein conformation were associated with a more severe PCD response conferred by Snn3-B2 compared to Snn3-B1. Both Snn3 proteins were localized to the nucleus and cytoplasm in wheat protoplasts suggesting they may have acquired novel functions compared to previously characterized MSP domain-containing proteins in other species. Snn3-B2 was previously shown to govern osmotic stress and salt tolerance indicating that PK-MSP genes can act in plant defense responses to both biotic and abiotic stresses. Evaluation of a large collection of wheat lines showed that several alleles of each gene, including absent alleles, exist within the germplasm. Diagnostic markers were developed for the absent alleles of both genes, which will prove useful for marker-assisted selection in wheat to eliminate SnTox3 sensitivity and achieve better disease resistance.",
     citingPapers: [
+      {
+        title: "Fluorescence-based absent allele-specific amplification (FAASA) for high-throughput detection of absent alleles",
+        authors: "Running KLD, Seneviratne S, Zhang Z, Singh G, Fiedler J, and Faris JD",
+        journal: "<i>Bio-protocol</i>",
+        year: 2026,
+        url: ""
+      },
       {
         title: "A viral brake on bloom: BYDV-GAV delays flowering via VOZ degradation",
         authors: "Prakash V, and Singh J",
@@ -166,10 +173,17 @@ const publications = [
     authors: "Seneviratne S, Shi G, Szabo-Hever A, Zhang Z, Haugrud A, Running K, <u><strong>Singh G</strong></u>, Nandety R, Fiedler J, McClean PE, Xu SS, Friesen TL, and Faris JD",
     journal: "<i>The Plant Journal</i> 119:1720-1736",
     year: 2024,
-    citations: 6,
+    citations: 7,
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.16879",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB), caused by <i>Parastagonospora nodorum</i>, is a disease of durum and common wheat initiated by the recognition of pathogen-produced necrotrophic effectors (NEs) by specific wheat genes. The wheat gene Snn1 was previously cloned, and it encodes a wall-associated kinase that directly interacts with the NE SnTox1 leading to programmed cell death and ultimately the development of SNB. Here, sequence analysis of <i>Snn1</i> from 114 accessions including diploid, tetraploid, and hexaploid wheat species revealed that some wheat lines possess two copies of Snn1 (designated <i>Snn1-B1</i> and <i>Snn1-B2</i>) approximately 120 kb apart. <i>Snn1-B2</i> evolved relatively recently as a paralog of <i>Snn1-B1</i>, and both genes have undergone diversifying selection. Three point mutations associated with the formation of the first SnTox1-sensitive <i>Snn1-B1</i> allele from a primitive wild wheat were identified. Four subsequent and independent SNPs, three in <i>Snn1-B1</i> and one in <i>Snn1-B2</i>, converted the sensitive alleles to insensitive forms. Protein modeling indicated these four mutations could abolish Snn1–SnTox1 compatibility either through destabilization of the Snn1 protein or direct disruption of the protein–protein interaction. A high-throughput marker was developed for the absent allele of Snn1, and it was 100% accurate at predicting SnTox1-insensitive lines in both durum and spring wheat. Results of this study increase our understanding of the evolution, diversity, and function of Snn1-B1 and Snn1-B2 genes and will be useful for marker-assisted elimination of these genes for better host resistance.",
     citingPapers: [
+      {
+        title: "Fluorescence-based absent allele-specific amplification (FAASA) for high-throughput detection of absent alleles",
+        authors: "Running KLD, Seneviratne S, Zhang Z, Singh G, Fiedler J, and Faris JD",
+        journal: "<i>Bio-protocol</i>",
+        year: 2026,
+        url: ""
+      },
       {
         title: "Genetic analysis of a quantitative trait locus associated with resistance to the root-lesion nematode <i>Pratylenchus neglectus</i> in triticale",
         authors: "Singh G, Acharya K, Mumia B, Ranabhat S, Ojha E, Singh J, Gill U, Walkowiak S, Chawla HS, Li X, Faris JD, Liu Z, and Yan G",
