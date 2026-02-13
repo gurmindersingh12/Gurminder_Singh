@@ -417,7 +417,7 @@ const publications = [
     authors: "Haugrud A, Shi G, Seneviratne S, Running K, Zhang Z, <u><strong>Singh G</strong></u>, Szabo-Hever A, Acharya K, Friesen TL, Liu Z, and Faris JD",
     journal: "<i>Molecular Breeding</i> 43:54",
     year: 2023,
-    citations: 14,
+    citations: 15,
     url: "https://link.springer.com/article/10.1007/s11032-023-01400-5",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch (SNB) and tan spot, caused by the necrotrophic fungal pathogens <i>Parastagonospora nodorum</i> and <i>Pyrenophora tritici-repentis</i>, respectively, often occur together as a leaf spotting disease complex on wheat (<i>Triticum aestivum</i> L.). Both pathogens produce necrotrophic effectors (NEs) that contribute to the development of disease. Here, genome-wide association analysis of a diverse panel of 264 winter wheat lines revealed novel loci on chromosomes 5A and 5B associated with sensitivity to the NEs SnTox3 and SnTox5 in addition to the known sensitivity genes for NEs Ptr/SnToxA, SnTox1, SnTox3, and SnTox5. Sensitivity loci for SnTox267 and Ptr ToxB were not detected. Evaluation of the panel with five P. nodorum isolates for SNB development indicated the Snn3-SnTox3 and Tsn1-SnToxA interactions played significant roles in disease development along with additional QTL on chromosomes 2A and 2D, which may correspond to the Snn7-SnTox267 interaction. For tan spot, the Tsc1-Ptr ToxC interaction was associated with disease caused by two isolates, and a novel QTL on chromosome 7D was associated with a third isolate. The Tsn1-ToxA interaction was associated with SNB but not tan spot. Therefore some, but not all, of the previously characterized host gene-NE interactions in these pathosystems play significant roles in disease development in winter wheat. Based on these results, breeders should prioritize the selection of resistance alleles at the <i>Tsc1</i>, <i>Tsn1</i>, <i>Snn3</i>, and <i>Snn7</i> loci as well as the 2A and 7D QTL to obtain good levels of resistance to SNB and tan spot in winter wheat.",
     citingPapers: [
@@ -427,6 +427,13 @@ const publications = [
         journal: "<i>Research Square; Nature Communication (Under Review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
+      },
+      {
+        title: "Performance and stability of winter wheat cultivars to Stagonospora nodorum blotch epidemics in multi-environment trials",
+        authors: "Garnica VC, Shalizi MN, and Ojiambo PS",
+        journal: "<i>Phytopathology</i>",
+        year: 2026,
+        url: "https://doi.org/10.1094/PHYTO-12-24-0398-R"
       },
       {
         title: "Fair-weather friends: Unequal partnerships between <i>Parastagonospora nodorum</i> and <i>Pyrenophora tritici-repentis</i> define disease dynamics in wheat",
