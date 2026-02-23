@@ -163,10 +163,17 @@ const publications = [
     authors: "Szabo-Hever A, Running K, Seneviratne S, <u><strong>Singh G</strong></u>, Zhang Z, Haugrud A, Maccaferri M, Tuberosa R, Friesen TL, Xu SS, and Faris JD",
     journal: "<i>Plant Disease</i> 109:851-861",
     year: 2025,
-    citations: 4,
+    citations: 5,
     url: "https://doi.org/10.1094/PDIS-05-24-0990-RE",
     abstract: "<strong>Abstract:</strong> Septoria nodorum blotch is an important disease of both durum and hard red spring wheat (HRSW) worldwide. The disease is caused by the necrotrophic fungal pathogen Parastagonospora nodorum when compatible gene-for-gene interactions occur between pathogen-produced necrotrophic effectors (NEs) and corresponding host sensitivity genes. To date, nine sensitivity gene-NE interactions have been identified, but there is little information available regarding their overall frequency in durum and HRSW. Here, we infiltrated a global HRSW panel (HRSWP) and the Global Durum Panel (GDP) with P. nodorum NEs SnToxA, SnTox1, SnTox267, SnTox3, and SnTox5. Frequencies of sensitivity to SnTox1 and SnTox5 were higher in durum compared to HRSW and vice versa for SnTox267 and SnTox3. Strong associations for the known sensitivity loci <i>Tsn1</i>, <i>Snn1</i>, <i>Snn2</i>, <i>Snn3</i>, <i>Snn5</i>, and <i>Snn7</i> along with potentially novel sensitivity loci on chromosome arms 7DS and 3BL associated with SnToxA and SnTox267, respectively, were identified in the HRSWP. In the GDP, <i>Snn1</i>, <i>Snn3</i>, and <i>Snn5</i> were identified along with novel loci associated with sensitivity to SnTox267 on chromosome arms 2AS, 2AL, and 6AS and with SnTox5 sensitivity on 2BS and 7BL. These results reveal additional NE sensitivity loci beyond those previously described demonstrating a higher level of genetic complexity of the wheat-<i>P. nodorum</i> system than previously thought. Knowledge regarding the prevalence and genomic locations of SNB susceptibility genes in HRSW and durum will prove useful for developing efficient breeding strategies and improving varieties for SNB resistance.",
     citingPapers: [
+      {
+        title: "Identification of Septoria Nodorum Blotch Sensitivity Genes in Hard Winter Wheat",
+        authors: "Ara AM",
+        journal: "<i>MS Thesis</i>, Oklahoma State University, Stillwater, OK, USA",
+        year: 2026,
+        url: "https://www.proquest.com/docview/3304216296?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses"
+      },
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
