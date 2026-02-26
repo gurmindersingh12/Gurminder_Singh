@@ -12,7 +12,7 @@ const publications = [
   {
     title: "Fluorescence-based absent allele-specific amplification (FAASA) for high-throughput detection of absent alleles",
     authors: "Running K, Seneviratne S, Zhang Z, <u><strong>Singh G</strong></u>, Fiedler J, and Faris JD",
-    journal: "<i>Bio-protocol (Accepted; in press)</i>",
+    journal: "<i>Bio-protocol 16(6): e5633</i>",
     year: 2026,
     citations: 1,
     url: "https://doi.org/10.21769/BioProtoc.5633",
