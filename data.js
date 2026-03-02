@@ -40,7 +40,7 @@ const publications = [
   {
     title: "Evaluation of field pea cultivars for resistance to pin nematode (<i>Paratylenchus nanus</i> type B) in North Dakota",
     authors: "Ojha E, <u><strong>Singh G</strong></u>, Plaisance A, and Yan GP",
-    journal: "<i>Plant Disease</i>",
+    journal: "<i>Plant Disease</i> 110(2):485-493",
     year: 2026,
     citations: 1,
     url: "https://doi.org/10.1094/PDIS-02-25-0356-RE",
