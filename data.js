@@ -567,10 +567,10 @@ const publications = [
       },
       {
         title: "Population Development of the Root-Lesion Nematode <i>Pratylenchus dakotaensis</i> on Soybean Cultivars",
-        authors: "Chowdhury IA",
+        authors: "Chowdhury IA, Yan G, Kandel H, and Plaisance A",
         journal: "<em>Plant Disease</em>",
         year: 2022,
-        url: "https://apsjournals.apsnet.org/doi/full/10.1094/PDIS-11-21-2444-RE"
+        url: "https://doi.org/10.1094/PDIS-11-21-2444-RE"
       },
       {
         title: "Wheat Landraces Versus Resistance to Biotic and Abiotic Stresses",
