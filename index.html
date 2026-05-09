@@ -3,15 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio of Gurminder Singh, a plant geneticist and molecular biologist working on host-pathogen interactions, genomics, CRISPR/Cas9, QTL mapping, GWAS, and sustainable agriculture." />
+  <meta name="description" content="Gurminder Singh is a plant geneticist and molecular biologist working on wheat disease resistance, host-pathogen interactions, functional genomics, QTL mapping, GWAS, CRISPR/Cas9, and breeding-ready markers." />
   <meta name="author" content="Gurminder Singh" />
   <meta name="theme-color" content="#07130f" />
   <meta property="og:title" content="Gurminder Singh | Plant Genetics Portfolio" />
-  <meta property="og:description" content="Research portfolio featuring publications, conferences, skills, awards, and contact details." />
+  <meta property="og:description" content="Research portfolio featuring publications, conference outputs, impact, awards, and contact details." />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Gurminder Singh Portfolio" />
   <meta property="og:image" content="assets/hero-visual.webp" />
-  <title>Gurminder Singh | Plant Geneticist & Molecular Biologist</title>
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Gurminder Singh | Plant Genetics & Molecular Biology</title>
   <link rel="preload" href="assets/profile.webp" as="image" />
+  <link rel="icon" href="assets/site-icon.svg" type="image/svg+xml" />
+  <script>
+    document.documentElement.classList.add('js');
+    try {
+      const savedTheme = localStorage.getItem('portfolio-theme');
+      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+      document.documentElement.dataset.theme = savedTheme || (prefersLight ? 'light' : 'dark');
+    } catch (_) {
+      document.documentElement.dataset.theme = 'dark';
+    }
+  </script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -23,7 +36,7 @@
       <span class="brand-mark" aria-hidden="true">GS</span>
       <span class="brand-copy">
         <strong>Gurminder Singh</strong>
-        <small>Plant Genetics · Molecular Biology</small>
+        <small>Plant Genetics · Functional Genomics</small>
       </span>
     </a>
 
@@ -53,14 +66,14 @@
     <section id="home" class="hero section-shell" aria-labelledby="hero-title">
       <div class="hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Host-pathogen genetics · Wheat disease resistance · Sustainable agriculture</p>
-          <h1 id="hero-title">Building disease-resilient crops through genetics, genomics, and precision biology.</h1>
+          <p class="eyebrow">Wheat disease resistance · Functional genomics · Breeding tools</p>
+          <h1 id="hero-title">Identifying the genes behind crop disease resistance.</h1>
           <p class="hero-lead">
-            I study plant-pathogen interactions and translate genetic discoveries into tools for crop improvement, with work spanning QTL mapping, GWAS, gene cloning, CRISPR/Cas9, and bioinformatics.
+            I combine plant pathology, molecular genetics, genomics, and bioinformatics to uncover host-pathogen mechanisms and convert discoveries into markers, edited lines, and breeding-ready knowledge.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button button-primary" href="#publications">Explore publications</a>
-            <a class="button button-secondary" href="#contact">Start a conversation</a>
+            <a class="button button-primary" href="#publications">View research output</a>
+            <a class="button button-secondary" href="#contact">Contact me</a>
           </div>
           <div class="hero-tags" aria-label="Core expertise">
             <span>Genomics</span>
@@ -75,18 +88,18 @@
           <div class="profile-card glass-card">
             <picture>
               <source srcset="assets/profile.webp" type="image/webp" />
-              <img src="assets/profile.jpg" width="200" height="200" alt="Portrait of Gurminder Singh" class="profile-photo" />
+              <img src="assets/profile.jpg" width="200" height="200" alt="Portrait of Gurminder Singh" class="profile-photo" decoding="async" />
             </picture>
             <div>
-              <p class="profile-kicker">Research Portfolio</p>
+              <p class="profile-kicker">Research portfolio</p>
               <h2>Gurminder Singh, PhD</h2>
-              <p>Plant Geneticist · Molecular Biologist · Data Enthusiast</p>
+              <p>Plant Geneticist · Molecular Biologist</p>
             </div>
           </div>
           <div class="hero-visual glass-card" aria-hidden="true">
             <picture>
               <source srcset="assets/hero-visual.webp" type="image/webp" />
-              <img src="assets/hero-visual.jpg" width="900" height="710" alt="" loading="lazy" />
+              <img src="assets/hero-visual.jpg" width="900" height="710" alt="" decoding="async" />
             </picture>
           </div>
         </aside>
@@ -103,11 +116,11 @@
         </article>
         <article class="stat-card">
           <span id="stat-citations" class="stat-number">—</span>
-          <span class="stat-label">Citation snapshot</span>
+          <span class="stat-label">Citations</span>
         </article>
         <article class="stat-card">
           <span id="stat-years" class="stat-number">—</span>
-          <span class="stat-label">Active research years</span>
+          <span class="stat-label">Research years</span>
         </article>
       </div>
     </section>
@@ -115,16 +128,16 @@
     <section id="about" class="section-shell split-section" aria-labelledby="about-title">
       <div class="section-heading reveal">
         <p class="eyebrow">About</p>
-        <h2 id="about-title">A research profile designed for quick credibility and deeper exploration.</h2>
+        <h2 id="about-title">From disease biology to breeding-ready genetic tools.</h2>
       </div>
       <div class="content-grid reveal">
         <article class="glass-card narrative-card">
           <h3>Research focus</h3>
           <p>
-            My work connects molecular genetics with practical breeding outcomes. I investigate the genetic architecture of disease resistance and susceptibility, identify key loci and candidate genes, and use genomic and functional tools to support the development of resilient crop varieties.
+            My work connects molecular genetics with practical breeding outcomes. I investigate the genetic architecture of disease resistance and susceptibility, identify key loci and candidate genes, and use genomic and functional tools to support resilient crop development.
           </p>
           <p>
-            The portfolio is structured to help collaborators, hiring committees, and research partners quickly understand my expertise, outputs, and scientific direction.
+            I am especially interested in wheat-pathogen interactions, susceptibility gene biology, high-resolution mapping, diagnostic marker development, and functional validation through gene editing and complementation.
           </p>
         </article>
 
@@ -154,8 +167,8 @@
     <section id="research" class="section-shell" aria-labelledby="research-title">
       <div class="section-heading reveal">
         <p class="eyebrow">Research & capabilities</p>
-        <h2 id="research-title">Modern plant science presented as a scannable bento grid.</h2>
-        <p>Each area is positioned around impact: understanding disease biology, building genetic tools, and accelerating crop improvement decisions.</p>
+        <h2 id="research-title">Core strengths across genetics, genomics, and crop disease systems.</h2>
+        <p>Focused capabilities for moving from phenotype to locus, candidate gene, functional validation, and applied breeding decisions.</p>
       </div>
 
       <div class="bento-grid reveal">
@@ -167,7 +180,7 @@
         <article class="bento-card">
           <span class="card-icon" aria-hidden="true">⌬</span>
           <h3>Genomics & bioinformatics</h3>
-          <p>Transforming complex genetic datasets into interpretable signals for gene discovery and breeding decisions.</p>
+          <p>Turning mapping, sequencing, and association datasets into interpretable signals for resistance-gene discovery.</p>
         </article>
         <article class="bento-card">
           <span class="card-icon" aria-hidden="true">☘</span>
@@ -177,7 +190,7 @@
         <article class="bento-card">
           <span class="card-icon" aria-hidden="true">⌁</span>
           <h3>CRISPR/Cas9 editing</h3>
-          <p>Using targeted gene knockout strategies to validate function and explore crop resilience traits.</p>
+          <p>Using targeted knockout strategies to test gene function and reduce disease susceptibility.</p>
         </article>
         <article class="bento-card bento-wide">
           <span class="card-icon" aria-hidden="true">◈</span>
@@ -187,7 +200,7 @@
         <article class="bento-card">
           <span class="card-icon" aria-hidden="true">↗</span>
           <h3>Data-driven insights</h3>
-          <p>Applying R, Python, and statistical workflows to make research outputs reproducible and actionable.</p>
+          <p>Applying R, Python, and statistical workflows to make research outputs reproducible, searchable, and decision-ready.</p>
         </article>
       </div>
     </section>
@@ -195,8 +208,8 @@
     <section id="publications" class="section-shell" aria-labelledby="publications-title">
       <div class="section-heading reveal">
         <p class="eyebrow">Publications</p>
-        <h2 id="publications-title">Searchable, filterable research output.</h2>
-        <p>Browse by year, citation count, title, journal, or keyword. Each card opens a focused abstract view.</p>
+        <h2 id="publications-title">Papers, preprints, and thesis work.</h2>
+        <p>Search by gene, disease, crop, method, journal, year, or citation count. Each result opens a focused abstract view.</p>
       </div>
 
       <div class="toolbar reveal" role="search" aria-label="Publication filters">
@@ -227,7 +240,7 @@
     <section id="conferences" class="section-shell" aria-labelledby="conferences-title">
       <div class="section-heading reveal">
         <p class="eyebrow">Conferences</p>
-        <h2 id="conferences-title">Presentations and abstracts across major plant science meetings.</h2>
+        <h2 id="conferences-title">Selected talks, posters, and abstracts.</h2>
       </div>
 
       <div class="toolbar reveal" role="search" aria-label="Conference filters">
@@ -250,7 +263,7 @@
       <div class="section-heading reveal">
         <p class="eyebrow">Impact</p>
         <h2 id="impact-title">Citation snapshot and recognitions.</h2>
-        <p>Impact metrics are generated from the portfolio data file, so future updates only require editing one source.</p>
+        <p>A quick view of highly cited work and selected awards that signal research contribution and momentum.</p>
       </div>
 
       <div class="content-grid reveal">
@@ -280,8 +293,8 @@
       <div class="contact-card glass-card reveal">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Open to research collaborations, breeding-focused conversations, and data-driven plant science work.</h2>
-          <p>Reach out by email or connect through the research and professional profiles below.</p>
+          <h2 id="contact-title">Open to collaborations and plant genomics opportunities.</h2>
+          <p>Reach out by email or connect through the profiles below.</p>
         </div>
         <div class="contact-actions">
           <a class="button button-primary" href="mailto:g.singh@ndsu.edu">g.singh@ndsu.edu</a>
@@ -301,329 +314,11 @@
   <template id="empty-state-template">
     <div class="empty-state">
       <strong>No matches found.</strong>
-      <p>Try a broader keyword or switch the year filter back to all years.</p>
+      <p>Try a broader keyword or reset the year filter.</p>
     </div>
   </template>
 
   <script src="data.js"></script>
   <script src="scripts.js"></script>
 </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gurminder Singh's Portfolio</title>
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <!-- Font Awesome for social media icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-  <!-- Your CSS -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="container-fluid">
-    <!-- Sidebar Navigation -->
-    <div class="row">
-      <div class="col-md-3 sidebar bg-dark text-white py-4">
-        <!-- Profile Picture -->
-        <div class="text-center mb-3">
-          <img
-            src="DSC5864_Singh,Gurminder.JPG"
-            alt="Gurminder Singh"
-            class="rounded-circle profile-pic"
-            onerror="this.src='https://via.placeholder.com/150/3498db/ffffff?text=No+Photo';"
-          />
-        </div>
-        <!-- Navigation Links -->
-        <nav class="nav flex-column text-center">
-          <a href="#home" class="nav-link text-white" onclick="showSection(event, 'home')">Home</a>
-          <a href="#about-section" class="nav-link text-white" onclick="showSection(event, 'about-section')">About</a>
-          <a href="#publications" class="nav-link text-white" onclick="showSection(event, 'publications')">Publications</a>
-          <a href="#conferences" class="nav-link text-white" onclick="showSection(event, 'conferences')">Conferences</a>
-          <a href="#citations" class="nav-link text-white" onclick="showSection(event, 'citations')">Citations</a>
-          <a href="#contact" class="nav-link text-white" onclick="showSection(event, 'contact')">Contact</a>
-        </nav>
-        <!-- Social Media Icons -->
-        <div class="social-icons text-center mt-4">
-          <a href="https://x.com/Gurmnder_Singh" class="text-white mx-2" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://linkedin.com/in/singh-gurminder1/" class="text-white mx-2" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/gurmindersingh12" class="text-white mx-2" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-      </div>
-
-      <!-- Main Content Area -->
-      <div class="col-md-9 content py-4">
-        <!-- Home Section -->
-        <div id="home" class="tab-content home-section">
-          <!-- Hero Section -->
-          <section class="hero">
-            <div class="hero-content">
-              <h1>Gurminder Singh</h1>
-              <h2><span class="highlight">Plant Geneticist</span> & <span class="highlight">Molecular Biologist</span></h2>
-              <p>Bridging the gap between genetics and sustainable agriculture through innovative research in host-pathogen interactions.</p>
-              <button class="btn explore-more" onclick="showSection(event, 'publications')">Discover My Work</button>
-              <button class="btn contact-me" onclick="showSection(event, 'contact')">Contact Me</button>
-            </div>
-            <div class="hero-image">
-              <img src="hero-image.jpg" alt="DNA and Plant Visual" />
-            </div>
-          </section>
-
-          <!-- Expertise Section -->
-          <section class="expertise">
-            <h2>My Expertise</h2>
-            <div class="expertise-grid">
-              <div class="expertise-item">
-                <i class="fas fa-shield-alt"></i>
-                <h4>Genetics of Host-Pathogen Interactions</h4>
-                <p>Investigating the molecular dialogue between wheat and pathogens to develop better defenses.</p>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-dna"></i>
-                <h4>Genomics & Bioinformatics</h4>
-                <p>Decoding complex genetic data to unravel plant resistance mechanisms.</p>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-seedling"></i>
-                <h4>Gene Cloning</h4>
-                <p>Exploring genetic blueprints to unlock plant potential.</p>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-cut"></i>
-                <h4>CRISPR/Cas9 Editing</h4>
-                <p>Precision editing to enhance crop resilience and disease resistance.</p>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-chart-line"></i>
-                <h4>Data-Driven Insights</h4>
-                <p>Leveraging computational tools to transform data into actionable insights.</p>
-              </div>
-              <!-- Combined Expertise Item: QTL Mapping & GWAS -->
-              <div class="expertise-item">
-                <i class="fas fa-map-signs"></i>
-                <h4>QTL Mapping & GWAS</h4>
-                <p>Utilizing QTL Mapping and Genome-Wide Association Studies to identify genetic loci linked to key traits.</p>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <!-- About Section -->
-        <div id="about-section" class="about-section tab-content">
-          <!-- Profile Header -->
-          <div class="profile-header text-center">
-            <img src="DSC5864_Singh,Gurminder.JPG" alt="Gurminder Singh" class="rounded-circle profile-pic-large" />
-            <h1>Gurminder Singh</h1>
-            <p>PhD | Plant Geneticist | Data Enthusiast</p>
-          </div>
-
-          <!-- Education Section -->
-          <div class="card mb-4 card-with-stripe">
-            <div class="card-body">
-              <h2>Education</h2>
-              <div class="skills-grid">
-                <div class="skill-item">
-                  <i class="fas fa-graduation-cap"></i>
-                  <h4>PhD in Genomics, Phenomics, and Bioinformatics</h4>
-                  <p>North Dakota State University</p>
-                  <span class="date-range">(2020 - 2025)</span>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-graduation-cap"></i>
-                  <h4>MS in Plant Pathology</h4>
-                  <p>North Dakota State University</p>
-                  <span class="date-range">(2017 - 2020)</span>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-graduation-cap"></i>
-                  <h4>BS in Agriculture</h4>
-                  <p>Punjab Agricultural University, India</p>
-                  <span class="date-range">(2013 - 2017)</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Research Highlights Card -->
-          <div class="card mb-4 card-with-stripe">
-            <div class="card-body">
-              <h2>Research Highlights</h2>
-              <ul class="research-list">
-                <li>QTL and association mapping to identify genetic loci for disease resistance.</li>
-                <li>Cloning of Tsc2 gene in wheat to understand tan spot disease.</li>
-                <li>CRISPR/Cas9 editing for targeted gene knockout experiments.</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Core Skills Section -->
-          <div class="card mb-4 card-with-stripe">
-            <div class="card-body">
-              <h2>Core Skills</h2>
-              <div class="skills-grid">
-                <div class="skill-item">
-                  <i class="fas fa-dna"></i>
-                  <h4>CRISPR/Cas9 Gene Editing</h4>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-seedling"></i>
-                  <h4>Agrobacterium-mediated Transformation</h4>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-chart-line"></i>
-                  <h4>Data Analysis in R & Python</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Awards Section -->
-          <div class="card mb-4 card-with-stripe">
-            <div class="card-body">
-              <h2>Awards & Achievements</h2>
-              <div class="skills-grid">
-                <div class="skill-item">
-                  <i class="fas fa-trophy"></i>
-                  <h4>NAPB Borlaug Scholar Award</h4>
-                  <p>(2025)</p>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-trophy"></i>
-                  <h4>NAPB George Washington Carver Scholar Award</h4>
-                  <p>(2024)</p>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-trophy"></i>
-                  <h4>NDSU GPB Outstanding Graduate Research Award</h4>
-                  <p>(2024)</p>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-trophy"></i>
-                  <h4>NDSU GPB Outstanding Graduate Research Award</h4>
-                  <p>(2023)</p>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-trophy"></i>
-                  <h4>Gerald O. Mott Meritorious Graduate Student Award</h4>
-                  <p>(2023)</p>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-trophy"></i>
-                  <h4>Bayer Encompass Scholar</h4>
-                  <p>(2023)</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Publications Section -->
-        <div id="publications" class="tab-content">
-          <h2>Publications (<i>n</i> = 12)</h2>
-          <div class="accordion" id="publications-accordion">
-            <!-- Publications will be populated here by scripts.js -->
-          </div>
-        </div>
-
-        <!-- Conferences Section -->
-        <div id="conferences" class="tab-content">
-          <h2>Conferences</h2>
-          <div class="accordion" id="conferences-accordion">
-            <!-- Conference data will be populated here dynamically -->
-          </div>
-        </div>
-
-        <!-- Citations Section -->
-        <div id="citations" class="tab-content">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h2>Citations Over the Years</h2>
-              <!-- Total Citations Display -->
-              <p>Total Citations: <strong id="total-citations">0</strong></p>
-              <canvas id="citations-chart" width="400" height="200"></canvas>
-            </div>
-          </div>
-        </div>
-
-        <!-- Contact Section -->
-        <div id="contact" class="tab-content">
-          <div class="card mb-4 card-with-stripe">
-            <div class="card-body">
-              <h2>Contact Me</h2>
-              <p>Email: <a href="mailto:g.singh@ndsu.edu">g.singh@ndsu.edu</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Abstract Modal -->
-    <div class="modal fade" id="abstractModal" tabindex="-1" role="dialog" aria-labelledby="abstractModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <!-- Modal content will be injected here -->
-        </div>
-      </div>
-    </div>
-
-    <!-- Citing Papers Modal -->
-    <div class="modal fade" id="citingPapersModal" tabindex="-1" role="dialog" aria-labelledby="citingPapersModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <!-- Modal content will be injected here -->
-        </div>
-      </div>
-    </div>
-
-    <!-- Include jQuery, Bootstrap JS, and Chart.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-    <!-- JavaScript for Section Navigation and Highlighting Active Section -->
-    <script>
-      // Function to show the selected section and highlight the active nav link
-      function showSection(event, sectionId) {
-        event.preventDefault();
-
-        // Hide all sections
-        var sections = document.querySelectorAll('.tab-content, .about-section');
-        sections.forEach(function (section) {
-          section.classList.remove('active');
-          section.style.display = 'none';
-        });
-
-        // Show the clicked section
-        var targetSection = document.getElementById(sectionId);
-        if (targetSection) {
-          targetSection.classList.add('active');
-          targetSection.style.display = 'block';
-          targetSection.scrollIntoView({ behavior: 'smooth' });
-        }
-
-        // Remove active class from all nav links
-        var navLinks = document.querySelectorAll('.nav-link');
-        navLinks.forEach(function (link) {
-          link.classList.remove('active');
-        });
-
-        // Add active class to the clicked nav link
-        event.currentTarget.classList.add('active');
-      }
-    </script>
-
-    <!-- Your JS files -->
-    <script src="data.js"></script>
-    <script src="scripts.js"></script>
-  </body>
 </html>
