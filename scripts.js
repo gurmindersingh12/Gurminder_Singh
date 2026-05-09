@@ -155,7 +155,7 @@
           </div>
           <div class="card-meta" aria-label="${isPublication ? 'Publication' : 'Conference'} metrics">
             <span class="meta-pill">${escapeHTML(item.year || 'Year n/a')}</span>
-            ${isPublication ? `<span class="meta-pill">${citationCount} citation${citationCount === 1 ? '' : 's'}</span>` : ''}
+            ${isPublication && citationCount > 0 ? `<span class="meta-pill">${citationCount} citation${citationCount === 1 ? '' : 's'}</span>` : ''}
           </div>
         </header>
 
@@ -248,7 +248,7 @@
       <div class="dialog-meta">
         <div><strong>Authors:</strong> ${sanitizeHTML(item.authors || 'Not listed')}</div>
         <div><strong>${venueLabel}:</strong> ${sanitizeHTML(venue || 'Not listed')}</div>
-        ${isPublication ? `<div><strong>Citations:</strong> ${citationCount}</div>` : ''}
+        ${isPublication && citationCount > 0 ? `<div><strong>Citations:</strong> ${citationCount}</div>` : ''}
       </div>
       <div class="dialog-body">
         ${item.abstract ? sanitizeHTML(item.abstract) : '<p>No abstract text is currently listed for this item.</p>'}
@@ -372,9 +372,31 @@
   }
 
   function initTheme() {
-    const storedTheme = window.localStorage.getItem('portfolio-theme');
-    const systemPrefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    const initialTheme = storedTheme || (systemPrefersLight ? 'light' : 'dark');
+    const safeGetTheme = () => {
+      try {
+        return window.localStorage.getItem('portfolio-theme');
+      } catch {
+        return null;
+      }
+    };
+
+    const safeSetTheme = (theme) => {
+      try {
+        window.localStorage.setItem('portfolio-theme', theme);
+      } catch {
+        // Storage can be unavailable in privacy-restricted contexts; the UI still toggles for the session.
+      }
+    };
+
+    const systemPrefersLight = (() => {
+      try {
+        return window.matchMedia('(prefers-color-scheme: light)').matches;
+      } catch {
+        return false;
+      }
+    })();
+
+    const initialTheme = safeGetTheme() || doc.dataset.theme || (systemPrefersLight ? 'light' : 'dark');
 
     const applyTheme = (theme) => {
       doc.dataset.theme = theme;
@@ -387,7 +409,7 @@
 
     themeToggle?.addEventListener('click', () => {
       const nextTheme = doc.dataset.theme === 'dark' ? 'light' : 'dark';
-      window.localStorage.setItem('portfolio-theme', nextTheme);
+      safeSetTheme(nextTheme);
       applyTheme(nextTheme);
     });
   }
