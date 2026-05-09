@@ -374,9 +374,9 @@ h3 {
 }
 
 h1 {
-  max-width: 12ch;
+  max-width: 13.5ch;
   margin-bottom: 1.2rem;
-  font-size: clamp(3.2rem, 9vw, 6.9rem);
+  font-size: clamp(3.15rem, 8vw, 6.2rem);
 }
 
 h2 {
@@ -1074,12 +1074,23 @@ select:focus {
 }
 
 .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.js .reveal {
   opacity: 0;
   transform: translateY(22px);
   transition: opacity 520ms var(--ease), transform 520ms var(--ease);
 }
 
-.reveal.is-visible {
+.js .hero-copy.reveal,
+.js .hero-panel.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.js .reveal.is-visible {
   opacity: 1;
   transform: none;
 }
@@ -1144,7 +1155,7 @@ select:focus {
   }
 
   h1 {
-    max-width: 13ch;
+    max-width: 13.5ch;
   }
 
   .bento-grid {
