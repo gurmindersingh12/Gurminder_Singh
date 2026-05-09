@@ -2,7 +2,7 @@ const publications = [
   {
     title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
     authors: "<u><strong>Singh G</strong></u>, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-    journal: "<i>Nature Communication (Under Review)</i>",
+    journal: "<i>Nature Communications (under review)</i>",
     year: 2026,
     citations: 0,
     url: "https://doi.org/10.21203/rs.3.rs-8788414/v1",
@@ -21,7 +21,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communication (Under Review)</i>",
+        journal: "<i>Research Square; Nature Communications (under review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       }
@@ -106,7 +106,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communication (Under Review)</i>",
+        journal: "<i>Research Square; Nature Communications (under review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -138,7 +138,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communication (Under Review)</i>",
+        journal: "<i>Research Square; Nature Communications (under review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -184,7 +184,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communication (Under Review)</i>",
+        journal: "<i>Research Square; Nature Communications (under review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -230,7 +230,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communication (Under Review)</i>",
+        journal: "<i>Research Square; Nature Communications (under review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -357,7 +357,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communication (Under Review)</i>",
+        journal: "<i>Research Square; Nature Communications (under review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -445,7 +445,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communication (Under Review)</i>",
+        journal: "<i>Research Square; Nature Communications (under review)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -758,7 +758,7 @@ const conferences = [
   {
     title: "Methodology to study the resistance of root-lesion nematode (<i>Pratylenchus neglectus</i>) in wheat under greenhouse conditions",
     authors: "<u><strong>Singh G</strong></u> and Yan GP",
-    conference: "<i>APS North Central Divison Meeting</i>, Fargo, North Dakota",
+    conference: "<i>APS North Central Division Meeting</i>, Fargo, North Dakota",
     year: 2018,
     url: "https://doi.org/10.1094/PHYTO-108-12-S2.20",
     abstract: "The root-lesion nematode (RLN; <i>Pratylenchus neglectus</i>) is one of the important plant-parasitic nematodes which invade the roots of wheat and cause yield losses throughout the world. Resistance of wheat cultivars against RLN is traditionally evaluated by measuring reproductive factor (RF) which is calculated by dividing the final nematode population density by the initial population density. However, RF is affected by several factors, such as plant growth period in greenhouse, and soil texture. The objective of this study was to evaluate the effects of these factors on RF. In one experiment, field soil naturally infested with <i>P. neglectus</i> was used to infect wheat plants, and nematodes were extracted at 8, 10, 12, 14, and 16 weeks after planting using Whitehead Tray method. In another experiment, the wheat was grown in two different soil types including sandy and sandy loam soil which were artificially inoculated with 300 <i>P. neglectus</i>/150 g of soil with five replications. A maximum plant root mass and nematode RF of 16 were obtained at 14 weeks after planting. Sandy soil, having RF of 8, had significantly greater reproduction than sandy loam soil (RF = 1). Using sandy soil and harvesting at 14 weeks after planting produced the best results. This improved methodology will facilitate resistance screening of wheat germplasm or varieties against RLN under greenhouse conditions.",
