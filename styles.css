@@ -328,7 +328,7 @@ main {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.04fr) minmax(320px, 0.78fr);
+  grid-template-columns: minmax(0, 1fr) minmax(330px, 0.82fr);
   align-items: center;
   gap: clamp(1.5rem, 4vw, 4rem);
 }
@@ -374,7 +374,7 @@ h3 {
 }
 
 h1 {
-  max-width: 13.5ch;
+  max-width: 14.5ch;
   margin-bottom: 1.2rem;
   font-size: clamp(3.15rem, 8vw, 6.2rem);
 }
@@ -536,6 +536,133 @@ h3 {
   border-radius: 1.45rem;
   object-fit: cover;
   filter: saturate(0.98) contrast(0.98);
+}
+
+.portrait-card {
+  overflow: hidden;
+  padding: 0.7rem;
+}
+
+.hero-portrait {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 1.45rem;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.34);
+}
+
+.portrait-copy {
+  padding: 1.15rem 0.45rem 0.45rem;
+}
+
+.portrait-copy h2 {
+  max-width: 18ch;
+  margin-bottom: 1rem;
+  font-size: clamp(1.45rem, 2.5vw, 2.2rem);
+  letter-spacing: -0.045em;
+}
+
+.credential-list {
+  display: grid;
+  gap: 0.7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credential-list li {
+  display: grid;
+  gap: 0.18rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+}
+
+.credential-list span {
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.credential-list strong {
+  color: var(--text);
+  font-size: 0.94rem;
+  line-height: 1.3;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.feature-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 16.5rem;
+  padding: clamp(1.2rem, 2vw, 1.6rem);
+  transition: transform 200ms var(--ease), border-color 200ms var(--ease), background 200ms var(--ease);
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--accent) 42%, var(--line));
+}
+
+.feature-card::after {
+  position: absolute;
+  inset: auto -28% -38% auto;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 999px;
+  content: "";
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 16%, transparent), transparent 72%);
+  pointer-events: none;
+}
+
+.feature-card-primary {
+  grid-column: span 1;
+}
+
+.feature-number {
+  display: inline-grid;
+  width: 2.65rem;
+  height: 2.65rem;
+  place-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 42%, var(--line));
+  border-radius: 0.95rem;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  font-weight: 950;
+}
+
+.feature-card p {
+  color: var(--muted);
+}
+
+.feature-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1.2rem;
+}
+
+.feature-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.9rem;
+  padding: 0.28rem 0.62rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 800;
 }
 
 .stats-grid {
@@ -1158,12 +1285,14 @@ select:focus {
     max-width: 13.5ch;
   }
 
-  .bento-grid {
+  .bento-grid,
+  .feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .bento-large,
-  .bento-wide {
+  .bento-wide,
+  .feature-card-primary {
     grid-column: span 1;
     grid-row: span 1;
   }
@@ -1214,7 +1343,7 @@ select:focus {
   }
 
   h1 {
-    font-size: clamp(2.9rem, 16vw, 4.6rem);
+    font-size: clamp(2.55rem, 14vw, 4.1rem);
   }
 
   h2 {
@@ -1233,8 +1362,17 @@ select:focus {
     height: 5rem;
   }
 
+  .feature-card {
+    min-height: auto;
+  }
+
+  .portrait-copy {
+    padding: 1rem 0.15rem 0.2rem;
+  }
+
   .stats-grid,
   .bento-grid,
+  .feature-grid,
   .toolbar,
   #conferences .toolbar {
     grid-template-columns: 1fr;
@@ -1297,6 +1435,7 @@ select:focus {
   .theme-toggle,
   .nav-toggle,
   .hero-visual,
+  .hero-panel,
   .toolbar,
   .button,
   .card-button,
@@ -1355,4 +1494,185 @@ select:focus {
 
 .preview {
   max-width: 78ch;
+}
+
+/* CV-informed portfolio additions */
+.role-fit {
+  margin-top: 1.2rem;
+}
+
+.fit-card {
+  display: grid;
+  gap: 0.7rem;
+  padding: clamp(1rem, 2vw, 1.2rem);
+  border-radius: var(--radius-md);
+}
+
+.fit-label {
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.fit-pills,
+.stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.fit-pills span,
+.stack-list span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  padding: 0.28rem 0.62rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.feature-card-primary {
+  grid-column: span 2;
+}
+
+.feature-card-primary p {
+  max-width: 88ch;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  grid-auto-flow: dense;
+  gap: 1rem;
+}
+
+.experience-card {
+  padding: clamp(1.15rem, 2.4vw, 1.65rem);
+  border-radius: var(--radius-lg);
+}
+
+.experience-current {
+  grid-row: span 2;
+}
+
+.experience-header {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.experience-header span,
+.education-card span {
+  width: fit-content;
+  padding: 0.26rem 0.55rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 42%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.experience-header h3 {
+  margin: 0;
+}
+
+.experience-header p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 740;
+}
+
+.check-list {
+  display: grid;
+  gap: 0.72rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 1.45rem;
+  color: var(--muted);
+}
+
+.check-list li::before {
+  position: absolute;
+  top: 0.12rem;
+  left: 0;
+  content: "✓";
+  color: var(--accent);
+  font-weight: 950;
+}
+
+.education-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.education-card {
+  display: grid;
+  gap: 0.55rem;
+  padding: 1rem;
+  border-radius: var(--radius-md);
+}
+
+.education-card strong {
+  line-height: 1.25;
+}
+
+.education-card small {
+  color: var(--muted);
+  font-weight: 720;
+}
+
+.bento-card .stack-list {
+  margin-top: 1rem;
+}
+
+.contact-actions .button {
+  white-space: nowrap;
+}
+
+@media (max-width: 1020px) {
+  .feature-card-primary,
+  .experience-current {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .experience-grid,
+  .education-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .fit-card,
+  .experience-card,
+  .education-card {
+    border-radius: 1.1rem;
+  }
+
+  .experience-grid,
+  .education-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .fit-pills span,
+  .stack-list span {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
 }
