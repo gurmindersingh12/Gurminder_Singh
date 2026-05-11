@@ -2,11 +2,11 @@ const publications = [
   {
     title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
     authors: "<u><strong>Singh G</strong></u>, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-    journal: "<i>Nature Communications (under review)</i>",
+    journal: "<i>Nature Communications (under revision)</i>",
     year: 2026,
     citations: 0,
     url: "https://doi.org/10.21203/rs.3.rs-8788414/v1",
-    abstract: "Tan spot is an economically important fungal disease of wheat that occurs globally. In this necrotrophic pathosystem, pathogen effectors are recognized by wheat genes in an inverse gene-for-gene manner, leading to the hijacking of host defense mechanisms and ultimately disease susceptibility. Here, we identified the tan spot susceptibility gene <i>Tsc2</i> through positional cloning, mutagenesis, and transgenic complementation. <i>Tsc2</i> encodes a diverged form of the exocyst subunit Exo70FX15 that localizes to the nucleus and cytoplasm and does not interact directly with the fungal effector. A 21‑nucleotide deletion in <i>Tsc2</i> occurred in durum wheat more than a century ago and subsequently spread to common wheat through breeding practices, which allowed recognition of the pathogen effector and subsequent hijacking of the host immune system. We demonstrate that elimination of <i>Tsc2</i> through conventional breeding using a diagnostic marker or disruption of <i>Tsc2</i> by gene editing can be used to improve tan spot resistance in wheat.",
+    abstract: "Tan spot is an economically important fungal disease of wheat that occurs globally. In this necrotrophic pathosystem, pathogen effectors are recognized by wheat genes in an inverse gene-for-gene manner, leading to the hijacking of host defense mechanisms and ultimately disease susceptibility. Here, we identified the tan spot susceptibility gene <i>Tsc2</i> through positional cloning, mutagenesis, and transgenic complementation. <i>Tsc2</i> encodes a diverged form of the exocyst subunit Exo70FX15 that localizes to the nucleus and cytoplasm and does not interact directly with the fungal effector. A 21‑nucleotide deletion in <i>Tsc2</i> occurred in durum wheat more than a century ago and subsequently spread to common wheat through breeding practices, which allowed recognition of the pathogen effector and subsequent hijacking of the host immune system. We demonstrate that elimination of <i>Tsc2</i> through conventional breeding using a diagnostic marker or disruption of <i>Tsc2</i> by gene editing can be used to improve tan spot resistance in wheat. Target-region PCR, amplicon/Sanger sequencing, and CRISPR/Cas9 knockout validation confirmed a frameshift edit associated with conversion from Ptr ToxB sensitivity to insensitivity.",
     citingPapers: []
   },
   {
@@ -21,7 +21,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communications (under review)</i>",
+        journal: "<i>Research Square; Nature Communications (under revision)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       }
@@ -106,7 +106,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communications (under review)</i>",
+        journal: "<i>Research Square; Nature Communications (under revision)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -138,7 +138,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communications (under review)</i>",
+        journal: "<i>Research Square; Nature Communications (under revision)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -184,7 +184,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communications (under review)</i>",
+        journal: "<i>Research Square; Nature Communications (under revision)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -230,7 +230,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communications (under review)</i>",
+        journal: "<i>Research Square; Nature Communications (under revision)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -357,7 +357,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communications (under review)</i>",
+        journal: "<i>Research Square; Nature Communications (under revision)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
@@ -445,7 +445,7 @@ const publications = [
       {
         title: "The hijacking of a wheat <i>Exo70</i>-like protein by a fungal pathogen triggers disease",
         authors: "Singh G, Running KLD, Seneviratne S, Acharya K, Roth TM, Haugrud ARP, Zhang Z, Szabo-Hever A, Kumari P, McClean PE, Liu Z, Yang S, and Faris JD",
-        journal: "<i>Research Square; Nature Communications (under review)</i>",
+        journal: "<i>Research Square; Nature Communications (under revision)</i>",
         year: 2026,
         url: "https://doi.org/10.21203/rs.3.rs-8788414/v1"
       },
