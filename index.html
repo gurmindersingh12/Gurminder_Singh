@@ -18,10 +18,10 @@
   <script>
     try {
       const savedTheme = localStorage.getItem('portfolio-theme');
-      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+      const prefersLight = window.matchMedia('(prefers-color-scheme: dark)').matches;
       document.documentElement.dataset.theme = savedTheme || (prefersLight ? 'light' : 'dark');
     } catch (_) {
-      document.documentElement.dataset.theme = 'dark';
+      document.documentElement.dataset.theme = 'light';
     }
   </script>
   <link rel="stylesheet" href="styles.css" />
