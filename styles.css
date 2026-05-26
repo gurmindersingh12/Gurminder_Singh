@@ -1129,3 +1129,14 @@ h1 {
   color: var(--accent-strong);
   font-weight: 850;
 }
+
+/* Fix for desktop only */
+@media (min-width: 901px) {
+  .timeline-item {
+    grid-template-columns: 12rem minmax(0, 1fr);
+  }
+
+  .timeline-date {
+    white-space: nowrap;
+  }
+}
