@@ -766,3 +766,8 @@ const conferences = [
   }
 ];
 
+
+if (typeof window !== 'undefined') {
+  window.publications = publications;
+  window.conferences = conferences;
+}
