@@ -10,6 +10,16 @@ const publications = [
     citingPapers: []
   },
   {
+    title: "A reference-grade chromosome-level genome assembly of a historically important U.S. bread wheat cultivar Timstein",
+    authors: "Singh J, Gudi S, Maughan PJ, Seneviratne S, Running KLD, <u><strong>Singh G</strong></u>, Gill U, Faris JD, and Gupta R",
+    journal: "<i>Scientific Data</i>",
+    year: 2026,
+    citations: 0,
+    url: "https://doi.org/10.1038/s41597-026-07930-9",
+    abstract: "We report a near telomere-to-telomere, high-quality genome assembly of the historically important spring wheat cultivar Timstein, generated using PacBio HiFi long-read sequencing followed by Hi-C scaffolding. The assembly spans 14.76 Gb and resolves all 21 chromosomes across the A, B, and D subgenomes. Gene annotation identified approximately 105,000 high-confidence gene models, while about 85% of the genome was composed of transposable elements, primarily from the Gypsy, Copia, and CACTA families. BUSCO completeness scores ranged from 97.4 to 99.6% across the three subgenomes, and LTR Assembly Index values exceeded 13, supporting reference-grade assembly quality. Synteny analysis with the IWGSC Chinese Spring RefSeq v2.1 genome revealed strong chromosomal collinearity. Timstein has played an important role in classical genetic studies of stem rust and leaf rust resistance and septoria nodorum blotch susceptibility. This cultivar-resolved reference expands the wheat pangenome and provides a valuable resource for structural and functional genomics, fine mapping of disease resistance and susceptibility loci, and wheat genetics and breeding.",
+    citingPapers: []
+  },
+  {
     title: "Fluorescence-based absent allele-specific amplification (FAASA) for high-throughput detection of absent alleles",
     authors: "Running K, Seneviratne S, Zhang Z, <u><strong>Singh G</strong></u>, Fiedler J, and Faris JD",
     journal: "<i>Bio-protocol 16(6): e5633</i>",
@@ -593,6 +603,24 @@ const publications = [
 
 
 const conferences = [
+  {
+  title: "Artificial intelligence (AI)-based detection and quantification of soybean cyst nematode",
+  authors: "<u><strong>Singh G</strong></u>, Omotosho JP, Roy S, Kumar V, Poudel D, Dhami DS, Simkhada K, Plaisance A, Heilman-Morales AM, and Yan G",
+  conference: "<i>65th Society of Nematologists (SON 2026) Annual Meeting</i>, Baltimore, MD",
+  year: 2026,
+  url: "",
+  abstract: "Soybean cyst nematode (SCN; <i>Heterodera glycines</i>) is a major pest of soybean and a persistent threat to soybean production in the United States. Accurate detection and quantification of SCN eggs and cysts are essential for estimating infestation levels, screening host resistance, and informing management decisions. However, routine microscopy-based diagnosis is labor-intensive, time-consuming, and confounded by debris and root fragments in extraction samples. To address this bottleneck, we are developing a deep learning framework for microscopy-based SCN diagnosis using expert-annotated images collected under practical laboratory conditions. The dataset used for this presentation contained 1,082 high-resolution microscopy images from egg suspensions and cyst extracts obtained from SCN-infested field and greenhouse samples. It included 93,618 expert-verified annotated objects representing the realistic complexity of field-collected soil samples: 17,289 eggs, 17,325 cysts, 36,837 debris objects, 21,951 root fragments, and 216 vermiform nematodes. Including visually similar non-target objects provides a strong foundation for training generalized models capable of distinguishing SCN targets under complex diagnostic conditions. We also developed a preliminary web-based platform that exports YOLO-specific annotations into raw, model-agnostic formats, enabling integration with convolutional neural networks, object detectors, and transformer-based architectures for scalable training, benchmarking, and cross-model comparison. Initial YOLO-based and RF-DETR models achieved mean average precision values approaching 99% for SCN detection on curated image sets. Ongoing work is focused on evaluating performance and deployment efficiency under more complex conditions relevant to routine nematology workflows. This effort could establish a reproducible infrastructure for automated SCN diagnosis, external validation, and future decision-support tools while supporting faster, more consistent, and more scalable SCN detection for integrated nematode management.",
+  citingPapers: []
+},
+  {
+  title: "QTL mapping and KASP marker development for resistance to <i>Pratylenchus neglectus</i> in triticale",
+  authors: "Yan G, <u><strong>Singh G</strong></u>, and Acharya K",
+  conference: "<i>65th Society of Nematologists (SON 2026) Annual Meeting</i>, Baltimore, MD",
+  year: 2026,
+  url: "",
+  abstract: "The root-lesion nematode, <i>Pratylenchus neglectus</i>, is a significant constraint to wheat production worldwide; however, effective host resistance in wheat remains limited. Triticale, a wheat-rye amphiploid, offers a promising but underexplored source of resistance because of its rye-derived defense traits. The objective of this study was to identify quantitative trait loci associated with resistance to <i>P. neglectus</i> in triticale and to develop molecular markers for efficient introgression of resistance into wheat through marker-assisted selection. A mapping population of 137 triticale recombinant inbred lines derived from a cross between the susceptible cultivar Siskiyou and the resistant cultivar Villax St. Jose was evaluated for resistance to <i>P. neglectus</i>. Genotyping-by-sequencing generated 1,054 high-quality single-nucleotide polymorphism markers, which, together with seven simple sequence repeat markers, were used to construct a genetic map comprising 21 linkage groups covering the triticale genome. QTL analysis consistently identified a resistance locus on the rye-derived chromosome 5R that explained approximately 20% of the phenotypic variation across experiments. A Kompetitive allele-specific PCR marker, <i>fcp1070</i>, was developed from the SNP strongly associated with the QTL, enabling rapid and high-throughput selection of the resistance allele. This marker reduces reliance on labor-intensive phenotyping and facilitates efficient screening for <i>P. neglectus</i> resistance. To our knowledge, this is the first report of a mapped major QTL for root-lesion nematode resistance in triticale. These findings provide a valuable genetic resource and a practical molecular tool for introgressing the 5R resistance allele into wheat through marker-assisted selection combined with chromosome engineering, thereby broadening the genetic basis of nematode resistance in cereal crops.",
+  citingPapers: []
+},
   {
     title: "Artificial intelligence for soybean cyst nematode egg detection and quantification",
     authors: "Omotosho J, <u><strong>Singh G</strong></u>, Plaisance A, and Yan G",
